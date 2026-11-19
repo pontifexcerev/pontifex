@@ -1,7 +1,7 @@
 // Pontifex settings. Edit the values between the quotes, then commit this file on GitHub.
 window.PX_CONFIG = {
   // From Supabase: Project Settings > API
-  supabaseUrl: "https://hzqoblmdamdenfxhegth.supabase.co/rest/v1/",            // e.g. https://abcdxyz.supabase.co
+  supabaseUrl: "https://hzqoblmdamdenfxhegth.supabase.co",            // e.g. https://abcdxyz.supabase.co
   supabaseKey: "sb_publishable_dl26CgAJdUr_qVmN0KcyUw_TL0YGymP",            // the anon / publishable key (never the secret or service_role key)
 
   // Your Google Form for registration (students use the same email they sign in with)
