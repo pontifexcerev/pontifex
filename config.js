@@ -2,7 +2,7 @@
 window.PX_CONFIG = {
   // From Supabase: Project Settings > API
   supabaseUrl: "https://hzqoblmdamdenfxhegth.supabase.co",            // e.g. https://abcdxyz.supabase.co
-  supabaseKey: "sb_publishable_dl26CgAJdUr_qVmN0KcyUw_TL0YGymP",            // the anon / publishable key (never the secret or service_role key)
+  supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh6cW9ibG1kYW1kZW5meGhlZ3RoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUwNTMwMjEsImV4cCI6MjExMDYyOTAyMX0.khz9gXgPyq4HxLiWWU6mXW-fxclYRgYq13SHAOmQuc0",            // the anon / publishable key (never the secret or service_role key)
 
   // Your Google Form for registration (students use the same email they sign in with)
   registrationFormUrl: "",    // e.g. https://forms.gle/xxxx
