@@ -1,6 +1,44 @@
 {
   "_help": "Lessons, modules, problem sets, library items and flashcards are listed here. Use content-editor.html to add entries safely.",
   "lessons": [],
-  "resources": [],
-  "cards": []
+  "resources": [
+    {
+      "id": "psad-engineering-mechanics-statics-by-pytel",
+      "title": "Engineering Mechanics Statics by Pytel",
+      "type": "reference",
+      "url": "files/Engineering Mechanics Statics by Pytel.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics"
+    },
+    {
+      "id": "psad-engineering-mechanics-statics-by-rc-hibbeler",
+      "title": "Engineering Mechanics Statics by RC Hibbeler",
+      "type": "reference",
+      "url": "files/Engineering Mechanics Statics by RC Hibbeler.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics"
+    },
+    {
+      "id": "psad-statics-by-meriam-and-kraige",
+      "title": "Statics by Meriam and Kraige",
+      "type": "reference",
+      "url": "files/Statics by Meriam and Kraige.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics"
+    },
+    {
+      "id": "psad-vector-mechanics-for-engineers-by-johnston-and-beer",
+      "title": "Vector Mechanics for Engineers by Johnston and Beer",
+      "type": "reference",
+      "url": "files/Vector Mechanics for Engineers by Johnston and Beer.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics"
+    }
+  ],
+  "cards": [],
+  "questions": []
 }
