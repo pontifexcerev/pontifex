@@ -1,3 +1,5 @@
-subject,topic,question,a,b,c,d,answer,explanation,image
-PSAD,Engineering mechanics,"A 10 kN force acts 30 degrees above the horizontal. What is its horizontal component?",5.00 kN,8.66 kN,10.00 kN,17.32 kN,B,"Fx = 10 cos 30 = 8.66 kN",
-HGE,Hydrostatics,"Find the hydrostatic force on the gate shown in the figure.",12 kN,24 kN,36 kN,48 kN,C,"F = gamma h_cg A",hydrostatic-gate.png
+id,subject,topic,category,question,a,b,c,d,answer,explanation,image
+,PSAD,Engineering mechanics,problem,"A 10 kN force acts 30 degrees above the horizontal. What is its horizontal component?",5.00 kN,8.66 kN,10.00 kN,17.32 kN,B,"Fx = 10 cos 30 = 8.66 kN",
+,PSAD,Footings,situational,"Situation: a column footing is placed near a property line. What should the designer do first?",Use an eccentric footing,Use a combined footing,Ignore the line,Use a smaller column,B,"A combined footing handles the close edge.",
+,HGE,Hydrostatics,terminology,"What does the term hydrostatic pressure mean?",Pressure in moving fluid,Pressure at rest at a depth,Atmospheric pressure only,Vapor pressure,B,,
+,HGE,Hydrostatics,problem,"Find the hydrostatic force on the gate shown in the figure.",12 kN,24 kN,36 kN,48 kN,C,"F = gamma h_cg A",hydrostatic-gate.png
