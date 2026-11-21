@@ -37,6 +37,51 @@
       "note": "",
       "subject": "PSAD",
       "topic": "Engineering mechanics"
+    },
+    {
+      "id": "psad-mechanics-of-materials-by-craig",
+      "title": "Mechanics of Materials by Craig",
+      "type": "reference",
+      "url": "files/Mechanics of Materials by Craig.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Strength of materials"
+    },
+    {
+      "id": "psad-mechanics-of-materials-by-beer-johnston-dewolf-mazurek",
+      "title": "Mechanics of Materials by Beer, Johnston, Dewolf & Mazurek",
+      "type": "reference",
+      "url": "files/Mechanics of Materials by Beer, Johnston, Dewolf & Mazurek.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Strength of materials"
+    },
+    {
+      "id": "psad-mechanics-of-materials-by-gere-and-goodno",
+      "title": "Mechanics of Materials by Gere and Goodno",
+      "type": "reference",
+      "url": "files/Mechanics of Materials by Gere and Goodno.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Strength of materials"
+    },
+    {
+      "id": "psad-mechanics-of-materials-by-pytel-and-kiusalaas",
+      "title": "Mechanics of Materials by Pytel and Kiusalaas",
+      "type": "reference",
+      "url": "files/Mechanics of Materials by Pytel and Kiusalaas.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Strength of materials"
+    },
+    {
+      "id": "psad-mechanics-of-materials-by-rc-hibbeler",
+      "title": "Mechanics of Materials by RC Hibbeler",
+      "type": "reference",
+      "url": "files/Mechanics of Materials by RC Hibbeler.pdf",
+      "note": "",
+      "subject": "PSAD",
+      "topic": "Strength of materials"
     }
   ],
   "cards": [],
