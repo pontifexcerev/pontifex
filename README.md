@@ -65,3 +65,6 @@ Students see it under Review > Review flow (free for everyone). To change it: co
 
 ### Library search
 Library > Search. Students type a topic (short names like rcd, proba, strema, geo also work) and get the references, videos, tables, lessons and formulas linked to it. A reference appears under a topic when you pick that topic while adding the resource in the content editor.
+
+### Cross-device sync (v2 fix)
+Progress is now merged between devices instead of the newest device replacing everything. A new device downloads your progress first and only then uploads. A cloud icon in the top bar shows "✓" when synced and "⚠ Not synced" with the reason (tap it) if the database refuses the save. Run `supabase-sync-fix.sql` once in Supabase to make sure the table, permissions and 6-hourly backups exist.
