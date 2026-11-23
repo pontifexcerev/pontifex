@@ -66,5 +66,18 @@ Students see it under Review > Review flow (free for everyone). To change it: co
 ### Library search
 Library > Search. Students type a topic (short names like rcd, proba, strema, geo also work) and get the references, videos, tables, lessons and formulas linked to it. A reference appears under a topic when you pick that topic while adding the resource in the content editor.
 
-### Cross-device sync (v2 fix)
-Progress is now merged between devices instead of the newest device replacing everything. A new device downloads your progress first and only then uploads. A cloud icon in the top bar shows "✓" when synced and "⚠ Not synced" with the reason (tap it) if the database refuses the save. Run `supabase-sync-fix.sql` once in Supabase to make sure the table, permissions and 6-hourly backups exist.
+
+### Cross-device sync (v3)
+Progress, XP, profile, review-flow ticks and unfinished diagnostics are merged between devices automatically, with no button to press. Devices sync on login, every 30 seconds, when you return to the tab, and when the connection comes back. A cloud icon in the top bar shows the status. Run `supabase-v3.sql` once in Supabase.
+
+### Situations (CSV and editor)
+Use the editor's **Situation builder** tab, or the CSV columns `situation` and `situation_text`. All items that share a situation code appear together under "Situation N" with the problem statement and figure shown once. Single problems, terminology and other items need no situation code.
+
+### Figures
+Every figure appears in the same white box. Only items with an `image` code show one. Name the file after its code (FIG-PSAD-001.png) and upload it to `files/figures/`.
+
+### Problem sets
+Each answer is checked as soon as it is chosen: the correct answer and your solution appear under that item, and it locks. Quizzes, diagnostics and mocks still reveal answers at the end only.
+
+### Announcements and admin
+Students see Announcements (Important, General, New features, Lessons added, Schedule, Tips) with an unread badge. Admin > Announcements posts and removes them. Admin > Results shows every student's results; click a student for XP, answers, study time and unfinished exams, and use Reset to let them retake a diagnostic or quiz. All of this needs `supabase-v3.sql`.
