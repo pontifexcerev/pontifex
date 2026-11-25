@@ -513,6 +513,62 @@
       "difficulty": "",
       "source": "",
       "year": ""
+    },
+    {
+      "id": "psad-two-men-are-trying-to-roll-the-boulder-by-app-1snq06h",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "Two men are trying to roll the boulder by applying the forces shown. Determine the magnitude and direction of the force that is equivalent to the two applied forces.",
+      "choices": [
+        " $413\\text{ lb}$ at $53.8^\\circ$ up and to the right",
+        "$234\\text{ lb}$ at $39.4^\\circ$ up and to the right",
+        "$413\\text{ lb}$ at $36.2^\\circ$ up and to the right",
+        "$335\\text{ lb}$ at $53.8^\\circ$ up and to the right"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/917677431_4661520447411414_5040981470434501513_n"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-the-magnitudes-of-the-three-forces-applied-to-ufs2m0",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "The magnitudes of the three forces applied to the eye bolt are $T_1 = 110\\text{ lb}$, $T_2 = 40\\text{ lb}$, and $T_3 = 150\\text{ lb}$. Replace these forces with a single equivalent force $\\mathbf{R}$.",
+      "choices": [
+        "$239\\text{ lb}$ at $75.5^\\circ$ above the positive $x$-axis",
+        "$286\\text{ lb}$ at $53.3^\\circ$ above the positive $x$-axis",
+        "$239\\text{ lb}$ at $14.5^\\circ$ above the positive $x$-axis",
+        " $272\\text{ lb}$ at $66.3^\\circ$ above the positive $x$-axis"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/919947111_1678489287622719_8628161573007391592_n"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
     }
   ]
 }
