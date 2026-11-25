@@ -67,6 +67,29 @@ Students see it under Review > Review flow (free for everyone). To change it: co
 Library > Search. Students type a topic (short names like rcd, proba, strema, geo also work) and get the references, videos, tables, lessons and formulas linked to it. A reference appears under a topic when you pick that topic while adding the resource in the content editor.
 
 
+### Questions: where each one is used
+In the editor's **Question bank** tab, every question is placed in one or more of: **Problem set**, **Quiz**, **Mock exam**.
+* Problem sets use Problem set questions (with instant feedback after each answer).
+* Quizzes, drills and diagnostics use Quiz and Problem set questions.
+* Mock exams (and the Simulator) use Mock questions only.
+In a CSV use the `use` column: `set`, `quiz`, `mock`, separated by `|`. Leave it blank for all three.
+The same tab adds single questions and situations (a statement with several linked questions). Extra optional columns: `explanation_tl` (Filipino solution, students can switch language), `difficulty` (only you see it), `source`, `year`.
+
+### Math
+Write math between dollar signs in questions, choices, solutions, flashcards and formulas, for example `$\dfrac{wL^2}{8}$`. Use `$$...$$` for its own line. Prices like $500 stay plain text, and `\$` writes a dollar sign. The editor shows a live preview and a typing guide. The renderer (KaTeX) lives in `files/katex/`, so keep that folder.
+
+### Today card, confidence tags, answer key, formula sheet
+* Home shows a Today card with up to three suggestions. They are never required.
+* Students can tag each answer Sure, Unsure or Guess (private, can be switched off in Preferences).
+* Every finished assessment shows an answer key. Problem sets show the answer as the student answers each item.
+* Library > My formula sheet lets students tick formulas and print one page.
+* Profile > Devices and sync shows sync status and signed-in devices.
+
+### Community and admin (run `supabase-v4.sql`)
+* **Passers wall** and **Ask a problem** are in a Community group. Nothing appears for other students until you approve it in Admin > Moderation. Questions are limited to 3 a day, filtered for links, phone numbers and rude words, and can be reported.
+* Admin > **Item analytics** shows how each question performs and the most chosen wrong answer. Students can report a problem with any item.
+* Admin > **Reviewees** has batches, an at-risk filter (inactive 7+ days, or below 50 in a subject) and CSV export. Announcements can be sent to one batch.
+
 ### Cross-device sync (v3)
 Progress, XP, profile, review-flow ticks and unfinished diagnostics are merged between devices automatically, with no button to press. Devices sync on login, every 30 seconds, when you return to the tab, and when the connection comes back. A cloud icon in the top bar shows the status. Run `supabase-v3.sql` once in Supabase.
 
@@ -81,3 +104,7 @@ Each answer is checked as soon as it is chosen: the correct answer and your solu
 
 ### Announcements and admin
 Students see Announcements (Important, General, New features, Lessons added, Schedule, Tips) with an unread badge. Admin > Announcements posts and removes them. Admin > Results shows every student's results; click a student for XP, answers, study time and unfinished exams, and use Reset to let them retake a diagnostic or quiz. All of this needs `supabase-v3.sql`.
+
+
+### Clean slate (question bank)
+The built-in sample questions were removed. The site now shows only the questions you upload (Content editor > CSV import or Situation builder, then Publish). Until you upload some, every test says "No questions have been added here yet." The cross-subject Mixed sets tab was removed. The old bank is saved in `old-question-bank-backup.csv` and can be re-imported with the same CSV importer if you ever want it back.
