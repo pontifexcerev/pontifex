@@ -569,6 +569,86 @@
       "difficulty": "",
       "source": "",
       "year": ""
+    },
+    {
+      "id": "psad-if-the-resultant-force-of-the-two-tugboats-is-x9mr2s",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the resultant force of the two tugboats is $3\\text{ kN}$ directed along the positive x-axis, determine the required magnitude of force $\\mathbf{F}_B$ and its direction $\\theta$",
+      "choices": [
+        "$1.61\\text{ kN}$ at $\\theta = 38.3^\\circ$",
+        " $1.61\\text{ kN}$ at $\\theta = 51.7^\\circ$",
+        "$4.86\\text{ kN}$ at $\\theta = 11.9^\\circ$",
+        "$2.24\\text{ kN}$ at $\\theta = 26.6^\\circ$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/925196817_1884153205911226_9147530553997103111_n"
+      ],
+      "situation": "SIT-PSAD-006",
+      "situation_text": "Two tugboats A and B pull a barge C at a common attachment point. Tugboat A exerts a force $F_A = 2\\text{ kN}$ directed $30^\\circ$ above the positive x-axis, while tugboat B exerts a force $\\mathbf{F}_B$ directed at an angle $\\theta$ below the positive x-axis.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-instead-f-b-3-text-kn-and-theta-45-circ-de-1k4jueo",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If instead $F_B = 3\\text{ kN}$ and $\\theta = 45^\\circ$, determine the magnitude of the resultant force of the two tugboats and its direction measured clockwise from the positive x-axis.",
+      "choices": [
+        "$3.99\\text{ kN}$ at $16.3^\\circ$",
+        "$3.99\\text{ kN}$ at $73.7^\\circ$",
+        "$2.47\\text{ kN}$ at $16.3^\\circ$",
+        "$4.76\\text{ kN}$ at $13.6^\\circ$  "
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-006",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-resultant-force-of-the-two-tugboats-is-vb2wqz",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the resultant force of the two tugboats is required to be directed along the positive $x$-axis and $\\mathbf{F}_B$ is to be a minimum, determine the magnitude of $\\mathbf{F}_R$, $\\mathbf{F}_B$, and the angle $\\theta$.",
+      "choices": [
+        "$F_R = 1.73\\text{ kN}$, $F_B = 1.00\\text{ kN}$, $\\theta = 90^\\circ$",
+        "$F_R = 1.00\\text{ kN}$, $F_B = 1.73\\text{ kN}$, $\\theta = 60^\\circ$",
+        "$F_R = 1.73\\text{ kN}$, $F_B = 1.00\\text{ kN}$, $\\theta = 60^\\circ$",
+        "$F_R = 2.00\\text{ kN}$, $F_B = 2.00\\text{ kN}$, $\\theta = 30^\\circ$  "
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-006",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
     }
   ]
 }
