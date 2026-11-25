@@ -353,6 +353,166 @@
       "difficulty": "",
       "source": "",
       "year": ""
+    },
+    {
+      "id": "psad-determine-the-angle-theta-which-makes-the-res-15pss8g",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the angle $\\theta$ which makes the resultant of the two forces vertical.",
+      "choices": [
+        "$49.9^\\circ$",
+        "$40.1^\\circ$",
+        "$27.4^\\circ$",
+        " $62.6^\\circ$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/925940828_2036269197068032_918402371858022665_n"
+      ],
+      "situation": "SIT-PSAD-004",
+      "situation_text": "Two forces are applied in the x-y plane to the construction bracket as shown: $F_1 = 800\\text{ lb}$ directed down and to the right at $70^\\circ$ below the negative x-axis, and $F_2 = 425\\text{ lb}$ directed down and to the left at an angle $\\theta$ below the positive x-axis.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-using-the-angle-theta-found-in-item-1-determi-z110mv",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Using the angle $\\theta$ found in Item 1, determine the magnitude $R$ of the vertical resultant.",
+      "choices": [
+        "$1077\\text{ lb}$",
+        "$426\\text{ lb}$",
+        "$1026\\text{ lb}$",
+        "$1225\\text{ lb}$ "
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-004",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-angle-theta-is-instead-fixed-at-30-cir-iqi0s",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the angle $\\theta$ is instead fixed at $30^\\circ$ while keeping $F_1 = 800\\text{ lb}$ at $70^\\circ$, what magnitude must $F_2$ have so that the resultant remains purely vertical?",
+      "choices": [
+        " $316\\text{ lb}$",
+        "$868\\text{ lb}$",
+        "$547\\text{ lb}$",
+        " $274\\text{ lb}$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-004",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-tension-in-cable-ab-is-8-text-kn-deter-1pid4ei",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the tension in cable AB is $8\\text{ kN}$, determine the required tension T in cable AC such that the net effect of the two cable tensions is a purely downward force at point A.",
+      "choices": [
+        "$7.28\\text{ kN}$",
+        "$5.83\\text{ kN}$",
+        "$8.24\\text{ kN}$",
+        "$4.99\\text{ kN}$"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [
+        "files/figures/928399326_2537556019984956_4672032578106201644_n"
+      ],
+      "situation": "SIT-PSAD-005",
+      "situation_text": "The guy cables AB and AC are attached to the transmission tower at point A, which is $50\\text{ m}$ above the ground ($30\\text{ m} + 20\\text{ m}$). Anchor B is on level ground $40\\text{ m}$ to the left of the tower base, while anchor C is on a slope $50\\text{ m}$ to the right of the tower base and $20\\text{ m}$ above the ground ($30\\text{ m}$ below point A).",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-under-this-loading-condition-t-ab-8-text-kn-a-1c0utn3",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Under this loading condition ($T_{AB} = 8\\text{ kN}$ and a purely vertical resultant), determine the magnitude R of the downward force at point A",
+      "choices": [
+        "$9.22\\text{ kN}$",
+        "$3.27\\text{ kN}$",
+        "$11.53\\text{ kN}$",
+        "$13.83\\text{ kN}$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-005",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-anchor-at-c-is-relocated-to-level-grou-1w958us",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the anchor at C is relocated to level ground at the same $50\\text{ m}$ horizontal distance to the right of the tower (making the vertical drop from A to C equal to $50\\text{ m}$), what tension T in cable AC is required to keep the resultant force at A purely vertical when $T_{AB} = 8\\text{ kN}$?",
+      "choices": [
+        "$7.07\\text{ kN}$",
+        "$8.83\\text{ kN}$",
+        "$5.66\\text{ kN}$",
+        "$10.00\\text{ kN}$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-005",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
     }
   ]
 }
