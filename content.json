@@ -113,6 +113,86 @@
       "difficulty": "",
       "source": "",
       "year": ""
+    },
+    {
+      "id": "psad-if-p-75-text-n-and-q-125-text-n-determine-the-1hzzllo",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If $P = 75\\text{ N}$ and $Q = 125\\text{ N}$, determine the magnitude of the resultant force at point A.",
+      "choices": [
+        "$178.9\\text{ N}$",
+        "$102.5\\text{ N}$",
+        "$145.8\\text{ N}$",
+        "$200.0\\text{ N}$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/927501798_29324659990531614_4072890145984041810_n"
+      ],
+      "situation": "SIT-PSAD-001",
+      "situation_text": "Two forces P and Q are applied at point A of a hook support. Force P is directed $20^\\circ$ to the left of the downward vertical, and force Q is directed $35^\\circ$ to the right of the downward vertical.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-for-the-same-loading-condition-p-75-text-n-an-csxnix",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "For the same loading condition ($P = 75\\text{ N}$ and $Q = 125\\text{ N}$), determine the direction of the resultant force measured from the horizontal.",
+      "choices": [
+        "$14.9^\\circ$ down and to the right",
+        "$75.1^\\circ$ down and to the right",
+        "$34.9^\\circ$ down and to the right",
+        "$75.1^\\circ$ down and to the left"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-001",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-f-the-loads-are-changed-to-p-60-text-lb-and-q-1mlf1up",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "f the loads are changed to $P = 60\\text{ lb}$ and $Q = 25\\text{ lb}$, determine the magnitude and direction of the resultant force at point A.",
+      "choices": [
+        "$77.6\\text{ lb}$ at $85.0^\\circ$ down and to the left",
+        "$77.6\\text{ lb}$ at $5.0^\\circ$ down and to the left",
+        " $50.8\\text{ lb}$ at $85.0^\\circ$ down and to the left",
+        " $77.6\\text{ lb}$ at $85.0^\\circ$ down and to the right"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-001",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
     }
   ]
 }
