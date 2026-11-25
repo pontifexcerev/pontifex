@@ -193,6 +193,166 @@
       "difficulty": "",
       "source": "",
       "year": ""
+    },
+    {
+      "id": "psad-knowing-that-alpha-25-circ-determine-the-magn-1o6kh83",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Knowing that $\\alpha = 25^\\circ$, determine the magnitude of the force P so that the resultant force exerted on the trolley is vertical.",
+      "choices": [
+        "$979\\text{ N}$",
+        "$3660\\text{ N}$",
+        " $1706\\text{ N}$",
+        "$1545\\text{ N}$"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [
+        "files/figures/72d81266-35b9-4aa8-8635-b6b273c3b981"
+      ],
+      "situation": "SIT-PSAD-002",
+      "situation_text": "A trolley that moves along a horizontal beam is acted upon by two forces at point $A$: a $1600\\text{ N}$ force directed $15^\\circ$ below the horizontal to the left, and a force P directed at an angle $\\alpha$ to the right of the downward vertical.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-for-the-same-condition-where-alpha-25-circ-an-n3jfwt",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "For the same condition where $\\alpha = 25^\\circ$ and the resultant force is vertical, what is the corresponding magnitude of the resultant?",
+      "choices": [
+        "$2920\\text{ N}$",
+        "$3730\\text{ N}$",
+        "$3320\\text{ N}$",
+        "$4910\\text{ N}$"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-002",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-angle-alpha-is-not-fixed-determine-the-1r7izm4",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the angle $\\alpha$ is not fixed, determine the magnitude and direction $\\alpha$ of the force P so that the resultant is a vertical force of $2500\\text{ N}$.",
+      "choices": [
+        "$2600\\text{ N}$ at $\\alpha = 36.6^\\circ$",
+        "$2600\\text{ N}$ at $\\alpha = 53.4^\\circ$",
+        "$2090\\text{ N}$ at $\\alpha = 47.9^\\circ$",
+        "$3090\\text{ N}$ at $\\alpha = 30.1^\\circ$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-002",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-knowing-that-alpha-20-circ-determine-the-requ-1rvlggb",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Knowing that $\\alpha = 20^\\circ$, determine the required magnitude of the force P if the resultant R of the two forces applied at $A$ is to be vertical.",
+      "choices": [
+        "$621\\text{ lb}$",
+        "$392\\text{ lb}$",
+        "$461\\text{ lb}$",
+        "$368\\text{ lb}$"
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [
+        "files/figures/918896143_1686497096363183_8371253357560397405_n"
+      ],
+      "situation": "SIT-PSAD-003",
+      "situation_text": "A steel tank is to be positioned in an excavation by two forces applied at point A: a $425\\text{ lb}$ force directed $30^\\circ$ above the horizontal to the left, and a force P directed at an angle $\\alpha$ above the horizontal to the right",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-for-the-same-condition-where-alpha-20-circ-an-1bvo5i",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "For the same condition where $\\alpha = 20^\\circ$ and the resultant R is vertical, determine the corresponding magnitude of R.",
+      "choices": [
+        "$78\\text{ lb}$",
+        "$347\\text{ lb}$",
+        "$370\\text{ lb}$",
+        "$591\\text{ lb}$ "
+      ],
+      "answer": "B",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-003",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    },
+    {
+      "id": "psad-if-the-magnitude-of-p-is-instead-set-to-500-t-5wnznq",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the magnitude of P is instead set to $500\\text{ lb}$, determine the required angle $\\alpha$ so that the resultant R is vertical, along with the corresponding magnitude of R.",
+      "choices": [
+        "$\\alpha = 42.6^\\circ$, $R = 551\\text{ lb}$",
+        "$\\alpha = 47.4^\\circ$, $R = 581\\text{ lb}$",
+        "$\\alpha = 42.6^\\circ$, $R = 125.6\\text{ lb}$",
+        "$\\alpha = 25.2^\\circ$, $R = 425\\text{ lb}$"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [],
+      "situation": "SIT-PSAD-003",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
     }
   ]
 }
