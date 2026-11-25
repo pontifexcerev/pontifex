@@ -85,5 +85,34 @@
     }
   ],
   "cards": [],
-  "questions": []
+  "questions": [
+    {
+      "id": "psad-the-cable-stays-ab-and-ad-help-support-pole-a-1ardzzt",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "The cable stays AB and AD help support pole AC. Knowing that the tension is 120 lb in AB and 40 lb in AD, determine the magnitude and direction of the resultant of the forces exerted by the stays at A.",
+      "choices": [
+        "$139.1\\text{ lb}$ at $67.0^\\circ$ down and to the left",
+        "$112.5\\text{ lb}$ at $35.7^\\circ$ down and to the left",
+        "$139.1\\text{ lb}$ at $23.0^\\circ$ down and to the left",
+        "$126.5\\text{ lb}$ at $67.0^\\circ$ down and to the left"
+      ],
+      "answer": "A",
+      "explanation": "",
+      "image": [
+        "files/figures/927501798_29324659990531614_4072890145984041810_n"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": ""
+    }
+  ]
 }
