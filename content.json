@@ -99,7 +99,7 @@
         "$126.5\\text{ lb}$ at $67.0^\\circ$ down and to the left"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "From the geometry of the pole and stays, the angle of cable $AB$ from the downward vertical pole $AC$ is $\\alpha = \\tan^{-1}(8/10) = 38.66^\\circ$ ($51.34^\\circ$ below the negative $x$-axis), and the angle of cable $AD$ from the downward vertical is $\\beta = \\tan^{-1}(6/10) = 30.96^\\circ$ ($59.04^\\circ$ below the positive $x$-axis). The total angle between the two forces at $A$ is $38.66^\\circ + 30.96^\\circ = 69.62^\\circ$, making the interior angle of the force triangle $180^\\circ - 69.62^\\circ = 110.38^\\circ$. By the Law of Cosines, $R = \\sqrt{120^2 + 40^2 - 2(120)(40)\\cos(110.38^\\circ)} = 139.08\\text{ lb} \\approx 139.1\\text{ lb}$. By the Law of Sines, the angle $\\gamma$ between $\\mathbf{T}_{AB}$ and $\\mathbf{R}$ is $\\gamma = \\sin^{-1}\\left(\\frac{40\\sin 110.38^\\circ}{139.08}\\right) = 15.63^\\circ$, giving a direction of $51.34^\\circ + 15.63^\\circ = 67.0^\\circ$ below the horizontal (down and to the left).",
       "image": [
         "files/figures/927501798_29324659990531614_4072890145984041810_n"
       ],
@@ -112,7 +112,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Trap: Uses $69.62^\\circ$ instead of the supplementary interior angle $110.38^\\circ$ in the subtraction form of the Law of Cosines ($R = \\sqrt{120^2 + 40^2 - 2(120)(40)\\cos(69.62^\\circ)} = 112.5\\text{ lb}$), which corresponds to subtracting the vectors ($\\mathbf{T}_{AB} - \\mathbf{T}_{AD}$) rather than adding them.",
+      "trap_c": "Complementary Angle Trap: Solves the resultant magnitude properly ($139.1\\text{ lb}$) but measures the direction from the vertical pole $AC$ ($90^\\circ - 67.0^\\circ = 23.0^\\circ$) instead of from the horizontal.",
+      "trap_d": "Right-Triangle Assumption Trap: Assumes the two cables are perpendicular to each other ($90^\\circ$ between forces) and applies the Pythagorean theorem ($R = \\sqrt{120^2 + 40^2} = 126.5\\text{ lb}$)."
     },
     {
       "id": "psad-if-p-75-text-n-and-q-125-text-n-determine-the-1hzzllo",
@@ -127,7 +131,7 @@
         "$200.0\\text{ N}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "The total angle between forces $\\mathbf{P}$ and $\\mathbf{Q}$ is $20^\\circ + 35^\\circ = 55^\\circ$. The interior angle of the force triangle is $180^\\circ - 55^\\circ = 125^\\circ$. Applying the Law of Cosines: $R = \\sqrt{75^2 + 125^2 - 2(75)(125)\\cos(125^\\circ)} = 178.9\\text{ N}$.",
       "image": [
         "files/figures/920227899_2988670614802717_806109924164478652_n"
       ],
@@ -140,7 +144,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Trap: Uses $55^\\circ$ instead of $125^\\circ$ in the subtraction form of the Law of Cosines ($R = \\sqrt{75^2 + 125^2 - 2(75)(125)\\cos(55^\\circ)} = 102.5\\text{ N}$).",
+      "trap_c": "Right-Triangle Assumption Trap: Assumes $\\mathbf{P}$ and $\\mathbf{Q}$ are perpendicular ($90^\\circ$) and applies the Pythagorean theorem ($R = \\sqrt{75^2 + 125^2} = 145.8\\text{ N}$).",
+      "trap_d": "Algebraic Addition Trap: Adds the force magnitudes directly without accounting for their angles ($75 + 125 = 200.0\\text{ N}$)."
     },
     {
       "id": "psad-for-the-same-loading-condition-p-75-text-n-an-csxnix",
@@ -155,7 +163,7 @@
         "$75.1^\\circ$ down and to the left"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "Using the Law of Sines on the force triangle ($R = 178.9\\text{ N}$, interior angle $125^\\circ$), the angle $\\alpha$ between $\\mathbf{P}$ and $\\mathbf{R}$ is $\\alpha = \\sin^{-1}\\left(\\frac{125\\sin 125^\\circ}{178.9}\\right) = 34.9^\\circ$. Measured from the downward vertical, $\\mathbf{R}$ is directed at $34.9^\\circ - 20^\\circ = 14.9^\\circ$ to the right. Measured from the horizontal, the direction is $90^\\circ - 14.9^\\circ = 75.1^\\circ$ down and to the right.",
       "image": [],
       "situation": "SIT-PSAD-001",
       "situation_text": "",
@@ -166,7 +174,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Reference-Axis Trap: Reports the angle measured from the vertical ($14.9^\\circ$) instead of from the horizontal ($90^\\circ - 14.9^\\circ = 75.1^\\circ$).",
+      "trap_b": "",
+      "trap_c": "Internal Triangle Angle Trap: Reports the internal angle $\\alpha = 34.9^\\circ$ between $\\mathbf{P}$ and $\\mathbf{R}$ directly without subtracting the $20^\\circ$ offset of $\\mathbf{P}$ or converting to the horizontal.",
+      "trap_d": "Direction Sign Trap: Finds the correct angle ($75.1^\\circ$) from the horizontal but assigns the wrong horizontal direction (down and to the left instead of down and to the right, even though $\\mathbf{Q}$ exerts a larger rightward pull)."
     },
     {
       "id": "psad-f-the-loads-are-changed-to-p-60-text-lb-and-q-1mlf1up",
@@ -177,11 +189,11 @@
       "choices": [
         "$77.6\\text{ lb}$ at $85.0^\\circ$ down and to the left",
         "$77.6\\text{ lb}$ at $5.0^\\circ$ down and to the left",
-        " $50.8\\text{ lb}$ at $85.0^\\circ$ down and to the left",
-        " $77.6\\text{ lb}$ at $85.0^\\circ$ down and to the right"
+        "$50.8\\text{ lb}$ at $85.0^\\circ$ down and to the left",
+        "$77.6\\text{ lb}$ at $85.0^\\circ$ down and to the right"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "With $P = 60\\text{ lb}$, $Q = 25\\text{ lb}$, and an interior triangle angle of $180^\\circ - (20^\\circ + 35^\\circ) = 125^\\circ$, the Law of Cosines gives $R = \\sqrt{60^2 + 25^2 - 2(60)(25)\\cos(125^\\circ)} = 77.6\\text{ lb}$. By the Law of Sines, the angle $\\alpha$ between $\\mathbf{P}$ and $\\mathbf{R}$ is $\\alpha = \\sin^{-1}\\left(\\frac{25\\sin 125^\\circ}{77.6}\\right) = 15.3^\\circ$. From the downward vertical, $\\mathbf{R}$ is at $20^\\circ - 15.3^\\circ = 4.7^\\circ$ (or $5.0^\\circ$ rounded) to the left, which is $90^\\circ - 5.0^\\circ = 85.0^\\circ$ below the horizontal, down and to the left.",
       "image": [],
       "situation": "SIT-PSAD-001",
       "situation_text": "",
@@ -192,7 +204,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Reference-Axis Trap: Reports the angle measured from the downward vertical ($5.0^\\circ$) instead of from the horizontal ($85.0^\\circ$).",
+      "trap_c": "Sign-Error Trap: Uses $55^\\circ$ instead of $125^\\circ$ in the subtraction Law of Cosines ($R = \\sqrt{60^2 + 25^2 - 2(60)(25)\\cos(55^\\circ)} = 50.8\\text{ lb}$).",
+      "trap_d": "Direction Sign Trap: Points the resultant down and to the right instead of down and to the left, ignoring that $\\mathbf{P}$ ($60\\text{ lb}$) dominates the horizontal pull."
     },
     {
       "id": "psad-knowing-that-alpha-25-circ-determine-the-magn-1o6kh83",
@@ -203,11 +219,11 @@
       "choices": [
         "$979\\text{ N}$",
         "$3660\\text{ N}$",
-        " $1706\\text{ N}$",
+        "$1706\\text{ N}$",
         "$1545\\text{ N}$"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "For the resultant force on the trolley to be purely vertical, the horizontal components must cancel out ($\\sum F_x = 0$). Setting the rightward component of $\\mathbf{P}$ equal to the leftward component of the $1600\\text{ N}$ force: $P\\sin 25^\\circ = 1600\\cos 15^\\circ \\implies P = \\frac{1545.48}{0.4226} = 3657\\text{ N} \\approx 3660\\text{ N}$.",
       "image": [
         "files/figures/72d81266-35b9-4aa8-8635-b6b273c3b981"
       ],
@@ -220,7 +236,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Trig-Function Swap Trap: Uses $\\sin 15^\\circ$ instead of $\\cos 15^\\circ$ for the horizontal component of the $1600\\text{ N}$ force ($P = \\frac{1600\\sin 15^\\circ}{\\sin 25^\\circ} = 979\\text{ N}$).",
+      "trap_b": "",
+      "trap_c": "Reference-Axis Swap on P Trap: Uses $P\\cos 25^\\circ$ instead of $P\\sin 25^\\circ$ for the horizontal component of $\\mathbf{P}$ ($P = \\frac{1600\\cos 15^\\circ}{\\cos 25^\\circ} = 1706\\text{ N}$), forgetting that $\\alpha$ is measured from the vertical.",
+      "trap_d": "Incomplete Calculation Trap: Stops after finding the horizontal component of the $1600\\text{ N}$ force ($1600\\cos 15^\\circ = 1545\\text{ N}$) without dividing by $\\sin 25^\\circ$."
     },
     {
       "id": "psad-for-the-same-condition-where-alpha-25-circ-an-n3jfwt",
@@ -235,7 +255,7 @@
         "$4910\\text{ N}$"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "Summing the downward vertical components of both forces with $P = 3656.92\\text{ N}$ and $\\alpha = 25^\\circ$: $R = 1600\\sin 15^\\circ + P\\cos 25^\\circ = 414.11 + 3656.92\\cos 25^\\circ = 414.11 + 3314.30 = 3728.4\\text{ N} \\approx 3730\\text{ N}$ (or via Law of Sines: $R = \\frac{1600\\sin 80^\\circ}{\\sin 25^\\circ} = 3730\\text{ N}$).",
       "image": [],
       "situation": "SIT-PSAD-002",
       "situation_text": "",
@@ -246,7 +266,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Component Subtraction Trap: Subtracts the vertical components instead of adding them ($3314.3 - 414.1 = 2900\\text{ N} \\approx 2920\\text{ N}$).",
+      "trap_b": "",
+      "trap_c": "Omitted Component Trap: Computes only the vertical component of $\\mathbf{P}$ ($P\\cos 25^\\circ = 3320\\text{ N}$) and forgets to add the downward vertical component of the $1600\\text{ N}$ force ($1600\\sin 15^\\circ$).",
+      "trap_d": "Trig-Function Swap Trap: Uses $\\cos 15^\\circ$ instead of $\\sin 15^\\circ$ on the $1600\\text{ N}$ force ($1600\\cos 15^\\circ + 3660\\cos 25^\\circ = 4862\\text{ N} \\approx 4910\\text{ N}$)."
     },
     {
       "id": "psad-if-the-angle-alpha-is-not-fixed-determine-the-1r7izm4",
@@ -261,7 +285,7 @@
         "$3090\\text{ N}$ at $\\alpha = 30.1^\\circ$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "To produce a purely vertical downward resultant of $R = 2500\\text{ N}$, set up the horizontal and vertical equilibrium equations: (1) $P\\sin\\alpha = 1600\\cos 15^\\circ = 1545.48\\text{ N}$; (2) $P\\cos\\alpha = 2500 - 1600\\sin 15^\\circ = 2500 - 414.11 = 2085.89\\text{ N}$. Dividing (1) by (2): $\\tan\\alpha = \\frac{1545.48}{2085.89} = 0.7409 \\implies \\alpha = 36.5^\\circ$ (or $36.6^\\circ$). The magnitude is $P = \\sqrt{1545.48^2 + 2085.89^2} = 2596\\text{ N} \\approx 2600\\text{ N}$.",
       "image": [],
       "situation": "SIT-PSAD-002",
       "situation_text": "",
@@ -272,7 +296,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Solves the magnitude properly ($2600\\text{ N}$) but computes the angle from the horizontal ($90^\\circ - 36.6^\\circ = 53.4^\\circ$) instead of $\\alpha$ from the vertical.",
+      "trap_c": "Omitted Horizontal Component Trap: Neglects the horizontal component $P\\sin\\alpha$ and sets $P = P_y = 2500 - 1600\\sin 15^\\circ = 2090\\text{ N}$.",
+      "trap_d": "Sign-Error Trap: Adds $1600\\sin 15^\\circ$ to $2500\\text{ N}$ instead of subtracting it ($2500 + 414.11 = 2914.11\\text{ N}$) and mixes trig functions to obtain $3090\\text{ N}$ at $30.1^\\circ$."
     },
     {
       "id": "psad-knowing-that-alpha-20-circ-determine-the-requ-1rvlggb",
@@ -287,7 +315,7 @@
         "$368\\text{ lb}$"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "For the resultant $\\mathbf{R}$ to be vertical, the horizontal components must cancel ($\\sum F_x = 0$). Setting the rightward horizontal component of $\\mathbf{P}$ equal to the leftward horizontal component of the $425\\text{ lb}$ force: $P\\cos 20^\\circ = 425\\cos 30^\\circ \\implies P = \\frac{368.06}{0.9397} = 391.7\\text{ lb} \\approx 392\\text{ lb}$.",
       "image": [
         "files/figures/918896143_1686497096363183_8371253357560397405_n"
       ],
@@ -300,7 +328,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Trig-Function Swap Trap: Uses sine instead of cosine for the horizontal balance ($P\\sin 20^\\circ = 425\\sin 30^\\circ \\implies P = 621\\text{ lb}$).",
+      "trap_b": "",
+      "trap_c": "Inverted Ratio Trap: Multiplies by $\\cos 20^\\circ$ and divides by $\\cos 30^\\circ$ ($P = \\frac{425\\cos 20^\\circ}{\\cos 30^\\circ} = 461\\text{ lb}$).",
+      "trap_d": "Incomplete Calculation Trap: Stops after calculating the horizontal component of the $425\\text{ lb}$ force ($425\\cos 30^\\circ = 368\\text{ lb}$) without dividing by $\\cos 20^\\circ$."
     },
     {
       "id": "psad-for-the-same-condition-where-alpha-20-circ-an-1bvo5i",
@@ -312,10 +344,10 @@
         "$78\\text{ lb}$",
         "$347\\text{ lb}$",
         "$370\\text{ lb}$",
-        "$591\\text{ lb}$ "
+        "$591\\text{ lb}$"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "Summing the upward vertical components of both forces with $P = 391.68\\text{ lb}$ and $\\alpha = 20^\\circ$: $R = 425\\sin 30^\\circ + P\\sin 20^\\circ = 212.50 + 391.68\\sin 20^\\circ = 212.50 + 133.96 = 346.5\\text{ lb} \\approx 347\\text{ lb}$.",
       "image": [],
       "situation": "SIT-PSAD-003",
       "situation_text": "",
@@ -326,7 +358,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Component Subtraction Trap: Subtracts the vertical components instead of adding them ($212.50 - 133.96 = 78.5\\text{ lb} \\approx 78\\text{ lb}$).",
+      "trap_b": "",
+      "trap_c": "Wrong Trig Function Trap: Uses $\\cos 30^\\circ$ instead of $\\sin 30^\\circ$ ($425\\cos 30^\\circ = 368\\text{ lb} \\approx 370\\text{ lb}$).",
+      "trap_d": "Trig-Function Swap on P Trap: Uses $\\cos 20^\\circ$ instead of $\\sin 20^\\circ$ on $\\mathbf{P}$ ($425\\sin 30^\\circ + 391.68\\cos 20^\\circ = 581\\text{ lb} \\approx 591\\text{ lb}$)."
     },
     {
       "id": "psad-if-the-magnitude-of-p-is-instead-set-to-500-t-5wnznq",
@@ -341,7 +377,7 @@
         "$\\alpha = 25.2^\\circ$, $R = 425\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "With $P = 500\\text{ lb}$, equating the horizontal components gives: $500\\cos\\alpha = 425\\cos 30^\\circ = 368.06\\text{ lb} \\implies \\cos\\alpha = \\frac{368.06}{500} = 0.7361 \\implies \\alpha = 42.6^\\circ$. Summing the upward vertical components gives: $R = 425\\sin 30^\\circ + 500\\sin 42.6^\\circ = 212.50 + 338.43 = 550.9\\text{ lb} \\approx 551\\text{ lb}$.",
       "image": [],
       "situation": "SIT-PSAD-003",
       "situation_text": "",
@@ -352,7 +388,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Uses $\\sin\\alpha$ instead of $\\cos\\alpha$ in the horizontal balance, yielding $\\alpha = 90^\\circ - 42.6^\\circ = 47.4^\\circ$ and $R = 212.5 + 500\\sin 47.4^\\circ = 581\\text{ lb}$.",
+      "trap_c": "Component Subtraction Trap: Finds the correct angle ($\\alpha = 42.6^\\circ$) but subtracts the vertical components instead of adding them ($338.43 - 212.50 = 125.9\\text{ lb} \\approx 125.6\\text{ lb}$).",
+      "trap_d": "Trig-Function Swap Trap: Uses $\\sin 30^\\circ$ instead of $\\cos 30^\\circ$ ($500\\cos\\alpha = 425\\sin 30^\\circ \\implies \\alpha = 64.8^\\circ$, complementary $25.2^\\circ$)."
     },
     {
       "id": "psad-determine-the-angle-theta-which-makes-the-res-15pss8g",
@@ -364,10 +404,10 @@
         "$49.9^\\circ$",
         "$40.1^\\circ$",
         "$27.4^\\circ$",
-        " $62.6^\\circ$"
+        "$62.6^\\circ$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "For the resultant to be vertical, the horizontal ($x$) components must balance ($\\sum F_x = 0$). Setting the rightward horizontal component of $F_1$ equal to the leftward horizontal component of $F_2$: $800\\cos 70^\\circ = 425\\cos\\theta \\implies 273.62 = 425\\cos\\theta \\implies \\cos\\theta = \\frac{273.62}{425} = 0.6438 \\implies \\theta = 49.92^\\circ \\approx 49.9^\\circ$.",
       "image": [
         "files/figures/925940828_2036269197068032_918402371858022665_n"
       ],
@@ -380,7 +420,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Uses $\\sin\\theta$ instead of $\\cos\\theta$ ($425\\sin\\theta = 800\\cos 70^\\circ \\implies \\theta = 40.1^\\circ$), giving the angle measured from the vertical rather than the horizontal.",
+      "trap_c": "Inverted Ratio Trap: Swaps the force magnitudes in the cosine ratio ($\\sin^{-1}(425\\cos 70^\\circ / 800) = 10.5^\\circ$ or $\\sin^{-1}(0.460) = 27.4^\\circ$).",
+      "trap_d": "Complementary Inverted Ratio Trap: Takes the complement of the inverted-ratio angle ($90^\\circ - 27.4^\\circ = 62.6^\\circ$)."
     },
     {
       "id": "psad-using-the-angle-theta-found-in-item-1-determi-z110mv",
@@ -392,10 +436,10 @@
         "$1077\\text{ lb}$",
         "$426\\text{ lb}$",
         "$1026\\text{ lb}$",
-        "$1225\\text{ lb}$ "
+        "$1225\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Summing the downward vertical ($y$) components using $\\theta = 49.92^\\circ$: $R = 800\\sin 70^\\circ + 425\\sin 49.92^\\circ = 751.75 + 325.18 = 1076.9\\text{ lb} \\approx 1077\\text{ lb}$.",
       "image": [],
       "situation": "SIT-PSAD-004",
       "situation_text": "",
@@ -406,7 +450,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Component Subtraction Trap: Subtracts the vertical components instead of adding them ($751.75 - 325.18 = 426.6\\text{ lb} \\approx 426\\text{ lb}$).",
+      "trap_c": "Wrong Trig Function Trap: Uses $\\cos 49.9^\\circ$ instead of $\\sin 49.9^\\circ$ for the vertical component of $F_2$ ($751.75 + 425\\cos 49.9^\\circ = 1025.4\\text{ lb} \\approx 1026\\text{ lb}$).",
+      "trap_d": "Algebraic Addition Trap: Adds the two force magnitudes directly ($800 + 425 = 1225\\text{ lb}$)."
     },
     {
       "id": "psad-if-the-angle-theta-is-instead-fixed-at-30-cir-iqi0s",
@@ -415,13 +463,13 @@
       "category": "situational",
       "question": "If the angle $\\theta$ is instead fixed at $30^\\circ$ while keeping $F_1 = 800\\text{ lb}$ at $70^\\circ$, what magnitude must $F_2$ have so that the resultant remains purely vertical?",
       "choices": [
-        " $316\\text{ lb}$",
+        "$316\\text{ lb}$",
         "$868\\text{ lb}$",
         "$547\\text{ lb}$",
-        " $274\\text{ lb}$"
+        "$274\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Setting the horizontal ($x$) components equal with $\\theta = 30^\\circ$ and $F_1 = 800\\text{ lb}$ at $70^\\circ$: $F_2\\cos 30^\\circ = 800\\cos 70^\\circ \\implies F_2 = \\frac{273.62}{0.8660} = 315.95\\text{ lb} \\approx 316\\text{ lb}$.",
       "image": [],
       "situation": "SIT-PSAD-004",
       "situation_text": "",
@@ -432,7 +480,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Trig-Function Swap on F1 Trap: Uses $\\sin 70^\\circ$ instead of $\\cos 70^\\circ$ ($F_2 = \\frac{800\\sin 70^\\circ}{\\cos 30^\\circ} = 868\\text{ lb}$).",
+      "trap_c": "Trig-Function Swap on F2 Trap: Uses $\\sin 30^\\circ$ instead of $\\cos 30^\\circ$ ($F_2 = \\frac{800\\cos 70^\\circ}{\\sin 30^\\circ} = 547\\text{ lb}$).",
+      "trap_d": "Incomplete Calculation Trap: Stops after computing the horizontal component of $F_1$ ($800\\cos 70^\\circ = 274\\text{ lb}$) without dividing by $\\cos 30^\\circ$."
     },
     {
       "id": "psad-if-the-tension-in-cable-ab-is-8-text-kn-deter-1pid4ei",
@@ -447,7 +499,7 @@
         "$4.99\\text{ kN}$"
       ],
       "answer": "B",
-      "explanation": "",
+      "explanation": "The length of cable $AB$ is $\\sqrt{40^2 + 50^2} = \\sqrt{4100} = 64.03\\text{ m}$, and the length of cable $AC$ is $\\sqrt{50^2 + 30^2} = \\sqrt{3400} = 58.31\\text{ m}$. For a purely downward resultant, the horizontal components must cancel ($\\sum F_x = 0$): $T\\left(\\frac{50}{\\sqrt{3400}}\\right) = 8\\left(\\frac{40}{\\sqrt{4100}}\\right) \\implies T(0.8575) = 4.9976 \\implies T = 5.828\\text{ kN} \\approx 5.83\\text{ kN}$.",
       "image": [
         "files/figures/928399326_2537556019984956_4672032578106201644_n"
       ],
@@ -460,7 +512,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "Direct Length Ratio Trap: Multiplies $T_{AB}$ by the ratio of cable lengths without projecting onto the horizontal axis ($8 \\times \\frac{58.31}{64.03} = 7.28\\text{ kN}$).",
+      "trap_b": "",
+      "trap_c": "Wrong Height / Geometry Trap: Uses an incorrect vertical drop for $AB$ or $AC$, yielding $8.24\\text{ kN}$.",
+      "trap_d": "Incomplete Calculation Trap: Stops after computing the horizontal component of cable $AB$ ($8 \\times \\frac{40}{64.03} = 4.998\\text{ kN} \\approx 4.99\\text{ kN}$) without dividing by $\\frac{50}{58.31}$."
     },
     {
       "id": "psad-under-this-loading-condition-t-ab-8-text-kn-a-1c0utn3",
@@ -475,7 +531,7 @@
         "$13.83\\text{ kN}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Summing the downward vertical components of both cable tensions with $T_{AB} = 8\\text{ kN}$ and $T_{AC} = 5.828\\text{ kN}$: $R = 8\\left(\\frac{50}{\\sqrt{4100}}\\right) + 5.828\\left(\\frac{30}{\\sqrt{3400}}\\right) = 6.247 + 2.998 = 9.245\\text{ kN} \\approx 9.22\\text{ kN}$ (using rounded intermediate ratios).",
       "image": [],
       "situation": "SIT-PSAD-005",
       "situation_text": "",
@@ -486,7 +542,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Component Subtraction Trap: Subtracts the vertical components instead of adding them ($6.25 - 3.00 = 3.25\\text{ kN} \\approx 3.27\\text{ kN}$).",
+      "trap_c": "Wrong Vertical Leg Trap: Uses $50\\text{ m}$ instead of $30\\text{ m}$ for the vertical drop of cable $AC$ ($6.25 + 5.83 \\times \\frac{50}{58.31} = 11.25\\text{ kN} \\approx 11.53\\text{ kN}$).",
+      "trap_d": "Algebraic Addition Trap: Adds the two cable tensions directly without resolving components ($8 + 5.83 = 13.83\\text{ kN}$)."
     },
     {
       "id": "psad-if-the-anchor-at-c-is-relocated-to-level-grou-1w958us",
@@ -501,7 +561,7 @@
         "$10.00\\text{ kN}$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "With anchor $C$ on level ground $50\\text{ m}$ to the right and $50\\text{ m}$ below $A$, cable $AC$ has length $\\sqrt{50^2 + 50^2} = 50\\sqrt{2}\\text{ m}$ (at $45^\\circ$). Balancing horizontal components: $T\\left(\\frac{50}{50\\sqrt{2}}\\right) = 8\\left(\\frac{40}{\\sqrt{4100}}\\right) \\implies T\\left(\\frac{1}{\\sqrt{2}}\\right) = 4.9976 \\implies T = 4.9976\\sqrt{2} = 7.068\\text{ kN} \\approx 7.07\\text{ kN}$.",
       "image": [],
       "situation": "SIT-PSAD-005",
       "situation_text": "",
@@ -512,7 +572,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Wrong Height for AB Trap: Uses $30\\text{ m}$ instead of $50\\text{ m}$ for the vertical height of $AB$ ($8 \\times \\frac{40}{50} \\times \\sqrt{2} = 9.05\\text{ kN}$, or $\\frac{50}{40} \\times 7.07 = 8.83\\text{ kN}$).",
+      "trap_c": "Cosine Multiplication Trap: Multiplies $T_{AB}$ by $\\cos 45^\\circ$ ($8 \\times \\frac{1}{\\sqrt{2}} = 5.66\\text{ kN}$) instead of balancing horizontal components.",
+      "trap_d": "Horizontal Ratio Trap: Uses the ratio of horizontal distances directly ($8 \\times \\frac{50}{40} = 10.00\\text{ kN}$) instead of unit vectors."
     },
     {
       "id": "psad-two-men-are-trying-to-roll-the-boulder-by-app-1snq06h",
@@ -521,13 +585,13 @@
       "category": "problem",
       "question": "Two men are trying to roll the boulder by applying the forces shown. Determine the magnitude and direction of the force that is equivalent to the two applied forces.",
       "choices": [
-        " $413\\text{ lb}$ at $53.8^\\circ$ up and to the right",
+        "$413\\text{ lb}$ at $53.8^\\circ$ up and to the right",
         "$234\\text{ lb}$ at $39.4^\\circ$ up and to the right",
         "$413\\text{ lb}$ at $36.2^\\circ$ up and to the right",
         "$335\\text{ lb}$ at $53.8^\\circ$ up and to the right"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Resolving both forces into horizontal ($x$) and vertical ($y$) components: $R_x = 300\\cos 70^\\circ + 150\\cos 20^\\circ = 102.61 + 140.95 = 243.56\\text{ lb}$, and $R_y = 300\\sin 70^\\circ + 150\\sin 20^\\circ = 281.91 + 51.30 = 333.21\\text{ lb}$. The resultant magnitude is $R = \\sqrt{(243.56)^2 + (333.21)^2} = 412.73\\text{ lb} \\approx 413\\text{ lb}$, and its direction is $\\theta = \\tan^{-1}\\left(\\frac{333.21}{243.56}\\right) = 53.8^\\circ$ up and to the right.",
       "image": [
         "files/figures/917677431_4661520447411414_5040981470434501513_n"
       ],
@@ -540,7 +604,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error / Vector Subtraction Trap: Uses the included angle between the vectors ($\\phi = 70^\\circ - 20^\\circ = 50^\\circ$) instead of the supplementary interior triangle angle ($130^\\circ$) in the subtraction Law of Cosines ($R = \\sqrt{300^2 + 150^2 - 2(300)(150)\\cos 50^\\circ} = 234\\text{ lb}$).",
+      "trap_c": "Complementary Angle Trap: Solves the resultant magnitude properly ($413\\text{ lb}$) but inverts the tangent ratio ($\\tan^{-1}(243.56 / 333.21) = 36.2^\\circ$), measuring the angle from the vertical instead of the horizontal.",
+      "trap_d": "Right-Triangle Assumption Trap: Assumes the two forces are perpendicular ($90^\\circ$ apart) and applies the Pythagorean theorem ($R = \\sqrt{300^2 + 150^2} = 335\\text{ lb}$)."
     },
     {
       "id": "psad-the-magnitudes-of-the-three-forces-applied-to-ufs2m0",
@@ -552,10 +620,10 @@
         "$239\\text{ lb}$ at $75.5^\\circ$ above the positive $x$-axis",
         "$286\\text{ lb}$ at $53.3^\\circ$ above the positive $x$-axis",
         "$239\\text{ lb}$ at $14.5^\\circ$ above the positive $x$-axis",
-        " $272\\text{ lb}$ at $66.3^\\circ$ above the positive $x$-axis"
+        "$272\\text{ lb}$ at $66.3^\\circ$ above the positive $x$-axis"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Resolving all three concurrent forces into horizontal ($x$) and vertical ($y$) components: $R_x = -110\\cos 60^\\circ + 0 + 150\\cos 40^\\circ = -55.00 + 114.91 = 59.91\\text{ lb}$, and $R_y = 110\\sin 60^\\circ + 40 + 150\\sin 40^\\circ = 95.26 + 40.00 + 96.42 = 231.68\\text{ lb}$. The equivalent force magnitude is $R = \\sqrt{(59.91)^2 + (231.68)^2} = 239.30\\text{ lb} \\approx 239\\text{ lb}$, directed at $\\theta = \\tan^{-1}\\left(\\frac{231.68}{59.91}\\right) = 75.5^\\circ$ above the positive $x$-axis.",
       "image": [
         "files/figures/919947111_1678489287622719_8628161573007391592_n"
       ],
@@ -568,7 +636,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Trap: Adds the leftward $x$-component of $T_1$ instead of subtracting it ($R_x = +55.00 + 114.91 = 169.91\\text{ lb}$), yielding $R \\approx 286\\text{ lb}$ at $53.3^\\circ$.",
+      "trap_c": "Complementary Angle Trap: Calculates the correct resultant magnitude ($239\\text{ lb}$) but inverts the tangent ratio ($\\tan^{-1}(59.91 / 231.68) = 14.5^\\circ$), measuring the angle from the positive $y$-axis instead of the positive $x$-axis.",
+      "trap_d": "Trig-Function Swap Trap: Swaps sine and cosine for $T_1$ and $T_3$, yielding $R \\approx 272\\text{ lb}$ at $66.3^\\circ$."
     },
     {
       "id": "psad-if-the-resultant-force-of-the-two-tugboats-is-x9mr2s",
@@ -578,12 +650,12 @@
       "question": "If the resultant force of the two tugboats is $3\\text{ kN}$ directed along the positive x-axis, determine the required magnitude of force $\\mathbf{F}_B$ and its direction $\\theta$",
       "choices": [
         "$1.61\\text{ kN}$ at $\\theta = 38.3^\\circ$",
-        " $1.61\\text{ kN}$ at $\\theta = 51.7^\\circ$",
+        "$1.61\\text{ kN}$ at $\\theta = 51.7^\\circ$",
         "$4.86\\text{ kN}$ at $\\theta = 11.9^\\circ$",
         "$2.24\\text{ kN}$ at $\\theta = 26.6^\\circ$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Equating horizontal and vertical components so that $\\mathbf{F}_R = 3\\text{ kN}$ along the positive $x$-axis: (1) $F_B\\cos\\theta = 3 - 2\\cos 30^\\circ = 3 - 1.7321 = 1.2679\\text{ kN}$; (2) $F_B\\sin\\theta = 2\\sin 30^\\circ = 1.0000\\text{ kN}$. Dividing (2) by (1): $\\tan\\theta = \\frac{1.0000}{1.2679} = 0.7887 \\implies \\theta = 38.26^\\circ \\approx 38.3^\\circ$. Magnitude: $F_B = \\sqrt{(1.2679)^2 + (1.0000)^2} = 1.6148\\text{ kN} \\approx 1.61\\text{ kN}$.",
       "image": [
         "files/figures/925196817_1884153205911226_9147530553997103111_n"
       ],
@@ -596,7 +668,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(1.2679 / 1.0000) = 51.7^\\circ$), reporting the angle from the vertical instead of the positive $x$-axis.",
+      "trap_c": "Sign-Error Trap: Adds $2\\cos 30^\\circ$ to $3\\text{ kN}$ instead of subtracting ($3 + 1.7321 = 4.7321\\text{ kN}$), yielding $F_B \\approx 4.86\\text{ kN}$ at $11.9^\\circ$.",
+      "trap_d": "Omitted Component Trap: Omits the $2\\cos 30^\\circ$ term, using $F_{Bx} = 2\\text{ kN}$ and $F_{By} = 1\\text{ kN}$ to get $F_B = \\sqrt{2^2 + 1^2} = 2.24\\text{ kN}$ at $26.6^\\circ$."
     },
     {
       "id": "psad-if-instead-f-b-3-text-kn-and-theta-45-circ-de-1k4jueo",
@@ -608,10 +684,10 @@
         "$3.99\\text{ kN}$ at $16.3^\\circ$",
         "$3.99\\text{ kN}$ at $73.7^\\circ$",
         "$2.47\\text{ kN}$ at $16.3^\\circ$",
-        "$4.76\\text{ kN}$ at $13.6^\\circ$  "
+        "$4.76\\text{ kN}$ at $13.6^\\circ$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "Resolving both tugboat forces into $x$ and $y$ components with $F_A = 2\\text{ kN}$ at $30^\\circ$ and $F_B = 3\\text{ kN}$ at $\\theta = 45^\\circ$: $R_x = 2\\cos 30^\\circ + 3\\cos 45^\\circ = 1.7321 + 2.1213 = 3.8534\\text{ kN}$, and $R_y = 2\\sin 30^\\circ - 3\\sin 45^\\circ = 1.0000 - 2.1213 = -1.1213\\text{ kN}$. The resultant magnitude is $R = \\sqrt{(3.8534)^2 + (-1.1213)^2} = 4.01\\text{ kN}$ ($3.99\\text{ kN}$ with rounded components), directed at $\\phi = \\tan^{-1}\\left(\\frac{1.1213}{3.8534}\\right) = 16.3^\\circ$ clockwise from the positive $x$-axis.",
       "image": [],
       "situation": "SIT-PSAD-006",
       "situation_text": "",
@@ -622,7 +698,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(3.8534 / 1.1213) = 73.7^\\circ$), measuring the angle from the negative $y$-axis instead of the positive $x$-axis.",
+      "trap_c": "Component Subtraction Trap: Subtracts horizontal components or uses the wrong interior angle in the Law of Cosines, yielding $2.47\\text{ kN}$ at $16.3^\\circ$.",
+      "trap_d": "Sign-Error on Y-Component Trap: Adds the $y$-components instead of subtracting ($1.0000 + 2.1213 = 3.1213\\text{ kN}$), yielding $4.76\\text{ kN}$ at $13.6^\\circ$."
     },
     {
       "id": "psad-if-the-resultant-force-of-the-two-tugboats-is-vb2wqz",
@@ -634,10 +714,10 @@
         "$F_R = 1.73\\text{ kN}$, $F_B = 1.00\\text{ kN}$, $\\theta = 90^\\circ$",
         "$F_R = 1.00\\text{ kN}$, $F_B = 1.73\\text{ kN}$, $\\theta = 60^\\circ$",
         "$F_R = 1.73\\text{ kN}$, $F_B = 1.00\\text{ kN}$, $\\theta = 60^\\circ$",
-        "$F_R = 2.00\\text{ kN}$, $F_B = 2.00\\text{ kN}$, $\\theta = 30^\\circ$  "
+        "$F_R = 2.00\\text{ kN}$, $F_B = 2.00\\text{ kN}$, $\\theta = 30^\\circ$"
       ],
       "answer": "A",
-      "explanation": "",
+      "explanation": "In the force triangle, $\\mathbf{F}_B$ is minimized when its line of action is perpendicular to the desired direction of $\\mathbf{F}_R$ (the positive $x$-axis), which sets $\\theta = 90^\\circ$. Balancing vertical components ($\\sum F_y = 0$): $F_B = F_A\\sin 30^\\circ = 2\\sin 30^\\circ = 1.00\\text{ kN}$. Summing horizontal components ($\\sum F_x = F_R$): $F_R = F_A\\cos 30^\\circ = 2\\cos 30^\\circ = 1.732\\text{ kN} \\approx 1.73\\text{ kN}$.",
       "image": [],
       "situation": "SIT-PSAD-006",
       "situation_text": "",
@@ -648,7 +728,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Swapped Values & Complementary Angle Trap: Swaps the values of $F_R$ and $F_B$ and uses the complementary angle $60^\\circ$.",
+      "trap_c": "Angle Reference Trap: Correctly calculates $F_R = 1.73\\text{ kN}$ and $F_B = 1.00\\text{ kN}$ but misidentifies $\\theta$ as $60^\\circ$ (the angle between $\\mathbf{F}_A$ and $\\mathbf{F}_B$) instead of $90^\\circ$ from the positive $x$-axis.",
+      "trap_d": "Symmetry Assumption Trap: Assumes a symmetric tugboat arrangement ($\\theta = 30^\\circ$ and $F_B = F_A = 2.00\\text{ kN}$)."
     },
     {
       "id": "msthc-mr-j-de-la-cruz-borrowed-money-from-a-bank-r-hrrygp",
@@ -671,7 +755,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-loan-of-p5-000-is-made-for-a-period-of-15--19cxked",
@@ -694,7 +782,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-interest-due-on-a-p1-500-note-fo-x68cfh",
@@ -717,7 +809,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-if-300-is-earned-in-three-months-on-an-inves-ilnv6y",
@@ -740,7 +836,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-simple-interest-on-p10-000-at-the-r-1ig98g7",
@@ -763,7 +863,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-investment-earns-3-compounded-monthly-fin-may7ym",
@@ -786,7 +890,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-value-of-an-investment-of-p3-500-1l8zbua",
@@ -809,7 +917,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-mrs-lalic-purchased-an-antique-statue-for-p4-nbark1",
@@ -832,7 +944,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-many-years-will-it-take-for-an-investmen-1gm0ji",
@@ -855,7 +971,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-compound-amount-and-compound-intere-8lzugd",
@@ -878,7 +998,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-rate-of-interest-compounded-annually-is-118291n",
@@ -901,7 +1025,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-approaches-the-abc-loan-agency-for-p10-8m4fkt",
@@ -926,7 +1054,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-mr-smith-plans-to-deposit-money-in-a-bank-th-144g6a1",
@@ -949,7 +1081,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-nominal-interest-rate-if-the-eff-1e4mb8s",
@@ -972,7 +1108,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-rate-of-interest-compounded-annually-is-1n7r5su",
@@ -995,7 +1135,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-accumulated-amount-after-3-years-hbc1z5",
@@ -1018,7 +1162,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-many-years-are-required-for-your-money-t-14bbget",
@@ -1041,7 +1189,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-p100-000-is-deposited-at-a-nominal-rate-of-7-2i04dj",
@@ -1064,7 +1216,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-investment-earning-a-nominal-annual-inter-scsult",
@@ -1087,7 +1243,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-nominal-annual-interest-rate-of-6-compound-180i8sc",
@@ -1110,7 +1270,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-company-purchases-a-piece-of-construction--1gfi588",
@@ -1133,7 +1297,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-industrial-firm-uses-an-economic-analysis-1ctjl19",
@@ -1158,7 +1326,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-industrial-firm-uses-an-economic-analysis-1ctjl24",
@@ -1183,7 +1355,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-industrial-firm-uses-an-economic-analysis-1tgcnlk",
@@ -1208,7 +1384,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-company-produces-a-gear-that-is-commonly-u-zfwo5d",
@@ -1231,7 +1411,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-borrowed-p2-000-00-from-a-bank-for-one-g90nv1",
@@ -1254,7 +1438,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-contractor-must-pay-p57-500-at-the-end-of--1p80v65",
@@ -1277,7 +1465,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-which-of-the-following-nominal-rates-yields--wjdk5",
@@ -1300,7 +1492,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-miss-evilla-borrowed-money-from-a-bank-she-r-wzc26x",
@@ -1323,7 +1519,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-mr-j-dela-cruz-borrowed-money-from-a-bank-he-1b845v7",
@@ -1346,7 +1546,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-uninflated-present-worth-of-p2-0-zh809h",
@@ -1369,7 +1573,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-future-worth-value-of-an-amount--1ozpvti",
@@ -1392,7 +1600,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-bank-pays-5-5-interest-compounded-annual-k5shf1",
@@ -1415,7 +1627,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-stadium-was-built-in-1955-at-p2-4m-at-the--15ky4h4",
@@ -1438,7 +1654,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-stadium-was-built-in-1955-at-p2-4m-at-the--wd1lp0",
@@ -1461,7 +1681,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-mechanical-contractor-is-trying-to-calcula-1ah32e",
@@ -1484,7 +1708,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-suppose-that-the-maintenance-for-a-piece-of--19r94g4",
@@ -1507,7 +1735,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-determine-the-present-worth-of-a-geometric-g-pi2ml9",
@@ -1530,7 +1762,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-coal-fired-power-plant-has-upgraded-an-emi-1fxb3oj",
@@ -1553,7 +1789,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-given-g-5-i-7-n-25-years-and-a-p50-000-what--m1bstc",
@@ -1576,7 +1816,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-equipment-costs-p480-000-and-has-a-salvag-lfcaya",
@@ -1599,7 +1843,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costing-p280-000-has-a-useful-life-1gfu8p5",
@@ -1622,7 +1870,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-lathe-machine-costs-p300-000-brand-new-and-1k1ko8n",
@@ -1645,7 +1897,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-equipment-costs-p400-000-with-a-life-of-3-zfw1pw",
@@ -1668,7 +1924,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-earth-moving-equipment-costing-p90-000-has-a-1fr3sch",
@@ -1691,7 +1951,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-abc-corporation-makes-it-a-policy-that-for-a-1udsrxt",
@@ -1714,7 +1978,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-tax-and-duty-free-importation-of-a-30hp-sa-6u5i9b",
@@ -1737,7 +2005,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-tax-and-duty-free-importation-of-a-30hp-sa-8w1rm2",
@@ -1760,7 +2032,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-has-a-salvage-value-of-p12-000-at--1k7nan",
@@ -1783,7 +2059,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costing-p700-000-has-a-life-of-10--138qv05",
@@ -1806,7 +2086,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-certain-office-equipment-has-a-first-cost--1bd3hxo",
@@ -1829,7 +2113,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-purchased-for-p500-000-has-a-salva-151pqm",
@@ -1852,7 +2140,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-industrial-plant-bought-a-generator-set-f-15gfu1z",
@@ -1875,7 +2167,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-construction-equipment-costs-p180-000-and-ha-129nkyc",
@@ -1898,7 +2194,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-power-to-a-remote-transmitting-station-is-pr-14k93u8",
@@ -1921,7 +2221,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-has-a-first-cost-of-p200-000-and-a-th99tv",
@@ -1944,7 +2248,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costing-p1-400-000-has-a-useful-li-14327n2",
@@ -1967,7 +2275,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-has-a-first-cost-of-p60-000-and-a--1p25b60",
@@ -1990,7 +2302,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-farma-company-provides-the-following-inf-ahpnkt",
@@ -2013,7 +2329,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-book-value-of-the-equipment-at-the-begin-1ft95ez",
@@ -2036,7 +2356,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-earth-moving-equipment-that-cost-p90-000--fugy2u",
@@ -2059,7 +2383,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-asset-is-purchased-for-p10-000-its-estima-1ireva8",
@@ -2082,7 +2410,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-littlefield-company-recently-purchased-a-mac-1gb9may",
@@ -2105,7 +2437,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-asset-has-a-useful-life-of-3-years-cost-o-500t60",
@@ -2128,7 +2464,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-worth-p5-000-has-an-anticipated-sa-18k0g1g",
@@ -2151,7 +2491,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-p900-000-and-will-have-a-sal-e0nvps",
@@ -2174,7 +2518,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-initial-cost-of-a-piece-of-construction--1afq534",
@@ -2197,7 +2545,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-costs-p1-200-000-and-has-a-salvage-12a03tn",
@@ -2220,7 +2572,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-costing-p45-000-is-estimated-to-ha-1qkpdme",
@@ -2243,7 +2599,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-p8-000-and-has-an-estimated--ez43bc",
@@ -2266,7 +2626,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-contract-has-been-signed-to-lease-a-buildi-gas3o3",
@@ -2289,7 +2653,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-wishes-to-provide-a-fund-for-his-retir-1ulu787",
@@ -2314,7 +2682,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-determine-the-present-worth-of-an-annuity-co-1yl30xs",
@@ -2337,7 +2709,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-determine-the-accumulated-amount-future-wort-r7qbht",
@@ -2360,7 +2736,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-company-rich-pays-p20-000-dividends-annually-umqcw2",
@@ -2383,7 +2763,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-constructs-a-house-and-sells-it--1mmkqs9",
@@ -2406,7 +2790,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-buyer-of-a-certain-machine-may-pay-eithe-1yag2wh",
@@ -2428,7 +2816,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-much-money-would-you-have-to-deposit-for-49m28p",
@@ -2451,7 +2843,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-present-worth-of-a-10-year-annui-1mebbn9",
@@ -2474,7 +2870,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-businessman-borrows-p1-000-000-at-12-compo-qihodm",
@@ -2497,7 +2897,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-lathe-for-a-machine-shop-costs-p60-000-if--9t7nea",
@@ -2520,7 +2924,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-future-worth-of-p600-deposited-a-4ycw2q",
@@ -2545,7 +2953,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-mr-reyes-borrows-p600-000-at-12-compounded-a-l46nb9",
@@ -2570,7 +2982,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-m-purchased-a-small-lot-in-a-subdivision-pay-sx6pz9",
@@ -2595,7 +3011,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-m-purchased-a-small-lot-in-a-subdivision-pay-1nki1qi",
@@ -2620,7 +3040,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-m-purchased-a-small-lot-in-a-subdivision-pay-1od1zs3",
@@ -2645,7 +3069,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-m-purchased-a-small-lot-in-a-subdivision-pay-1hkmm8y",
@@ -2670,7 +3098,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-new-office-building-was-constructed-5-year-1dn34bf",
@@ -2695,7 +3127,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-referring-to-the-p10-000-000-mortgage-with-a-19q2qup",
@@ -2720,7 +3156,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-asphalt-road-requires-no-upkeep-until-the-1fy1adr",
@@ -2745,7 +3185,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-will-of-a-wealthy-philanthropist-left-p5-15tzmrh",
@@ -2768,7 +3212,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-alan-wants-to-retire-and-receive-p12-000-a-m-2eqia3",
@@ -2791,7 +3239,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-present-value-of-an-annuity-of-p-2pv5n1",
@@ -2814,7 +3266,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-suppose-that-a-court-settlement-results-in-a-1qr7jw5",
@@ -2837,7 +3293,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-deferred-annuity-is-purchased-that-will-pa-1kvj2qp",
@@ -2860,7 +3320,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-public-project-has-an-initial-cost-of-rs-1-1b9ax8k",
@@ -2883,7 +3347,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-dam-will-have-a-first-cost-of-p5-000-000-a-1s7hg63",
@@ -2906,7 +3374,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-the-first-cost-of-a-certain-piece-of-equipme-1h07aua",
@@ -2929,7 +3401,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-at-6-find-the-capitalized-cost-of-a-bridge-w-1w997vx",
@@ -2952,7 +3428,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-new-boiler-was-installed-by-a-textile-plan-v3r4h9",
@@ -2975,7 +3455,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-price-tag-of-p1-200-is-payable-in-60-days--17sypth",
@@ -2998,7 +3482,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-promised-to-pay-p36-000-at-the-e-2ek68x",
@@ -3021,7 +3509,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-is-required-to-pay-p57-500-at-the-end--1l7qxg7",
@@ -3044,7 +3536,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-loan-of-p8-000-was-approved-at-an-advance--1hlss8m",
@@ -3067,7 +3563,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-signed-a-p25-000-promissory-note-for-1-1pq0e2c",
@@ -3090,7 +3590,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-borrowed-p2-000-00-for-1-year-and-rece-1xymvxu",
@@ -3113,7 +3617,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-annual-rate-of-simple-interest-i-1d6pm8z",
@@ -3136,7 +3644,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-lends-1-000-for-4-years-at-12-simple-i-1ac4dhi",
@@ -3159,7 +3671,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-principal-of-a-loan-in-which-the-in-axsb3b",
@@ -3182,7 +3698,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-which-is-more-desirable-investing-2-000-at-6-tcd4h0",
@@ -3205,7 +3725,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-nominal-rate-in-percent-compounded-semi-1nl5w12",
@@ -3228,7 +3752,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-nominal-rate-in-percent-compounded-quar-1rpnlk9",
@@ -3251,7 +3779,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-which-of-the-following-gives-the-highest-eff-1k9l53l",
@@ -3274,7 +3806,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-difference-between-total-simple--1iaodwf",
@@ -3297,7 +3833,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-when-compounded-bi-monthly-p15-000-becomes-p-gkp5np",
@@ -3320,7 +3860,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-invested-money-at-16-per-annum-n-1ecwhw0",
@@ -3343,7 +3887,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-teacher-s-fund-is-invested-at-8-per-annum--dp0xzp",
@@ -3366,7 +3914,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-at-what-nominal-rate-of-interest-compounded--zexm3p",
@@ -3389,7 +3941,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-buys-a-house-and-lot-worth-p2-000-000--1w4zlb6",
@@ -3412,7 +3968,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-p60-000-was-deposited-at-6-compounded-quarte-st47g4",
@@ -3435,7 +3995,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-much-should-be-deposited-at-6-compounded-1xv64td",
@@ -3458,7 +4022,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-p200-000-was-placed-in-a-time-deposit-at-x-c-sem0n6",
@@ -3481,7 +4049,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-which-of-the-following-gives-the-lowest-effe-14orp35",
@@ -3504,7 +4076,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-much-must-an-individual-invest-at-10-per-1qn58lr",
@@ -3527,7 +4103,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-savings-bank-offers-1-000-certificates-of--11bnsc8",
@@ -3550,7 +4130,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-compute-the-compound-interest-earned-on-p200-fpu63l",
@@ -3573,7 +4157,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-if-the-nominal-rate-of-interest-is-7-per-ann-1j4e9ne",
@@ -3596,7 +4184,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-nominal-interest-rate-compounded-contin-158rg6m",
@@ -3619,7 +4211,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-option-1-invests-p1-000-000-at-10-compounded-1um2a5p",
@@ -3642,7 +4238,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-much-should-you-place-in-an-investment-t-nrmb1f",
@@ -3665,7 +4265,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-investor-deposits-p10-000-at-the-end-of-e-1z0sxp5",
@@ -3688,7 +4292,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-wants-to-accumulate-p500-000-at--119sn0e",
@@ -3711,7 +4319,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-how-many-years-will-it-take-to-accumulate-p2-vnmx80",
@@ -3734,7 +4346,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-person-borrows-5-000-for-3-years-to-be-rep-y1vcc0",
@@ -3757,7 +4373,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-at-what-continuous-flow-rate-dollars-per-yea-1gidyz7",
@@ -3780,7 +4400,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-paid-a-10-down-payment-of-p200-000-for-172i2lm",
@@ -3803,7 +4427,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-self-employed-engineer-wants-a-lump-sum-of-1luzgxw",
@@ -3826,7 +4454,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-construction-equipment-with-no-salvage-value-13hgj4r",
@@ -3849,7 +4481,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-endowment-today-of-p1-000-000-is-converte-1olodx7",
@@ -3872,7 +4508,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-for-some-interest-rate-i-and-period-n-the-un-nsovm",
@@ -3895,7 +4535,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-service-car-priced-at-p540-000-was-bought--tve7xs",
@@ -3918,7 +4562,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-debt-of-p100-000-with-interest-at-7-compou-4e2x77",
@@ -3941,7 +4589,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-is-entitled-to-receive-p25-000-a-6tvw5n",
@@ -3964,7 +4616,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-is-entitled-to-receive-p25-000-a-16zurr0",
@@ -3987,7 +4643,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-difference-between-the-future-sums--m3hsdu",
@@ -4010,7 +4670,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-what-is-the-difference-between-the-present-v-1d2uli2",
@@ -4033,7 +4697,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-boy-is-entitled-to-10-yearly-endowments-of-101qjpe",
@@ -4056,7 +4724,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-ten-annual-installments-of-p60-000-each-star-9soeu9",
@@ -4079,7 +4751,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-invested-p100-000-at-the-end-of-each-y-10zvc81",
@@ -4102,7 +4778,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-present-worth-of-a-perpetuity-of-p1-1p2gejr",
@@ -4125,7 +4805,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-present-value-of-a-perpetuity-of-p1-1p3jn3v",
@@ -4148,7 +4832,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-man-deposits-p500-every-month-in-an-invest-1qtqulp",
@@ -4171,7 +4859,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-businessman-borrows-p300-000-at-6-compound-1lisjx6",
@@ -4194,7 +4886,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-contractor-wishes-to-accumulate-p1-000-000-xofiu9",
@@ -4217,7 +4913,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-to-pay-for-oil-spill-damages-a-company-pays--19mfmih",
@@ -4240,7 +4940,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-12-combined-interest-rate-accounts-for-cos-8klu6o",
@@ -4263,7 +4967,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-if-the-inflation-rate-is-5-per-year-and-the--pglhij",
@@ -4286,7 +4994,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-lease-contract-requires-p1-5m-upon-signing-bv8p4y",
@@ -4309,7 +5021,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-machine-a-costs-p31-000-has-an-annual-operat-3wyhm0",
@@ -4332,7 +5048,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-engineer-invests-10-000-in-a-15-year-cert-1fnh7hd",
@@ -4355,7 +5075,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-find-the-equivalent-uniform-annual-withdrawa-1xzda0w",
@@ -4378,7 +5102,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-maintenance-costs-are-500-in-year--264l22",
@@ -4401,7 +5129,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-50-000-and-lasts-5-years-wit-7j5ong",
@@ -4424,7 +5156,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-savings-account-earns-6-per-year-compounde-1prghi8",
@@ -4447,7 +5183,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-ms-brown-deposits-1-000-at-the-end-of-year-1-1ytqbx4",
@@ -4470,7 +5210,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-small-machine-costing-p80-000-has-a-salvag-aqexfb",
@@ -4493,7 +5237,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-new-building-costs-p300m-40-yr-life-zero-s-nzawx9",
@@ -4516,7 +5264,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costing-p720-000-has-a-book-value--115ensl",
@@ -4539,7 +5291,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-costing-p620-000-has-a-life-of-10--1moshj9",
@@ -4562,7 +5318,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-p1-400-000-with-a-useful-lif-1hmhrn5",
@@ -4585,7 +5345,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costing-p500-000-has-a-life-of-10--lb3ygt",
@@ -4608,7 +5372,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-p1-500-000-and-has-a-salvage-17eykk1",
@@ -4631,7 +5399,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-p5-000-equipment-has-an-anticipated-p500-s-1rj7okl",
@@ -4654,7 +5426,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-costs-p500-000-plus-p30-000-for-in-5c583d",
@@ -4677,7 +5453,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-purchased-at-p285-000-has-a-salvag-1a6s4k1",
@@ -4700,7 +5480,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-machine-costs-p40-000-with-a-4-year-life-a-hmkmzd",
@@ -4723,7 +5507,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-coin-making-machine-costing-p200-000-has-a-c78w4c",
@@ -4746,7 +5534,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-new-machine-costs-160-000-has-a-useful-lif-1h7zxet",
@@ -4769,7 +5561,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-company-purchased-five-cutters-with-useful-mfk6tv",
@@ -4792,7 +5588,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-five-cutters-with-useful-lives-of-5-6-7-8-an-1dmigrw",
@@ -4815,7 +5615,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-contractor-can-buy-a-dump-truck-for-p800-0-1dob63b",
@@ -4838,7 +5642,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-corporation-uses-a-motor-truck-costing-p5--dm27zq",
@@ -4861,7 +5669,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-untreated-wooden-pole-lasting-10-years-co-1dagdpe",
@@ -4884,7 +5696,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-concrete-pavement-costs-p10-000-and-lasts-5--1pm9bo7",
@@ -4907,7 +5723,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-budgeted-maintenance-expenses-for-a-machine--db0odk",
@@ -4930,7 +5750,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-p180-000-was-spent-on-a-project-that-yields--10a4wn8",
@@ -4953,7 +5777,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-factory-was-constructed-with-a-fixed-capit-7siohi",
@@ -4976,7 +5804,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-machine-a-costs-p31-000-3-yr-life-p5-000-sal-1oxdz20",
@@ -4999,7 +5831,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-equipment-a-costs-p50-000-5-yr-life-p2-000-s-1nc2bzu",
@@ -5022,7 +5858,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-generator-bought-for-p150-000-plus-p4-000--10vvzzl",
@@ -5045,7 +5885,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-investment-of-50-000-at-year-0-yields-cas-ji9ncw",
@@ -5068,7 +5912,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-old-pump-has-a-current-market-value-of-1--olkyee",
@@ -5091,7 +5939,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-communication-cable-wire-can-be-tinned-p0-25-z882e5",
@@ -5114,7 +5966,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-an-item-sells-for-p63-unit-with-p10-labor-p1-1h2wj0i",
@@ -5137,7 +5993,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-company-produces-a-timing-switch-with-fixe-1qprr7f",
@@ -5160,7 +6020,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-project-that-yields-annual-benefits-of-p75-7bdjij",
@@ -5183,7 +6047,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-if-the-benefit-cost-ratio-is-to-be-1-8-how-m-ht3s03",
@@ -5206,7 +6074,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-30-year-superhighway-costs-280m-to-build-a-rcrivp",
@@ -5229,7 +6101,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-public-works-project-has-total-present-wor-1btg2ts",
@@ -5252,7 +6128,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     },
     {
       "id": "msthc-a-proposed-manufacturing-plant-requires-p8-0-vjolty",
@@ -5275,7 +6155,11 @@
       "explanation_tl": "",
       "difficulty": "",
       "source": "",
-      "year": ""
+      "year": "",
+      "trap_a": "",
+      "trap_b": "",
+      "trap_c": "",
+      "trap_d": ""
     }
   ]
 }
