@@ -90,6 +90,15 @@ Write math between dollar signs in questions, choices, solutions, flashcards and
 * Admin > **Item analytics** shows how each question performs and the most chosen wrong answer. Students can report a problem with any item.
 * Admin > **Reviewees** has batches, an at-risk filter (inactive 7+ days, or below 50 in a subject) and CSV export. Announcements can be sent to one batch.
 
+### Integrity warnings (timed assessments)
+Diagnostics, quizzes and mocks always run in integrity mode. When a student leaves the page for more than 4 seconds, they get a full-screen warning on return, with your first, second and third warning sounds (`files/sounds/`). The tab title flashes while they are away. The third warning flags the attempt, and the flag and leave count show in Admin > Results and on the reviewee's page. Nothing is auto-submitted unless the student turned on strict mode.
+
+### Resetting an assessment and XP
+A reset now also removes the XP that attempt earned (exact for attempts taken from this version on, estimated for older ones), and the retake earns it again. Old results queued on the student's device can no longer reappear after a reset (run `supabase-v5.sql`).
+
+### Trap choices and the Trap notebook
+In the editor, each question has an optional "Trap choices" section: explain why a wrong choice is tempting. When a student picks that choice, they see your explanation right away in problem sets (or in the review after timed assessments), and the question is saved to Practice > Trap notebook, where they can retry it. CSV columns: `trap_a` to `trap_d`.
+
 ### Cross-device sync (v3)
 Progress, XP, profile, review-flow ticks and unfinished diagnostics are merged between devices automatically, with no button to press. Devices sync on login, every 30 seconds, when you return to the tab, and when the connection comes back. A cloud icon in the top bar shows the status. Run `supabase-v3.sql` once in Supabase.
 
