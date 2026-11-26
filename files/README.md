@@ -1,0 +1,119 @@
+# PONTIFEX site: GitHub setup
+
+## What is in this folder
+| Path | What it is |
+|---|---|
+| `index.html` | The whole site (achievements, skill tree, trophy case, redesign) |
+| `config.js` | Your Supabase keys, registration form, billing text. Fill it in, then commit |
+| `content.json` | Lessons, resources and flashcards (edited with the content editor) |
+| `content-editor.html` | Add content and upload PDFs from your browser |
+| `Badges/` | Your 30 badge PNGs, unchanged |
+| `files/` | Your PDFs go here (the editor uploads to this folder) |
+| `logo-*.png`, `app-icon-*.png`, `apple-touch-icon.png` | Logos and icons |
+| `.nojekyll` | Tells GitHub Pages to serve files as they are |
+
+## Put it on GitHub Pages
+1. Create a repository (for example `pontifex`).
+2. Upload everything in this folder, keeping the folder names exactly as they are (`Badges` with a capital B).
+3. Settings, then Pages, then Deploy from branch, `main`, root.
+4. Open `https://YOUR-USERNAME.github.io/pontifex/`.
+
+## Using the content editor
+Open `/content-editor.html` on your site.
+1. Create a fine-grained token at GitHub, Settings, Developer settings, Fine-grained tokens. Limit it to this repository with **Contents: Read and write**.
+2. Enter your username, repository, branch and token, then press **Load content.json from GitHub**.
+3. Add lessons, resources and flashcards. In **PDF uploader**, drop PDFs to upload them to `files/`, then pick them when adding a lesson or resource.
+4. In **Publish**, press **Commit content.json to GitHub**. No token? Use **Download content.json** and upload it to the repository by hand.
+
+## Showing badges to other players (optional)
+Run this once in the Supabase SQL editor, then add `badges` to the columns returned by your `get_leaderboard` function:
+
+    alter table profiles add column if not exists badges text default '';
+
+## If a badge image looks broken
+The folder must be named exactly `Badges`, because GitHub is case-sensitive. A badge file can be named either `Theory of Structure.png` or `The Unshaken Order - Theory of Structure.png`. Major badges can be `STRUCT.png` or `Vitruvius Badge - STRUCT.png`.
+
+
+## What changed in this update
+
+### Time limits and item counts
+| Activity | Time | Items |
+|---|---|---|
+| Diagnostic (each of the 6) | 2 hours | 30 |
+| PSAD mock | 6 hours | 75 |
+| MSTHC mock | 5 hours | 75 |
+| HGE mock | 4 hours | 50 |
+| Topic drill | 3 hours | 10 |
+| Quiz (topic or mixed) | 3 hours | 30 |
+
+If a bank has fewer questions than the target, the activity uses what exists. To change any number, add this to `config.js` (inside `window.PX_CONFIG`, minutes):
+
+    timing: { diagnostic: 120, mock: [360, 300, 240], drill: 180, quiz: 180 },
+    questionCounts: { diag: 30, quiz: 30, drill: 10 },
+
+`mock` is in the order PSAD, MSTHC, HGE. Mock question counts still come from `mockSizes`.
+
+### Situational problems and figure codes (CSV and editor)
+Two new optional columns: `situation` and `situation_text`.
+* Give every item of one situation the same `situation` code, for example `SIT-PSAD-01`. Type the situation statement once in `situation_text` (first row is enough).
+* The site shows the situation and its figure once, above its items ("Items 4 to 6"), and keeps those items together in quizzes and mocks.
+* `image` accepts figure codes. Name the file after the code and upload it to `files/figures/` (for example `FIG-PSAD-01.png`). The extension is found automatically (png, jpg, jpeg, webp, svg, gif). Names starting with `FIG-` show the code under the figure.
+* On a row with a `situation`, the `image` is shown once with the situation. On other rows it is shown with that question.
+
+### Review flow
+Students see it under Review > Review flow (free for everyone). To change it: content editor > Review flow tab > "Start from the recommended flow", edit, then Publish. Until you publish a flow, the built-in default (your list plus a few suggested additions) is shown.
+
+### Library search
+Library > Search. Students type a topic (short names like rcd, proba, strema, geo also work) and get the references, videos, tables, lessons and formulas linked to it. A reference appears under a topic when you pick that topic while adding the resource in the content editor.
+
+
+### Questions: where each one is used
+In the editor's **Question bank** tab, every question is placed in one or more of: **Problem set**, **Quiz**, **Mock exam**.
+* Problem sets use Problem set questions (with instant feedback after each answer).
+* Quizzes, drills and diagnostics use Quiz and Problem set questions.
+* Mock exams (and the Simulator) use Mock questions only.
+In a CSV use the `use` column: `set`, `quiz`, `mock`, separated by `|`. Leave it blank for all three.
+The same tab adds single questions and situations (a statement with several linked questions). Extra optional columns: `explanation_tl` (Filipino solution, students can switch language), `difficulty` (only you see it), `source`, `year`.
+
+### Math
+Write math between dollar signs in questions, choices, solutions, flashcards and formulas, for example `$\dfrac{wL^2}{8}$`. Use `$$...$$` for its own line. Prices like $500 stay plain text, and `\$` writes a dollar sign. The editor shows a live preview and a typing guide. The renderer (KaTeX) lives in `files/katex/`, so keep that folder.
+
+### Today card, confidence tags, answer key, formula sheet
+* Home shows a Today card with up to three suggestions. They are never required.
+* Students can tag each answer Sure, Unsure or Guess (private, can be switched off in Preferences).
+* Every finished assessment shows an answer key. Problem sets show the answer as the student answers each item.
+* Library > My formula sheet lets students tick formulas and print one page.
+* Profile > Devices and sync shows sync status and signed-in devices.
+
+### Community and admin (run `supabase-v4.sql`)
+* **Passers wall** and **Ask a problem** are in a Community group. Nothing appears for other students until you approve it in Admin > Moderation. Questions are limited to 3 a day, filtered for links, phone numbers and rude words, and can be reported.
+* Admin > **Item analytics** shows how each question performs and the most chosen wrong answer. Students can report a problem with any item.
+* Admin > **Reviewees** has batches, an at-risk filter (inactive 7+ days, or below 50 in a subject) and CSV export. Announcements can be sent to one batch.
+
+### Integrity warnings (timed assessments)
+Diagnostics, quizzes and mocks always run in integrity mode. When a student leaves the page for more than 4 seconds, they get a full-screen warning on return, with your first, second and third warning sounds (`files/sounds/`). The tab title flashes while they are away. The third warning flags the attempt, and the flag and leave count show in Admin > Results and on the reviewee's page. Nothing is auto-submitted unless the student turned on strict mode.
+
+### Resetting an assessment and XP
+A reset now also removes the XP that attempt earned (exact for attempts taken from this version on, estimated for older ones), and the retake earns it again. Old results queued on the student's device can no longer reappear after a reset (run `supabase-v5.sql`).
+
+### Trap choices and the Trap notebook
+In the editor, each question has an optional "Trap choices" section: explain why a wrong choice is tempting. When a student picks that choice, they see your explanation right away in problem sets (or in the review after timed assessments), and the question is saved to Practice > Trap notebook, where they can retry it. CSV columns: `trap_a` to `trap_d`.
+
+### Cross-device sync (v3)
+Progress, XP, profile, review-flow ticks and unfinished diagnostics are merged between devices automatically, with no button to press. Devices sync on login, every 30 seconds, when you return to the tab, and when the connection comes back. A cloud icon in the top bar shows the status. Run `supabase-v3.sql` once in Supabase.
+
+### Situations (CSV and editor)
+Use the editor's **Situation builder** tab, or the CSV columns `situation` and `situation_text`. All items that share a situation code appear together under "Situation N" with the problem statement and figure shown once. Single problems, terminology and other items need no situation code.
+
+### Figures
+Every figure appears in the same white box. Only items with an `image` code show one. Name the file after its code (FIG-PSAD-001.png) and upload it to `files/figures/`.
+
+### Problem sets
+Each answer is checked as soon as it is chosen: the correct answer and your solution appear under that item, and it locks. Quizzes, diagnostics and mocks still reveal answers at the end only.
+
+### Announcements and admin
+Students see Announcements (Important, General, New features, Lessons added, Schedule, Tips) with an unread badge. Admin > Announcements posts and removes them. Admin > Results shows every student's results; click a student for XP, answers, study time and unfinished exams, and use Reset to let them retake a diagnostic or quiz. All of this needs `supabase-v3.sql`.
+
+
+### Clean slate (question bank)
+The built-in sample questions were removed. The site now shows only the questions you upload (Content editor > CSV import or Situation builder, then Publish). Until you upload some, every test says "No questions have been added here yet." The cross-subject Mixed sets tab was removed. The old bank is saved in `old-question-bank-backup.csv` and can be re-imported with the same CSV importer if you ever want it back.
