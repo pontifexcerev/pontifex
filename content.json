@@ -2063,36 +2063,6 @@
       "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
     },
     {
-      "id": "msthc-earth-moving-equipment-costing-p90-000-has-a-1fr3sch",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "Earth-moving equipment costing P90,000 has an estimated salvage value of P1,800 at the end of 8 years. Compute its book value at the end of Year 3 using the Modified Accelerated Cost Recovery System (MACRS) method.",
-      "choices": [
-        "P44,296.88",
-        "P45,703.13",
-        "P37,968.75",
-        "P45,187.50"
-      ],
-      "answer": "A",
-      "explanation": "D1 = 11,250; D2 = 19,687.50; D3 = 14,765.63; BV3 = 90,000 - 45,703.13 = P44,296.88",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "Omitted half-year convention in Year 1 or used standard DDB.",
-      "trap_c": "P37,968.75 uses standard DDB",
-      "trap_d": "Omitted half-year convention in Year 1 or used standard DDB."
-    },
-    {
       "id": "msthc-abc-corporation-makes-it-a-policy-that-for-a-1udsrxt",
       "subject": "MSTHC",
       "topic": "Engineering economics",
@@ -2661,36 +2631,6 @@
       "trap_b": "Omitted salvage value or miscounted elapsed depreciation years.",
       "trap_c": "",
       "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
-    },
-    {
-      "id": "msthc-equipment-worth-p5-000-has-an-anticipated-sa-18k0g1g",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "Equipment worth P5,000 has an anticipated salvage value of P500 at the end of its 5-year depreciable life. Compute the depreciation on the 3rd year only using the MACRS method.",
-      "choices": [
-        "P960.00",
-        "P720.00",
-        "P900.00",
-        "P864.00"
-      ],
-      "answer": "A",
-      "explanation": "D1 = 1,000; D2 = 1,600; D3 = 0.4*(5,000 - 2,600) = P960",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "P720 is DDB",
-      "trap_c": "P900 is SYD",
-      "trap_d": "Omitted half-year convention in Year 1 or used standard DDB."
     },
     {
       "id": "msthc-a-machine-costs-p900-000-and-will-have-a-sal-e0nvps",
@@ -4782,36 +4722,6 @@
       "trap_d": "Used discrete annual compounding instead of continuous compounding (Pe^rt)."
     },
     {
-      "id": "msthc-at-what-continuous-flow-rate-dollars-per-yea-1gidyz7",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "At what continuous flow rate (dollars per year) must funds be added to a savings account to accumulate $10,000 in 15 years at 5% per year, compounded continuously?",
-      "choices": [
-        "$447.63/yr",
-        "$459.00/yr",
-        "$463.42/yr",
-        "$436.50/yr"
-      ],
-      "answer": "A",
-      "explanation": "A_bar = F * r / (e^(r*n) - 1) = 10,000 * 0.05 / (e^0.75 - 1) = $447.63/yr",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "$459.00 is discrete annual payment",
-      "trap_c": "Used discrete annual compounding instead of continuous compounding (Pe^rt).",
-      "trap_d": "Used discrete annual compounding instead of continuous compounding (Pe^rt)."
-    },
-    {
       "id": "msthc-a-man-paid-a-10-down-payment-of-p200-000-for-172i2lm",
       "subject": "MSTHC",
       "topic": "Engineering economics",
@@ -5532,36 +5442,6 @@
       "trap_d": "Omitted the inflation-interest cross term (i*f) or inverted (1 + f)."
     },
     {
-      "id": "msthc-an-engineer-invests-10-000-in-a-15-year-cert-1fnh7hd",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "An engineer invests $10,000 in a 15-year certificate paying 8% compounded annually. He is in the 32% tax bracket and inflation is 6% per year. What is the real value of his investment in today's dollars at maturity?",
-      "choices": [
-        "$9,236.61",
-        "$13,236.35",
-        "$10,000.00",
-        "$8,412.50"
-      ],
-      "answer": "A",
-      "explanation": "theta = [(1 - 0.32)*(0.08) - 0.06] / 1.06 = -0.005283; F = 10,000*(1 - 0.005283)^15 = $9,236.61",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "$13,236.35 ignores taxes",
-      "trap_c": "Omitted the inflation-interest cross term (i*f) or inverted (1 + f).",
-      "trap_d": "Omitted the inflation-interest cross term (i*f) or inverted (1 + f)."
-    },
-    {
       "id": "msthc-find-the-equivalent-uniform-annual-withdrawa-1xzda0w",
       "subject": "MSTHC",
       "topic": "Engineering economics",
@@ -5922,66 +5802,6 @@
       "trap_d": "Used wrong remaining-life numerator or omitted salvage value."
     },
     {
-      "id": "msthc-a-p5-000-equipment-has-an-anticipated-p500-s-1rj7okl",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "A P5,000 equipment has an anticipated P500 salvage value at the end of its 5-year depreciable life. Compute the depreciation on the 3rd year using MACRS (half-year convention).",
-      "choices": [
-        "P960.00",
-        "P720.00",
-        "P900.00",
-        "P864.00"
-      ],
-      "answer": "A",
-      "explanation": "D1 = 0.5*(2/5)*5,000 = 1,000; D2 = 0.4*(4,000) = 1,600; D3 = 0.4*(2,400) = P960",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "P720 is DDB",
-      "trap_c": "P900 is SYD",
-      "trap_d": "Omitted half-year convention in Year 1 or used standard DDB."
-    },
-    {
-      "id": "msthc-equipment-costs-p500-000-plus-p30-000-for-in-5c583d",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "Equipment costs P500,000 plus P30,000 for installation, with a salvage value equal to 10% of equipment cost at the end of 5 years. Compute the book value at the end of the 3rd year using MACRS.",
-      "choices": [
-        "P152,640",
-        "P377,360",
-        "P114,480",
-        "P146,000"
-      ],
-      "answer": "A",
-      "explanation": "FC = 530,000; D1 = 106,000; D2 = 169,600; D3 = 101,760; BV_3 = 530,000 - 377,360 = P152,640",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "P377,360 is total depreciation",
-      "trap_c": "P114,480 is DDB",
-      "trap_d": "Omitted half-year convention in Year 1 or used standard DDB."
-    },
-    {
       "id": "msthc-equipment-purchased-at-p285-000-has-a-salvag-1a6s4k1",
       "subject": "MSTHC",
       "topic": "Engineering economics",
@@ -6069,96 +5889,6 @@
       "trap_a": "",
       "trap_b": "Omitted salvage value or miscounted elapsed depreciation years.",
       "trap_c": "P108,000 is 2-yr cumulative",
-      "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
-    },
-    {
-      "id": "msthc-a-new-machine-costs-160-000-has-a-useful-lif-1h7zxet",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "A new machine costs $160,000, has a useful life of 10 years, and sells for $15,000 at retirement, though $5,000 will be spent to dismantle and remove it. Find the annual straight-line depreciation.",
-      "choices": [
-        "$15,000",
-        "$14,500",
-        "$14,000",
-        "$16,000"
-      ],
-      "answer": "A",
-      "explanation": "Net SV = 15,000 - 5,000 = $10,000; SD = (160,000 - 10,000)/10 = $15,000",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "$14,500 ignores dismantling",
-      "trap_c": "$14,000 adds dismantling cost to SV",
-      "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
-    },
-    {
-      "id": "msthc-a-company-purchased-five-cutters-with-useful-mfk6tv",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "A company purchased five cutters with useful lives of 5, 6, 7, 8, and 10 years costing $10,000, $12,000, $13,000, $14,000, and $16,000, respectively, each with a $500 salvage value. Compute the annual straight-line group depreciation charge.",
-      "choices": [
-        "$8,680.56",
-        "$8,839.88",
-        "$9,027.78",
-        "$8,500.00"
-      ],
-      "answer": "A",
-      "explanation": "Group adjusted cost = $65,000 - 5($500) = $62,500; Group life = (5+6+7+8+10)/5 = 7.2 yrs; Group SD = 62,500 / 7.2 = $8,680.56",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "$8,839.88 is composite dep",
-      "trap_c": "Omitted salvage value or miscounted elapsed depreciation years.",
-      "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
-    },
-    {
-      "id": "msthc-five-cutters-with-useful-lives-of-5-6-7-8-an-1dmigrw",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "Five cutters with useful lives of 5, 6, 7, 8, and 10 years cost $10,000, $12,000, $13,000, $14,000, and $16,000, respectively, each with a $500 salvage value. Compute the composite annual straight-line depreciation charge.",
-      "choices": [
-        "$8,839.88",
-        "$8,680.56",
-        "$9,185.12",
-        "$8,450.00"
-      ],
-      "answer": "A",
-      "explanation": "Sum individual SDs: 9,500/5 + 11,500/6 + 12,500/7 + 13,500/8 + 15,500/10 = $8,839.88",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "$8,680.56 is group depreciation",
-      "trap_c": "Omitted salvage value or miscounted elapsed depreciation years.",
       "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
     },
     {
@@ -6492,36 +6222,6 @@
       "trap_d": "Incorrect compounding period or formula factor."
     },
     {
-      "id": "msthc-an-old-pump-has-a-current-market-value-of-1--olkyee",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "An old pump has a current market value of $1,200 and an EUAC of $1,852.18 over its remaining 4 years, while a new pump has an EUAC of $1,368.52 over its 7-year economic life. At MARR = 15%, compute the Comparative Use Value (CUV) of the old pump.",
-      "choices": [
-        "-$181.00",
-        "$1,200.00",
-        "$2,581.00",
-        "-$1,381.00"
-      ],
-      "answer": "A",
-      "explanation": "CUV = 1,200 + (1,368.52 - 1,852.18)*(P/A, 15%, 4) = 1,200 - 483.66*(2.85498) = -$181.00",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "-$1,381.00 forgets adding current market value $1,200",
-      "trap_c": "Incorrect compounding period or formula factor.",
-      "trap_d": "Incorrect compounding period or formula factor."
-    },
-    {
       "id": "msthc-communication-cable-wire-can-be-tinned-p0-25-z882e5",
       "subject": "MSTHC",
       "topic": "Engineering economics",
@@ -6579,36 +6279,6 @@
       "trap_a": "",
       "trap_b": "334 units ignores defects",
       "trap_c": "Omitted fixed overhead or used revenue-maximizing instead of profit-maximizing volume.",
-      "trap_d": "Omitted fixed overhead or used revenue-maximizing instead of profit-maximizing volume."
-    },
-    {
-      "id": "msthc-a-company-produces-a-timing-switch-with-fixe-1qprr7f",
-      "subject": "MSTHC",
-      "topic": "Engineering economics",
-      "category": "problem",
-      "question": "A company produces a timing switch with fixed cost $73,000/month, variable cost $83/unit, and unit selling price p = $180 - 0.02D. Determine the optimal monthly volume D* that maximizes profit.",
-      "choices": [
-        "2,425 units/mo",
-        "4,500 units/mo",
-        "932 units/mo",
-        "3,918 units/mo"
-      ],
-      "answer": "A",
-      "explanation": "D* = (a - c_v) / (2b) = (180 - 83) / (2 * 0.02) = 2,425 units/mo",
-      "image": [],
-      "situation": "",
-      "situation_text": "",
-      "use": [
-        "set",
-        "quiz"
-      ],
-      "explanation_tl": "",
-      "difficulty": "",
-      "source": "",
-      "year": "",
-      "trap_a": "",
-      "trap_b": "4,500 maximizes revenue",
-      "trap_c": "932 and 3,918 are breakeven points",
       "trap_d": "Omitted fixed overhead or used revenue-maximizing instead of profit-maximizing volume."
     },
     {
@@ -6760,6 +6430,336 @@
       "trap_b": "Omitted salvage value or miscounted elapsed depreciation years.",
       "trap_c": "4.75 yrs is recovery period",
       "trap_d": "Omitted salvage value or miscounted elapsed depreciation years."
+    },
+    {
+      "id": "msthc-a-machine-costing-p45-000-will-be-retired-4e1320c",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A machine costing P45,000 will be retired at the end of 6 years. Depreciation cost is computed using a constant percentage of the declining book value at an annual rate of 32.25%. What is the total depreciation in 6 years?",
+      "choices": [
+        "P40,648",
+        "P4,352",
+        "P30,488",
+        "P14,513"
+      ],
+      "answer": "A",
+      "explanation": "SV = 45,000*(1 - 0.3225)^6 = P4,352; Total Dep = 45,000 - 4,352 = P40,648.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "P4,352 is the salvage value at year 6.",
+      "trap_c": "Uses 5 years instead of 6 years.",
+      "trap_d": "Multiplies 45,000 by 0.3225 directly."
+    },
+    {
+      "id": "msthc-a-machine-costing-p100-000-has-an-estimate-22eb01e",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A machine costing P100,000 has an estimated scrap value of P10,000 at the end of its economic life of 10 years. Determine the book value at the end of 5 years using the double-declining balance method.",
+      "choices": [
+        "P32,768",
+        "P29,491",
+        "P40,960",
+        "P50,000"
+      ],
+      "answer": "A",
+      "explanation": "k = 2/10 = 0.20; BV_5 = 100,000*(1 - 0.20)^5 = P32,768.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Subtracts salvage value before compounding: 90,000*(0.80)^5.",
+      "trap_c": "Book value at year 4 instead of year 5.",
+      "trap_d": "Uses straight-line depreciation instead of DDB."
+    },
+    {
+      "id": "msthc-a-lady-executive-deposits-p50-000-at-the-e-bd4a37e",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A lady executive deposits P50,000 at the end of each year in an account that pays 6% per annum, compounded continuously. How many years will it take her to accumulate P1,000,000?",
+      "choices": [
+        "13.42 years",
+        "13.59 years",
+        "12.85 years",
+        "14.10 years"
+      ],
+      "answer": "A",
+      "explanation": "1,000,000 = 50,000*(e^(0.06*t) - 1)/(e^0.06 - 1) -> e^(0.06*t) = 2.23673 -> t = 13.42 years.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Uses discrete annual compounding instead of continuous.",
+      "trap_c": "Uses e^0.06 - 1 = 0.06 without continuous formula.",
+      "trap_d": "Rounds up to next integer year."
+    },
+    {
+      "id": "msthc-a-10-combined-rate-of-interest-can-take-ca-12c1606",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A 10% combined rate of interest can take care of the cost of money and inflation. If the inflation rate is 6%, find the real (nominal) rate of interest.",
+      "choices": [
+        "3.77%",
+        "4.00%",
+        "16.60%",
+        "3.40%"
+      ],
+      "answer": "A",
+      "explanation": "1 + i_c = (1 + i)(1 + f) -> 1.10 = (1 + i)(1.06) -> i = 0.04 / 1.06 = 3.77%.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Subtracts directly (10% - 6%) ignoring the i*f cross-term.",
+      "trap_c": "Adds the rates instead of solving for real rate.",
+      "trap_d": "Divides 0.04 by 1.10 instead of 1.06."
+    },
+    {
+      "id": "msthc-a-new-building-costs-p300m-40-yr-life-zero-4fed386",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A new building costs P300M (40-yr life, zero salvage) and its equipment costs P50M (x-yr life, P5M salvage). Using the straight-line method, the combined book value after 10 years is P245M. Find the useful life x of the equipment.",
+      "choices": [
+        "15 years",
+        "12 years",
+        "10 years",
+        "20 years"
+      ],
+      "answer": "A",
+      "explanation": "245 = (300 - 75) + [50 - 10*(50 - 5)/x] -> 20 = 50 - 450/x -> x = 15 years.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Omits the P5M salvage value of equipment.",
+      "trap_c": "Confuses elapsed years (10) with total useful life.",
+      "trap_d": "Divides 500 by 25."
+    },
+    {
+      "id": "msthc-a-machine-costing-p1-800-000-has-a-life-of-2153279",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A machine costing P1,800,000 has a life of 8 years. Using the straight-line method, the total depreciation at the end of the 4th year is P800,000. Determine the salvage value of the machine.",
+      "choices": [
+        "P200,000",
+        "P100,000",
+        "P1,000,000",
+        "P400,000"
+      ],
+      "answer": "A",
+      "explanation": "800,000 = 4*(1,800,000 - SV)/8 -> 1,800,000 - SV = 1,600,000 -> SV = P200,000.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Divides P800,000 by 8 instead of 4.",
+      "trap_c": "Book value at year 4 (1,800,000 - 800,000).",
+      "trap_d": "Twice the annual depreciation."
+    },
+    {
+      "id": "msthc-a-cutting-machine-costing-p8-000-has-a-lif-0b35ada",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A cutting machine costing P8,000 has a life of 8 years and a salvage value of P400. Using the straight-line method, determine its book value at the end of 5 years.",
+      "choices": [
+        "P3,250",
+        "P4,750",
+        "P3,000",
+        "P5,000"
+      ],
+      "answer": "A",
+      "explanation": "Annual dep = (8,000 - 400)/8 = P950; BV_5 = 8,000 - 5(950) = P3,250.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Total accumulated depreciation after 5 years (5 * 950).",
+      "trap_c": "Omits salvage value (8,000 - 5*1,000).",
+      "trap_d": "Uses 3 remaining years on unadjusted cost."
+    },
+    {
+      "id": "msthc-equipment-purchased-at-p285-000-has-a-salv-0b55bbe",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "Equipment purchased at P285,000 has a salvage value of P30,000 at the end of its 5-year economic life. If money is worth 16% per year, determine the total accumulated depreciation at the end of the 5th year using the sinking fund method.",
+      "choices": [
+        "P255,000",
+        "P285,000",
+        "P37,079",
+        "P217,921"
+      ],
+      "answer": "A",
+      "explanation": "At the end of its 5-year life, total accumulated depreciation equals FC - SV = 285,000 - 30,000 = P255,000.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "First cost without deducting salvage value.",
+      "trap_c": "Annual sinking fund deposit instead of total depreciation.",
+      "trap_d": "Accumulated depreciation at year 4."
+    },
+    {
+      "id": "msthc-a-machine-costing-p500-000-has-a-life-of-1-7fc8921",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "A machine costing P500,000 has a life of 10 years. Using the sum-of-years'-digits method, the total depreciation at the end of 3 years is P209,127.27. Determine the salvage value.",
+      "choices": [
+        "P74,000",
+        "P69,709",
+        "P290,873",
+        "P80,000"
+      ],
+      "answer": "A",
+      "explanation": "SY = 55; 209,127.27 = ((10 + 9 + 8)/55)*(500,000 - SV) -> 500,000 - SV = 426,000 -> SV = P74,000.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Annual average depreciation over 3 years.",
+      "trap_c": "Book value at the end of year 3.",
+      "trap_d": "Rounds depreciable base to P420,000."
+    },
+    {
+      "id": "msthc-f-f-cruz-construction-needs-heavy-duty-tru-7a8a536",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "F.F. Cruz Construction needs heavy-duty trucks. Truck A has a first cost of P1,200,000, life of 4 years, salvage value of P100,000, and annual maintenance of P180,000. At a minimum return of 18%, compute the present worth cost of Truck A over an 8-year study period.",
+      "choices": [
+        "P2,474,726",
+        "P1,880,750",
+        "P2,527,934",
+        "P2,441,421"
+      ],
+      "answer": "A",
+      "explanation": "PW = 1,200,000 + (1,200,000 - 100,000)/(1.18^4) - 100,000/(1.18^8) + 180,000*(1 - 1.18^-8)/0.18 = P2,474,726.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Evaluates only a single 4-year cycle without replacement.",
+      "trap_c": "Forgets to deduct salvage value at year 4 and year 8.",
+      "trap_d": "Present worth cost of competing Truck B."
+    },
+    {
+      "id": "msthc-based-on-monthly-production-data-cost-of-m-c868552",
+      "subject": "MSTHC",
+      "topic": "Engineering economics",
+      "category": "problem",
+      "question": "Based on monthly production data: cost of materials is P42/unit, labor is P48/unit, other variable costs are P2.25/unit, fixed expenses are P188,480/month, and selling price is P195/unit. Determine the number of units to be produced monthly to break even.",
+      "choices": [
+        "1,835 units",
+        "1,795 units",
+        "967 units",
+        "1,928 units"
+      ],
+      "answer": "A",
+      "explanation": "42x + 48x + 2.25x + 188,480 = 195x -> 102.75x = 188,480 -> x = 1,834.36 -> 1,835 units.",
+      "image": [],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Omits P2.25/unit other variable cost.",
+      "trap_c": "Divides fixed cost by selling price (188,480 / 195).",
+      "trap_d": "Subtracted P2.25 instead of adding to variable cost."
     }
   ]
 }
