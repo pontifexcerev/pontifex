@@ -6044,7 +6044,7 @@
         "$126.5\\text{ lb}$ at $67.0^\\circ$ down and to the left"
       ],
       "answer": "A",
-      "explanation": "1. Cable angles from the downward vertical pole $AC$:\n   $\\alpha = \\tan^{-1}(8/10) = 38.66^\\circ$ ($51.34^\\circ$ below the negative $x$-axis)\n   $\\beta = \\tan^{-1}(6/10) = 30.96^\\circ$ ($59.04^\\circ$ below the positive $x$-axis)\n\n2. Interior angle of the force triangle:\n   Total angle between cables = $38.66^\\circ + 30.96^\\circ = 69.62^\\circ$\n   Interior angle = $180^\\circ - 69.62^\\circ = 110.38^\\circ$\n\n3. Magnitude of resultant (Law of Cosines):\n   $R = \\sqrt{120^2 + 40^2 - 2(120)(40)\\cos(110.38^\\circ)} = 139.08\\text{ lb} \\approx 139.1\\text{ lb}$\n\n4. Direction of resultant (Law of Sines):\n   $\\gamma = \\sin^{-1}\\left(\\frac{40\\sin 110.38^\\circ}{139.08}\\right) = 15.63^\\circ$\n   $\\theta = 51.34^\\circ + 15.63^\\circ = 67.0^\\circ$ down and to the left",
+      "explanation": "1. Cable angles from the downward vertical pole AC:\n   $\\alpha = \\tan^{-1}(8/10) = 38.66^\\circ$ ($51.34^\\circ$ below the negative x-axis)\n   $\\beta = \\tan^{-1}(6/10) = 30.96^\\circ$ ($59.04^\\circ$ below the positive x-axis)\n\n2. Interior angle of the force triangle:\n   Total angle between cables = $38.66^\\circ + 30.96^\\circ = 69.62^\\circ$\n   Interior angle = $180^\\circ - 69.62^\\circ = 110.38^\\circ$\n\n3. Magnitude of resultant (Law of Cosines):\n   $R = \\sqrt{120^2 + 40^2 - 2(120)(40)\\cos(110.38^\\circ)} = 139.08\\text{ lb} \\approx 139.1\\text{ lb}$\n\n4. Direction of resultant (Law of Sines):\n   $\\gamma = \\sin^{-1}\\left(\\frac{40\\sin 110.38^\\circ}{139.08}\\right) = 15.63^\\circ$\n   $\\theta = 51.34^\\circ + 15.63^\\circ = 67.0^\\circ$ down and to the left",
       "image": [
         "files/figures/927501798_29324659990531614_4072890145984041810_n"
       ],
@@ -6060,7 +6060,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Sign-Error Trap: Uses $69.62^\\circ$ instead of the supplementary interior angle $110.38^\\circ$ in the subtraction form of the Law of Cosines ($R = \\sqrt{120^2 + 40^2 - 2(120)(40)\\cos(69.62^\\circ)} = 112.5\\text{ lb}$), which corresponds to subtracting the vectors ($\\mathbf{T}_{AB} - \\mathbf{T}_{AD}$) rather than adding them.",
-      "trap_c": "Complementary Angle Trap: Solves the resultant magnitude properly ($139.1\\text{ lb}$) but measures the direction from the vertical pole $AC$ ($90^\\circ - 67.0^\\circ = 23.0^\\circ$) instead of from the horizontal.",
+      "trap_c": "Complementary Angle Trap: Solves the resultant magnitude properly ($139.1\\text{ lb}$) but measures the direction from the vertical pole AC ($90^\\circ - 67.0^\\circ = 23.0^\\circ$) instead of from the horizontal.",
       "trap_d": "Right-Triangle Assumption Trap: Assumes the two cables are perpendicular to each other ($90^\\circ$ between forces) and applies the Pythagorean theorem ($R = \\sqrt{120^2 + 40^2} = 126.5\\text{ lb}$)."
     },
     {
@@ -6108,7 +6108,7 @@
         "$75.1^\\circ$ down and to the left"
       ],
       "answer": "B",
-      "explanation": "1. Angle $\\alpha$ between force $P$ and resultant $R$ (Law of Sines):\n   $\\alpha = \\sin^{-1}\\left(\\frac{125\\sin 125^\\circ}{178.9}\\right) = 34.9^\\circ$\n\n2. Angle from the downward vertical:\n   $\\theta_v = 34.9^\\circ - 20^\\circ = 14.9^\\circ$ to the right\n\n3. Angle measured from the horizontal:\n   $\\theta_h = 90^\\circ - 14.9^\\circ = 75.1^\\circ$ down and to the right",
+      "explanation": "1. Angle $\\alpha$ between force P and resultant R (Law of Sines):\n   $\\alpha = \\sin^{-1}\\left(\\frac{125\\sin 125^\\circ}{178.9}\\right) = 34.9^\\circ$\n\n2. Angle from the downward vertical:\n   $\\theta_v = 34.9^\\circ - 20^\\circ = 14.9^\\circ$ to the right\n\n3. Angle measured from the horizontal:\n   $\\theta_h = 90^\\circ - 14.9^\\circ = 75.1^\\circ$ down and to the right",
       "image": [],
       "situation": "SIT-PSAD-001",
       "situation_text": "",
@@ -6138,7 +6138,7 @@
         "$77.6\\text{ lb}$ at $85.0^\\circ$ down and to the right"
       ],
       "answer": "A",
-      "explanation": "1. Magnitude of resultant (Law of Cosines):\n   Interior angle = $180^\\circ - (20^\\circ + 35^\\circ) = 125^\\circ$\n   $R = \\sqrt{60^2 + 25^2 - 2(60)(25)\\cos(125^\\circ)} = 77.6\\text{ lb}$\n\n2. Angle $\\alpha$ between force $P$ and resultant $R$ (Law of Sines):\n   $\\alpha = \\sin^{-1}\\left(\\frac{25\\sin 125^\\circ}{77.6}\\right) = 15.3^\\circ$\n\n3. Direction from the horizontal:\n   Angle from vertical = $20^\\circ - 15.3^\\circ = 4.7^\\circ \\approx 5.0^\\circ$ to the left\n   $\\theta_h = 90^\\circ - 5.0^\\circ = 85.0^\\circ$ down and to the left",
+      "explanation": "1. Magnitude of resultant (Law of Cosines):\n   Interior angle = $180^\\circ - (20^\\circ + 35^\\circ) = 125^\\circ$\n   $R = \\sqrt{60^2 + 25^2 - 2(60)(25)\\cos(125^\\circ)} = 77.6\\text{ lb}$\n\n2. Angle $\\alpha$ between force P and resultant R (Law of Sines):\n   $\\alpha = \\sin^{-1}\\left(\\frac{25\\sin 125^\\circ}{77.6}\\right) = 15.3^\\circ$\n\n3. Direction from the horizontal:\n   Angle from vertical = $20^\\circ - 15.3^\\circ = 4.7^\\circ \\approx 5.0^\\circ$ to the left\n   $\\theta_h = 90^\\circ - 5.0^\\circ = 85.0^\\circ$ down and to the left",
       "image": [],
       "situation": "SIT-PSAD-001",
       "situation_text": "",
@@ -6168,12 +6168,12 @@
         "$1545\\text{ N}$"
       ],
       "answer": "B",
-      "explanation": "1. Horizontal equilibrium condition ($\\sum F_x = 0$):\n   $P\\sin 25^\\circ = 1600\\cos 15^\\circ$\n\n2. Solve for $P$:\n   $P = \\frac{1545.48}{0.4226} = 3657\\text{ N} \\approx 3660\\text{ N}$",
+      "explanation": "1. Horizontal equilibrium condition ($\\sum F_x = 0$):\n   $P\\sin 25^\\circ = 1600\\cos 15^\\circ$\n\n2. Solve for P:\n   $P = \\frac{1545.48}{0.4226} = 3657\\text{ N} \\approx 3660\\text{ N}$",
       "image": [
         "files/figures/72d81266-35b9-4aa8-8635-b6b273c3b981"
       ],
       "situation": "SIT-PSAD-002",
-      "situation_text": "A trolley that moves along a horizontal beam is acted upon by two forces at point $A$: a $1600\\text{ N}$ force directed $15^\\circ$ below the horizontal to the left, and a force P directed at an angle $\\alpha$ to the right of the downward vertical.",
+      "situation_text": "A trolley that moves along a horizontal beam is acted upon by two forces at point A: a $1600\\text{ N}$ force directed $15^\\circ$ below the horizontal to the left, and a force P directed at an angle $\\alpha$ to the right of the downward vertical.",
       "use": [
         "set",
         "quiz"
@@ -6200,7 +6200,7 @@
         "$4910\\text{ N}$"
       ],
       "answer": "B",
-      "explanation": "1. Vertical component of the $1600\\text{ N}$ force:\n   $F_{1y} = 1600\\sin 15^\\circ = 414.11\\text{ N}$ (downward)\n\n2. Vertical component of force $P$:\n   $P_y = 3656.92\\cos 25^\\circ = 3314.30\\text{ N}$ (downward)\n\n3. Total downward resultant:\n   $R = 414.11 + 3314.30 = 3728.4\\text{ N} \\approx 3730\\text{ N}$",
+      "explanation": "1. Vertical component of the $1600\\text{ N}$ force:\n   $F_{1y} = 1600\\sin 15^\\circ = 414.11\\text{ N}$ (downward)\n\n2. Vertical component of force P:\n   $P_y = 3656.92\\cos 25^\\circ = 3314.30\\text{ N}$ (downward)\n\n3. Total downward resultant:\n   $R = 414.11 + 3314.30 = 3728.4\\text{ N} \\approx 3730\\text{ N}$",
       "image": [],
       "situation": "SIT-PSAD-002",
       "situation_text": "",
@@ -6230,7 +6230,7 @@
         "$3090\\text{ N}$ at $\\alpha = 30.1^\\circ$"
       ],
       "answer": "A",
-      "explanation": "1. Horizontal equilibrium ($\\sum F_x = 0$):\n   $P\\sin\\alpha = 1600\\cos 15^\\circ = 1545.48\\text{ N}$\n\n2. Vertical equilibrium ($\\sum F_y = 2500\\text{ N}$ downward):\n   $P\\cos\\alpha = 2500 - 1600\\sin 15^\\circ = 2500 - 414.11 = 2085.89\\text{ N}$\n\n3. Solve for angle $\\alpha$ and magnitude $P$:\n   $\\tan\\alpha = \\frac{1545.48}{2085.89} = 0.7409 \\implies \\alpha = 36.5^\\circ \\approx 36.6^\\circ$\n   $P = \\sqrt{(1545.48)^2 + (2085.89)^2} = 2596\\text{ N} \\approx 2600\\text{ N}$",
+      "explanation": "1. Horizontal equilibrium ($\\sum F_x = 0$):\n   $P\\sin\\alpha = 1600\\cos 15^\\circ = 1545.48\\text{ N}$\n\n2. Vertical equilibrium ($\\sum F_y = 2500\\text{ N}$ downward):\n   $P\\cos\\alpha = 2500 - 1600\\sin 15^\\circ = 2500 - 414.11 = 2085.89\\text{ N}$\n\n3. Solve for angle $\\alpha$ and magnitude P:\n   $\\tan\\alpha = \\frac{1545.48}{2085.89} = 0.7409 \\implies \\alpha = 36.5^\\circ \\approx 36.6^\\circ$\n   $P = \\sqrt{(1545.48)^2 + (2085.89)^2} = 2596\\text{ N} \\approx 2600\\text{ N}$",
       "image": [],
       "situation": "SIT-PSAD-002",
       "situation_text": "",
@@ -6252,7 +6252,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Knowing that $\\alpha = 20^\\circ$, determine the required magnitude of the force P if the resultant R of the two forces applied at $A$ is to be vertical.",
+      "question": "Knowing that $\\alpha = 20^\\circ$, determine the required magnitude of the force P if the resultant R of the two forces applied at A is to be vertical.",
       "choices": [
         "$621\\text{ lb}$",
         "$392\\text{ lb}$",
@@ -6260,7 +6260,7 @@
         "$368\\text{ lb}$"
       ],
       "answer": "B",
-      "explanation": "1. Horizontal equilibrium condition ($\\sum F_x = 0$):\n   $P\\cos 20^\\circ = 425\\cos 30^\\circ$\n\n2. Solve for $P$:\n   $P = \\frac{368.06}{0.9397} = 391.7\\text{ lb} \\approx 392\\text{ lb}$",
+      "explanation": "1. Horizontal equilibrium condition ($\\sum F_x = 0$):\n   $P\\cos 20^\\circ = 425\\cos 30^\\circ$\n\n2. Solve for P:\n   $P = \\frac{368.06}{0.9397} = 391.7\\text{ lb} \\approx 392\\text{ lb}$",
       "image": [
         "files/figures/918896143_1686497096363183_8371253357560397405_n"
       ],
@@ -6322,7 +6322,7 @@
         "$\\alpha = 25.2^\\circ$, $R = 425\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Solve for $\\alpha$ from horizontal equilibrium ($\\sum F_x = 0$):\n   $500\\cos\\alpha = 425\\cos 30^\\circ = 368.06\\text{ lb}$\n   $\\cos\\alpha = \\frac{368.06}{500} = 0.7361 \\implies \\alpha = 42.6^\\circ$\n\n2. Sum upward vertical components for $R$:\n   $R = 425\\sin 30^\\circ + 500\\sin 42.6^\\circ = 212.50 + 338.43 = 550.9\\text{ lb} \\approx 551\\text{ lb}$",
+      "explanation": "1. Solve for $\\alpha$ from horizontal equilibrium ($\\sum F_x = 0$):\n   $500\\cos\\alpha = 425\\cos 30^\\circ = 368.06\\text{ lb}$\n   $\\cos\\alpha = \\frac{368.06}{500} = 0.7361 \\implies \\alpha = 42.6^\\circ$\n\n2. Sum upward vertical components for R:\n   $R = 425\\sin 30^\\circ + 500\\sin 42.6^\\circ = 212.50 + 338.43 = 550.9\\text{ lb} \\approx 551\\text{ lb}$",
       "image": [],
       "situation": "SIT-PSAD-003",
       "situation_text": "",
@@ -6376,7 +6376,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Using the angle $\\theta$ found in Item 1, determine the magnitude $R$ of the vertical resultant.",
+      "question": "Using the angle $\\theta$ found in Item 1, determine the magnitude R of the vertical resultant.",
       "choices": [
         "$1077\\text{ lb}$",
         "$426\\text{ lb}$",
@@ -6460,8 +6460,8 @@
       "year": "",
       "trap_a": "Direct Length Ratio Trap: Multiplies $T_{AB}$ by the ratio of cable lengths without projecting onto the horizontal axis ($8 \\times \\frac{58.31}{64.03} = 7.28\\text{ kN}$).",
       "trap_b": "",
-      "trap_c": "Wrong Height / Geometry Trap: Uses an incorrect vertical drop for $AB$ or $AC$, yielding $8.24\\text{ kN}$.",
-      "trap_d": "Incomplete Calculation Trap: Stops after computing the horizontal component of cable $AB$ ($8 \\times \\frac{40}{64.03} = 4.998\\text{ kN} \\approx 4.99\\text{ kN}$) without dividing by $\\frac{50}{58.31}$."
+      "trap_c": "Wrong Height / Geometry Trap: Uses an incorrect vertical drop for AB or AC, yielding $8.24\\text{ kN}$.",
+      "trap_d": "Incomplete Calculation Trap: Stops after computing the horizontal component of cable AB ($8 \\times \\frac{40}{64.03} = 4.998\\text{ kN} \\approx 4.99\\text{ kN}$) without dividing by $\\frac{50}{58.31}$."
     },
     {
       "id": "psad-under-this-loading-condition-t-ab-8-text-kn-a-1c0utn3",
@@ -6490,7 +6490,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Component Subtraction Trap: Subtracts the vertical components instead of adding them ($6.25 - 3.00 = 3.25\\text{ kN} \\approx 3.27\\text{ kN}$).",
-      "trap_c": "Wrong Vertical Leg Trap: Uses $50\\text{ m}$ instead of $30\\text{ m}$ for the vertical drop of cable $AC$ ($6.25 + 5.83 \\times \\frac{50}{58.31} = 11.25\\text{ kN} \\approx 11.53\\text{ kN}$).",
+      "trap_c": "Wrong Vertical Leg Trap: Uses $50\\text{ m}$ instead of $30\\text{ m}$ for the vertical drop of cable AC ($6.25 + 5.83 \\times \\frac{50}{58.31} = 11.25\\text{ kN} \\approx 11.53\\text{ kN}$).",
       "trap_d": "Algebraic Addition Trap: Adds the two cable tensions directly without resolving components ($8 + 5.83 = 13.83\\text{ kN}$)."
     },
     {
@@ -6506,7 +6506,7 @@
         "$10.00\\text{ kN}$"
       ],
       "answer": "A",
-      "explanation": "1. New geometry of cable $AC$:\n   Horizontal leg = $50\\text{ m}$, vertical drop = $50\\text{ m} \\implies L_{AC} = \\sqrt{50^2 + 50^2} = 50\\sqrt{2}\\text{ m}$\n\n2. Horizontal equilibrium ($\\sum F_x = 0$):\n   $T\\left(\\frac{50}{50\\sqrt{2}}\\right) = 8\\left(\\frac{40}{\\sqrt{4100}}\\right) \\implies \\frac{T}{\\sqrt{2}} = 4.9976$\n   $T = 4.9976\\sqrt{2} = 7.068\\text{ kN} \\approx 7.07\\text{ kN}$",
+      "explanation": "1. New geometry of cable AC:\n   Horizontal leg = $50\\text{ m}$, vertical drop = $50\\text{ m} \\implies L_{AC} = \\sqrt{50^2 + 50^2} = 50\\sqrt{2}\\text{ m}$\n\n2. Horizontal equilibrium ($\\sum F_x = 0$):\n   $T\\left(\\frac{50}{50\\sqrt{2}}\\right) = 8\\left(\\frac{40}{\\sqrt{4100}}\\right) \\implies \\frac{T}{\\sqrt{2}} = 4.9976$\n   $T = 4.9976\\sqrt{2} = 7.068\\text{ kN} \\approx 7.07\\text{ kN}$",
       "image": [],
       "situation": "SIT-PSAD-005",
       "situation_text": "",
@@ -6519,7 +6519,7 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Wrong Height for AB Trap: Uses $30\\text{ m}$ instead of $50\\text{ m}$ for the vertical height of $AB$ ($8 \\times \\frac{40}{50} \\times \\sqrt{2} = 9.05\\text{ kN}$, or $\\frac{50}{40} \\times 7.07 = 8.83\\text{ kN}$).",
+      "trap_b": "Wrong Height for AB Trap: Uses $30\\text{ m}$ instead of $50\\text{ m}$ for the vertical height of AB ($8 \\times \\frac{40}{50} \\times \\sqrt{2} = 9.05\\text{ kN}$, or $\\frac{50}{40} \\times 7.07 = 8.83\\text{ kN}$).",
       "trap_c": "Cosine Multiplication Trap: Multiplies $T_{AB}$ by $\\cos 45^\\circ$ ($8 \\times \\frac{1}{\\sqrt{2}} = 5.66\\text{ kN}$) instead of balancing horizontal components.",
       "trap_d": "Horizontal Ratio Trap: Uses the ratio of horizontal distances directly ($8 \\times \\frac{50}{40} = 10.00\\text{ kN}$) instead of unit vectors."
     },
@@ -6536,7 +6536,7 @@
         "$335\\text{ lb}$ at $53.8^\\circ$ up and to the right"
       ],
       "answer": "A",
-      "explanation": "1. Resolve forces into horizontal ($x$) and vertical ($y$) components:\n   $R_x = 300\\cos 70^\\circ + 150\\cos 20^\\circ = 102.61 + 140.95 = 243.56\\text{ lb}$\n   $R_y = 300\\sin 70^\\circ + 150\\sin 20^\\circ = 281.91 + 51.30 = 333.21\\text{ lb}$\n\n2. Resultant magnitude and direction:\n   $R = \\sqrt{(243.56)^2 + (333.21)^2} = 412.73\\text{ lb} \\approx 413\\text{ lb}$\n   $\\theta = \\tan^{-1}\\left(\\frac{333.21}{243.56}\\right) = 53.8^\\circ$ up and to the right",
+      "explanation": "1. Resolve forces into horizontal (x) and vertical (y) components:\n   $R_x = 300\\cos 70^\\circ + 150\\cos 20^\\circ = 102.61 + 140.95 = 243.56\\text{ lb}$\n   $R_y = 300\\sin 70^\\circ + 150\\sin 20^\\circ = 281.91 + 51.30 = 333.21\\text{ lb}$\n\n2. Resultant magnitude and direction:\n   $R = \\sqrt{(243.56)^2 + (333.21)^2} = 412.73\\text{ lb} \\approx 413\\text{ lb}$\n   $\\theta = \\tan^{-1}\\left(\\frac{333.21}{243.56}\\right) = 53.8^\\circ$ up and to the right",
       "image": [
         "files/figures/917677431_4661520447411414_5040981470434501513_n"
       ],
@@ -6562,13 +6562,13 @@
       "category": "problem",
       "question": "The magnitudes of the three forces applied to the eye bolt are $T_1 = 110\\text{ lb}$, $T_2 = 40\\text{ lb}$, and $T_3 = 150\\text{ lb}$. Replace these forces with a single equivalent force $\\mathbf{R}$.",
       "choices": [
-        "$239\\text{ lb}$ at $75.5^\\circ$ above the positive $x$-axis",
-        "$286\\text{ lb}$ at $53.3^\\circ$ above the positive $x$-axis",
-        "$239\\text{ lb}$ at $14.5^\\circ$ above the positive $x$-axis",
-        "$272\\text{ lb}$ at $66.3^\\circ$ above the positive $x$-axis"
+        "$239\\text{ lb}$ at $75.5^\\circ$ above the positive x-axis",
+        "$286\\text{ lb}$ at $53.3^\\circ$ above the positive x-axis",
+        "$239\\text{ lb}$ at $14.5^\\circ$ above the positive x-axis",
+        "$272\\text{ lb}$ at $66.3^\\circ$ above the positive x-axis"
       ],
       "answer": "A",
-      "explanation": "1. Resolve all three forces into horizontal ($x$) and vertical ($y$) components:\n   $R_x = -110\\cos 60^\\circ + 0 + 150\\cos 40^\\circ = -55.00 + 114.91 = 59.91\\text{ lb}$\n   $R_y = 110\\sin 60^\\circ + 40 + 150\\sin 40^\\circ = 95.26 + 40.00 + 96.42 = 231.68\\text{ lb}$\n\n2. Resultant magnitude and direction:\n   $R = \\sqrt{(59.91)^2 + (231.68)^2} = 239.30\\text{ lb} \\approx 239\\text{ lb}$\n   $\\theta = \\tan^{-1}\\left(\\frac{231.68}{59.91}\\right) = 75.5^\\circ$ above the positive $x$-axis",
+      "explanation": "1. Resolve all three forces into horizontal (x) and vertical (y) components:\n   $R_x = -110\\cos 60^\\circ + 0 + 150\\cos 40^\\circ = -55.00 + 114.91 = 59.91\\text{ lb}$\n   $R_y = 110\\sin 60^\\circ + 40 + 150\\sin 40^\\circ = 95.26 + 40.00 + 96.42 = 231.68\\text{ lb}$\n\n2. Resultant magnitude and direction:\n   $R = \\sqrt{(59.91)^2 + (231.68)^2} = 239.30\\text{ lb} \\approx 239\\text{ lb}$\n   $\\theta = \\tan^{-1}\\left(\\frac{231.68}{59.91}\\right) = 75.5^\\circ$ above the positive x-axis",
       "image": [
         "files/figures/919947111_1678489287622719_8628161573007391592_n"
       ],
@@ -6583,8 +6583,8 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Sign-Error Trap: Adds the leftward $x$-component of $T_1$ instead of subtracting it ($R_x = +55.00 + 114.91 = 169.91\\text{ lb}$), yielding $R \\approx 286\\text{ lb}$ at $53.3^\\circ$.",
-      "trap_c": "Complementary Angle Trap: Calculates the correct resultant magnitude ($239\\text{ lb}$) but inverts the tangent ratio ($\\tan^{-1}(59.91 / 231.68) = 14.5^\\circ$), measuring the angle from the positive $y$-axis instead of the positive $x$-axis.",
+      "trap_b": "Sign-Error Trap: Adds the leftward x-component of $T_1$ instead of subtracting it ($R_x = +55.00 + 114.91 = 169.91\\text{ lb}$), yielding $R \\approx 286\\text{ lb}$ at $53.3^\\circ$.",
+      "trap_c": "Complementary Angle Trap: Calculates the correct resultant magnitude ($239\\text{ lb}$) but inverts the tangent ratio ($\\tan^{-1}(59.91 / 231.68) = 14.5^\\circ$), measuring the angle from the positive y-axis instead of the positive x-axis.",
       "trap_d": "Trig-Function Swap Trap: Swaps sine and cosine for $T_1$ and $T_3$, yielding $R \\approx 272\\text{ lb}$ at $66.3^\\circ$."
     },
     {
@@ -6615,7 +6615,7 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(1.2679 / 1.0000) = 51.7^\\circ$), reporting the angle from the vertical instead of the positive $x$-axis.",
+      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(1.2679 / 1.0000) = 51.7^\\circ$), reporting the angle from the vertical instead of the positive x-axis.",
       "trap_c": "Sign-Error Trap: Adds $2\\cos 30^\\circ$ to $3\\text{ kN}$ instead of subtracting ($3 + 1.7321 = 4.7321\\text{ kN}$), yielding $F_B \\approx 4.86\\text{ kN}$ at $11.9^\\circ$.",
       "trap_d": "Omitted Component Trap: Omits the $2\\cos 30^\\circ$ term, using $F_{Bx} = 2\\text{ kN}$ and $F_{By} = 1\\text{ kN}$ to get $F_B = \\sqrt{2^2 + 1^2} = 2.24\\text{ kN}$ at $26.6^\\circ$."
     },
@@ -6632,7 +6632,7 @@
         "$4.76\\text{ kN}$ at $13.6^\\circ$"
       ],
       "answer": "A",
-      "explanation": "1. Resolve forces into $x$ and $y$ components:\n   $R_x = 2\\cos 30^\\circ + 3\\cos 45^\\circ = 1.7321 + 2.1213 = 3.8534\\text{ kN}$\n   $R_y = 2\\sin 30^\\circ - 3\\sin 45^\\circ = 1.0000 - 2.1213 = -1.1213\\text{ kN}$\n\n2. Resultant magnitude and clockwise angle from $+x$:\n   $R = \\sqrt{(3.8534)^2 + (-1.1213)^2} = 4.013\\text{ kN} \\approx 3.99\\text{ kN}$\n   $\\phi = \\tan^{-1}\\left(\\frac{1.1213}{3.8534}\\right) = 16.3^\\circ$ clockwise from the positive $x$-axis",
+      "explanation": "1. Resolve forces into x and y components:\n   $R_x = 2\\cos 30^\\circ + 3\\cos 45^\\circ = 1.7321 + 2.1213 = 3.8534\\text{ kN}$\n   $R_y = 2\\sin 30^\\circ - 3\\sin 45^\\circ = 1.0000 - 2.1213 = -1.1213\\text{ kN}$\n\n2. Resultant magnitude and clockwise angle from $+x$:\n   $R = \\sqrt{(3.8534)^2 + (-1.1213)^2} = 4.013\\text{ kN} \\approx 3.99\\text{ kN}$\n   $\\phi = \\tan^{-1}\\left(\\frac{1.1213}{3.8534}\\right) = 16.3^\\circ$ clockwise from the positive x-axis",
       "image": [],
       "situation": "SIT-PSAD-006",
       "situation_text": "",
@@ -6645,16 +6645,16 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(3.8534 / 1.1213) = 73.7^\\circ$), measuring the angle from the negative $y$-axis instead of the positive $x$-axis.",
+      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(3.8534 / 1.1213) = 73.7^\\circ$), measuring the angle from the negative y-axis instead of the positive x-axis.",
       "trap_c": "Component Subtraction Trap: Subtracts horizontal components or uses the wrong interior angle in the Law of Cosines, yielding $2.47\\text{ kN}$ at $16.3^\\circ$.",
-      "trap_d": "Sign-Error on Y-Component Trap: Adds the $y$-components instead of subtracting ($1.0000 + 2.1213 = 3.1213\\text{ kN}$), yielding $4.76\\text{ kN}$ at $13.6^\\circ$."
+      "trap_d": "Sign-Error on Y-Component Trap: Adds the y-components instead of subtracting ($1.0000 + 2.1213 = 3.1213\\text{ kN}$), yielding $4.76\\text{ kN}$ at $13.6^\\circ$."
     },
     {
       "id": "psad-if-the-resultant-force-of-the-two-tugboats-is-vb2wqz",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the resultant force of the two tugboats is required to be directed along the positive $x$-axis and $\\mathbf{F}_B$ is to be a minimum, determine the magnitude of $\\mathbf{F}_R$, $\\mathbf{F}_B$, and the angle $\\theta$.",
+      "question": "If the resultant force of the two tugboats is required to be directed along the positive x-axis and $\\mathbf{F}_B$ is to be a minimum, determine the magnitude of $\\mathbf{F}_R$, $\\mathbf{F}_B$, and the angle $\\theta$.",
       "choices": [
         "$F_R = 1.73\\text{ kN}$, $F_B = 1.00\\text{ kN}$, $\\theta = 90^\\circ$",
         "$F_R = 1.00\\text{ kN}$, $F_B = 1.73\\text{ kN}$, $\\theta = 60^\\circ$",
@@ -6676,7 +6676,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Swapped Values & Complementary Angle Trap: Swaps the values of $F_R$ and $F_B$ and uses the complementary angle $60^\\circ$.",
-      "trap_c": "Angle Reference Trap: Correctly calculates $F_R = 1.73\\text{ kN}$ and $F_B = 1.00\\text{ kN}$ but misidentifies $\\theta$ as $60^\\circ$ (the angle between $\\mathbf{F}_A$ and $\\mathbf{F}_B$) instead of $90^\\circ$ from the positive $x$-axis.",
+      "trap_c": "Angle Reference Trap: Correctly calculates $F_R = 1.73\\text{ kN}$ and $F_B = 1.00\\text{ kN}$ but misidentifies $\\theta$ as $60^\\circ$ (the angle between $\\mathbf{F}_A$ and $\\mathbf{F}_B$) instead of $90^\\circ$ from the positive x-axis.",
       "trap_d": "Symmetry Assumption Trap: Assumes a symmetric tugboat arrangement ($\\theta = 30^\\circ$ and $F_B = F_A = 2.00\\text{ kN}$)."
     },
     {
@@ -6684,7 +6684,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the magnitude of $F_3$ so that the resultant of the three forces acts along the positive $y$-axis and has a magnitude of $600\\text{ lb}$.",
+      "question": "Determine the magnitude of $F_3$ so that the resultant of the three forces acts along the positive y-axis and has a magnitude of $600\\text{ lb}$.",
       "choices": [
         "$315\\text{ lb}$",
         "$441\\text{ lb}$",
@@ -6692,12 +6692,12 @@
         "$691\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Resolve $F_1$ and $F_2$ into scalar $x, y, z$ components:\n   $F_{1x} = 0, \\quad F_{1y} = 180\\text{ lb}, \\quad F_{1z} = 0$\n   $F_{2x} = 300\\cos 30^\\circ\\sin 40^\\circ = 167.00\\text{ lb}$\n   $F_{2y} = 300\\cos 30^\\circ\\cos 40^\\circ = 199.02\\text{ lb}$\n   $F_{2z} = -300\\sin 30^\\circ = -150\\text{ lb}$\n\n2. Set resultant components to $R_x = 0$, $R_y = 600\\text{ lb}$, $R_z = 0$:\n   $F_{3x} = 0 - 0 - 167.00 = -167.00\\text{ lb}$\n   $F_{3y} = 600 - 180 - 199.02 = 220.98\\text{ lb}$\n   $F_{3z} = 0 - 0 - (-150) = 150\\text{ lb}$\n\n3. Compute the magnitude of $F_3$:\n   $F_3 = \\sqrt{(-167.00)^2 + (220.98)^2 + (150)^2} = 315.0\\text{ lb}$",
+      "explanation": "1. Resolve $F_1$ and $F_2$ into scalar x, y, z components:\n   $F_{1x} = 0, \\quad F_{1y} = 180\\text{ lb}, \\quad F_{1z} = 0$\n   $F_{2x} = 300\\cos 30^\\circ\\sin 40^\\circ = 167.00\\text{ lb}$\n   $F_{2y} = 300\\cos 30^\\circ\\cos 40^\\circ = 199.02\\text{ lb}$\n   $F_{2z} = -300\\sin 30^\\circ = -150\\text{ lb}$\n\n2. Set resultant components to $R_x = 0$, $R_y = 600\\text{ lb}$, $R_z = 0$:\n   $F_{3x} = 0 - 0 - 167.00 = -167.00\\text{ lb}$\n   $F_{3y} = 600 - 180 - 199.02 = 220.98\\text{ lb}$\n   $F_{3z} = 0 - 0 - (-150) = 150\\text{ lb}$\n\n3. Compute the magnitude of $F_3$:\n   $F_3 = \\sqrt{(-167.00)^2 + (220.98)^2 + (150)^2} = 315.0\\text{ lb}$",
       "image": [
         "files/figures/2-67-68"
       ],
       "situation": "SIT-PSAD-007",
-      "situation_text": "Three concurrent forces act on the eye bolt shown: $F_1 = 180\\text{ lb}$ directed along the positive $y$-axis, $F_2 = 300\\text{ lb}$ directed $30^\\circ$ below the $xy$-plane with its horizontal projection oriented $40^\\circ$ from the positive $y$-axis toward the positive $x$-axis, and an unknown force $F_3$.",
+      "situation_text": "Three concurrent forces act on the eye bolt shown: $F_1 = 180\\text{ lb}$ directed along the positive y-axis, $F_2 = 300\\text{ lb}$ directed $30^\\circ$ below the xy-plane with its horizontal projection oriented $40^\\circ$ from the positive y-axis toward the positive x-axis, and an unknown force $F_3$.",
       "use": [
         "set",
         "quiz"
@@ -6708,7 +6708,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Equilibrium Case Trap: Solves for the zero-resultant static equilibrium case ($R_y = 0$), yielding $441\\text{ lb}$.",
-      "trap_c": "Trig-Function Swap Trap: Swaps $\\sin 30^\\circ$ and $\\cos 30^\\circ$ when projecting $F_2$ onto the $xy$-plane and $z$-axis ($246\\text{ lb}$).",
+      "trap_c": "Trig-Function Swap Trap: Swaps $\\sin 30^\\circ$ and $\\cos 30^\\circ$ when projecting $F_2$ onto the xy-plane and z-axis ($246\\text{ lb}$).",
       "trap_d": "Sign-Error Trap: Adds $F_{1y}$ and $F_{2y}$ to $600\\text{ lb}$ instead of subtracting ($F_{3y} = 979\\text{ lb} \\implies 691\\text{ lb}$ with mixed signs)."
     },
     {
@@ -6716,7 +6716,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "For the same condition where the resultant is $600\\text{ lb}$ along the positive $y$-axis, determine the coordinate direction angles $(\\alpha, \\beta, \\gamma)$ of $F_3$.",
+      "question": "For the same condition where the resultant is $600\\text{ lb}$ along the positive y-axis, determine the coordinate direction angles $(\\alpha, \\beta, \\gamma)$ of $F_3$.",
       "choices": [
         "$\\alpha = 58.0^\\circ,\\; \\beta = 45.5^\\circ,\\; \\gamma = 61.6^\\circ$",
         "$\\alpha = 122.0^\\circ,\\; \\beta = 45.5^\\circ,\\; \\gamma = 61.6^\\circ$",
@@ -6738,7 +6738,7 @@
       "year": "",
       "trap_a": "Sign-Error on X-Component Trap: Drops the negative sign on $F_{3x}$, yielding $\\alpha = \\cos^{-1}(+167/315) = 58.0^\\circ$ instead of $122.0^\\circ$.",
       "trap_b": "",
-      "trap_c": "Sign-Error on Z-Component Trap: Uses a negative $z$-component ($-150\\text{ lb}$), yielding $\\gamma = 118.4^\\circ$.",
+      "trap_c": "Sign-Error on Z-Component Trap: Uses a negative z-component ($-150\\text{ lb}$), yielding $\\gamma = 118.4^\\circ$.",
       "trap_d": "Wrong Loading Case Trap: Lists the coordinate direction angles for the zero-resultant equilibrium case."
     },
     {
@@ -6769,7 +6769,7 @@
       "trap_a": "Reversed Signs Trap: Reports the acute supplements $(180^\\circ - \\theta)$ for $\\alpha, \\beta, \\gamma$ by reversing the signs of all components.",
       "trap_b": "",
       "trap_c": "Wrong Loading Case Trap: Repeats the solution for the $600\\text{ lb}$ resultant case.",
-      "trap_d": "Horizontal Angle Swap Trap: Swaps $\\sin 40^\\circ$ and $\\cos 40^\\circ$ when resolving $F_2$ in the $xy$-plane."
+      "trap_d": "Horizontal Angle Swap Trap: Swaps $\\sin 40^\\circ$ and $\\cos 40^\\circ$ when resolving $F_2$ in the xy-plane."
     },
     {
       "id": "psad-if-the-coordinate-direction-angles-for-f-3-are-i9yxwxb",
@@ -6784,12 +6784,12 @@
         "$569\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Resolve each force into scalar $x, y, z$ components:\n   $F_{1x} = 700\\cos 30^\\circ = 606.22\\text{ lb}, \\quad F_{1y} = -700\\sin 30^\\circ = -350\\text{ lb}, \\quad F_{1z} = 0$\n   $F_{2x} = 0, \\quad F_{2y} = 600\\left(\\frac{4}{5}\\right) = 480\\text{ lb}, \\quad F_{2z} = -600\\left(\\frac{3}{5}\\right) = -360\\text{ lb}$\n   $F_{3x} = 800\\cos 120^\\circ = -400\\text{ lb}, \\quad F_{3y} = 800\\cos 60^\\circ = 400\\text{ lb}, \\quad F_{3z} = 800\\cos 45^\\circ = 565.69\\text{ lb}$\n\n2. Sum components along each axis:\n   $R_x = 606.22 + 0 - 400 = 206.22\\text{ lb}$\n   $R_y = -350 + 480 + 400 = 530\\text{ lb}$\n   $R_z = 0 - 360 + 565.69 = 205.69\\text{ lb}$\n\n3. Compute resultant magnitude:\n   $F_R = \\sqrt{(206.22)^2 + (530)^2 + (205.69)^2} = 604.8\\text{ lb} \\approx 605\\text{ lb}$",
+      "explanation": "1. Resolve each force into scalar x, y, z components:\n   $F_{1x} = 700\\cos 30^\\circ = 606.22\\text{ lb}, \\quad F_{1y} = -700\\sin 30^\\circ = -350\\text{ lb}, \\quad F_{1z} = 0$\n   $F_{2x} = 0, \\quad F_{2y} = 600\\left(\\frac{4}{5}\\right) = 480\\text{ lb}, \\quad F_{2z} = -600\\left(\\frac{3}{5}\\right) = -360\\text{ lb}$\n   $F_{3x} = 800\\cos 120^\\circ = -400\\text{ lb}, \\quad F_{3y} = 800\\cos 60^\\circ = 400\\text{ lb}, \\quad F_{3z} = 800\\cos 45^\\circ = 565.69\\text{ lb}$\n\n2. Sum components along each axis:\n   $R_x = 606.22 + 0 - 400 = 206.22\\text{ lb}$\n   $R_y = -350 + 480 + 400 = 530\\text{ lb}$\n   $R_z = 0 - 360 + 565.69 = 205.69\\text{ lb}$\n\n3. Compute resultant magnitude:\n   $F_R = \\sqrt{(206.22)^2 + (530)^2 + (205.69)^2} = 604.8\\text{ lb} \\approx 605\\text{ lb}$",
       "image": [
         "files/figures/2-81-82-83"
       ],
       "situation": "SIT-PSAD-008",
-      "situation_text": "Three forces act on an eyebolt: $F_1 = 700\\text{ lb}$ lies in the $xy$-plane at $30^\\circ$ from the positive $x$-axis toward the negative $y$-axis; $F_2 = 600\\text{ lb}$ lies in the $yz$-plane with a $3$-$4$-$5$ slope triangle ($4$ horizontal along $+y$, $3$ vertical along $-z$); and $F_3 = 800\\text{ lb}$.",
+      "situation_text": "Three forces act on an eyebolt: $F_1 = 700\\text{ lb}$ lies in the xy-plane at $30^\\circ$ from the positive x-axis toward the negative y-axis; $F_2 = 600\\text{ lb}$ lies in the yz-plane with a 3-4-5 slope triangle (4 horizontal along $+y$, 3 vertical along -z); and $F_3 = 800\\text{ lb}$.",
       "use": [
         "set",
         "quiz"
@@ -6800,7 +6800,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Swapped Angles Trap: Uses $\\beta_3 = 45^\\circ$ and $\\gamma_3 = 60^\\circ$ instead of $\\beta_3 = 60^\\circ$ and $\\gamma_3 = 45^\\circ$ ($727\\text{ lb}$).",
-      "trap_c": "Obtuse Cosine Sign Trap: Treats $\\cos 120^\\circ$ as $+0.5$ instead of $-0.5$, giving $R_x = 1006.22\\text{ lb}$ and $F_R \\approx 1055\\text{ lb}$ (with mixed $y$-sign).",
+      "trap_c": "Obtuse Cosine Sign Trap: Treats $\\cos 120^\\circ$ as $+0.5$ instead of -0.5, giving $R_x = 1006.22\\text{ lb}$ and $F_R \\approx 1055\\text{ lb}$ (with mixed y-sign).",
       "trap_d": "Slope-Triangle Swap Trap: Swaps the $3/5$ and $4/5$ slope ratios when resolving $F_2$ ($569\\text{ lb}$)."
     },
     {
@@ -6831,14 +6831,14 @@
       "trap_a": "",
       "trap_b": "Sign-Error Trap: Applies negative signs to $R_x$ and $R_z$, yielding obtuse supplements $\\alpha = 106.5^\\circ$ and $\\gamma = 93.2^\\circ$.",
       "trap_c": "Wrong Loading Case Trap: Repeats the resultant magnitude and angles from the first angle configuration.",
-      "trap_d": "Z-Component Sign Trap: Treats $F_{2z}$ as $+360\\text{ lb}$ instead of $-360\\text{ lb}$, yielding $R_z = 760\\text{ lb}$ and $F_R \\approx 793\\text{ lb}$ (with mixed $y$-sign)."
+      "trap_d": "Z-Component Sign Trap: Treats $F_{2z}$ as $+360\\text{ lb}$ instead of $-360\\text{ lb}$, yielding $R_z = 760\\text{ lb}$ and $F_R \\approx 793\\text{ lb}$ (with mixed y-sign)."
     },
     {
       "id": "psad-if-the-resultant-force-acting-on-the-eyebolt-l-tcmis34",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the resultant force acting on the eyebolt lies in the $yz$-plane directed $30^\\circ$ above the positive $y$-axis (so that $R_x = 0$, $R_y = F_R\\cos 30^\\circ$, and $R_z = F_R\\sin 30^\\circ$), determine the magnitude of the resultant force $F_R$ and the coordinate direction angles of $F_3$.",
+      "question": "If the resultant force acting on the eyebolt lies in the yz-plane directed $30^\\circ$ above the positive y-axis (so that $R_x = 0$, $R_y = F_R\\cos 30^\\circ$, and $R_z = F_R\\sin 30^\\circ$), determine the magnitude of the resultant force $F_R$ and the coordinate direction angles of $F_3$.",
       "choices": [
         "$F_R = 294\\text{ lb}$; $\\alpha_3 = 139.3^\\circ,\\; \\beta_3 = 81.0^\\circ,\\; \\gamma_3 = 50.7^\\circ$",
         "$F_R = 294\\text{ lb}$; $\\alpha_3 = 40.7^\\circ,\\; \\beta_3 = 81.0^\\circ,\\; \\gamma_3 = 50.7^\\circ$",
@@ -6868,7 +6868,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the magnitude of $F$ is $3\\text{ kN}$, $\\beta = 30^\\circ$, and $\\gamma = 75^\\circ$, determine the coordinate direction angle $\\alpha$ (assuming $\\alpha < 90^\\circ$).",
+      "question": "If the magnitude of F is $3\\text{ kN}$, $\\beta = 30^\\circ$, and $\\gamma = 75^\\circ$, determine the coordinate direction angle $\\alpha$ (assuming $\\alpha < 90^\\circ$).",
       "choices": [
         "$75.0^\\circ$",
         "$64.7^\\circ$",
@@ -6881,7 +6881,7 @@
         "files/figures/2-84-85"
       ],
       "situation": "SIT-PSAD-009",
-      "situation_text": "A vertical pole is subjected to a force $F$ at its top with rectangular components $F_x$, $F_y$, and $F_z$ acting along the positive $x$, $y$, and $z$ axes, respectively, defined by coordinate direction angles $\\alpha$, $\\beta$, and $\\gamma$.",
+      "situation_text": "A vertical pole is subjected to a force F at its top with rectangular components $F_x$, $F_y$, and $F_z$ acting along the positive x, y, and z axes, respectively, defined by coordinate direction angles $\\alpha$, $\\beta$, and $\\gamma$.",
       "use": [
         "set",
         "quiz"
@@ -6893,7 +6893,7 @@
       "trap_a": "Linear Angle Sum Trap: Assumes $\\alpha + \\beta + \\gamma = 180^\\circ$, computing $180^\\circ - 30^\\circ - 75^\\circ = 75.0^\\circ$.",
       "trap_b": "",
       "trap_c": "Complementary Angle Trap: Takes $90^\\circ - 64.7^\\circ = 25.3^\\circ$ (confusing $\\sin\\alpha$ with $\\cos\\alpha$).",
-      "trap_d": "Obtuse Root Trap: Selects the negative square root $\\cos\\alpha = -0.4278 \\implies \\alpha = 115.3^\\circ$ even though $F_x$ acts along the positive $x$-axis."
+      "trap_d": "Obtuse Root Trap: Selects the negative square root $\\cos\\alpha = -0.4278 \\implies \\alpha = 115.3^\\circ$ even though $F_x$ acts along the positive x-axis."
     },
     {
       "id": "psad-under-the-same-conditions-f-3-text-kn-beta-30-2plxvzq",
@@ -6922,7 +6922,7 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Axis Swap Trap: Swaps the values of $F_x$ and $F_y$.",
-      "trap_c": "Sine-Instead-of-Cosine Trap: Multiplies $F$ by $\\sin\\alpha, \\sin\\beta, \\sin\\gamma$ instead of using direction cosines.",
+      "trap_c": "Sine-Instead-of-Cosine Trap: Multiplies F by $\\sin\\alpha, \\sin\\beta, \\sin\\gamma$ instead of using direction cosines.",
       "trap_d": "Wrong Alpha Angle Trap: Uses $\\alpha = 60^\\circ$ ($3\\cos 60^\\circ = 1.50\\text{ kN}$) for $F_x$."
     },
     {
@@ -6930,7 +6930,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the force $F$ instead has components $F_x = 1.5\\text{ kN}$ and $F_z = 1.25\\text{ kN}$ with $\\beta = 75^\\circ$, determine the magnitudes of $F$ and $F_y$.",
+      "question": "If the force F instead has components $F_x = 1.5\\text{ kN}$ and $F_z = 1.25\\text{ kN}$ with $\\beta = 75^\\circ$, determine the magnitudes of F and $F_y$.",
       "choices": [
         "$F = 2.02\\text{ kN},\\; F_y = 0.523\\text{ kN}$",
         "$F = 1.95\\text{ kN},\\; F_y = 0.505\\text{ kN}$",
@@ -6938,7 +6938,7 @@
         "$F = 7.55\\text{ kN},\\; F_y = 7.29\\text{ kN}$"
       ],
       "answer": "A",
-      "explanation": "1. Express $F_y$ in terms of $F$ and $\\beta = 75^\\circ$:\n   $F_y = F\\cos 75^\\circ$\n\n2. Substitute into the 3D Pythagorean relation $F^2 = F_x^2 + F_y^2 + F_z^2$:\n   $F^2 = (1.5)^2 + (F\\cos 75^\\circ)^2 + (1.25)^2$\n   $F^2(1 - \\cos^2 75^\\circ) = 2.25 + 1.5625 = 3.8125$\n\n3. Solve for $F$ and $F_y$:\n   $F = \\sqrt{\\frac{3.8125}{0.93301}} = 2.021\\text{ kN} \\approx 2.02\\text{ kN}$\n   $F_y = 2.021\\cos 75^\\circ = 0.523\\text{ kN}$",
+      "explanation": "1. Express $F_y$ in terms of F and $\\beta = 75^\\circ$:\n   $F_y = F\\cos 75^\\circ$\n\n2. Substitute into the 3D Pythagorean relation $F^2 = F_x^2 + F_y^2 + F_z^2$:\n   $F^2 = (1.5)^2 + (F\\cos 75^\\circ)^2 + (1.25)^2$\n   $F^2(1 - \\cos^2 75^\\circ) = 2.25 + 1.5625 = 3.8125$\n\n3. Solve for F and $F_y$:\n   $F = \\sqrt{\\frac{3.8125}{0.93301}} = 2.021\\text{ kN} \\approx 2.02\\text{ kN}$\n   $F_y = 2.021\\cos 75^\\circ = 0.523\\text{ kN}$",
       "image": [],
       "situation": "SIT-PSAD-009",
       "situation_text": "",
@@ -6953,14 +6953,14 @@
       "trap_a": "",
       "trap_b": "Omitted Component in Magnitude Trap: Computes $F = \\sqrt{1.5^2 + 1.25^2} = 1.95\\text{ kN}$ first (ignoring $F_y$) and then computes $F_y = 1.95\\cos 75^\\circ = 0.505\\text{ kN}$.",
       "trap_c": "Sine-Instead-of-Cosine Trap: Solves $F = 2.02\\text{ kN}$ properly but uses $F_y = F\\sin 75^\\circ = 1.95\\text{ kN}$.",
-      "trap_d": "Algebraic Rearrangement Trap: Divides $3.8125$ by $\\cos^2 75^\\circ$ instead of $(1 - \\cos^2 75^\\circ)$, yielding $F = 7.55\\text{ kN}$."
+      "trap_d": "Algebraic Rearrangement Trap: Divides 3.8125 by $\\cos^2 75^\\circ$ instead of $(1 - \\cos^2 75^\\circ)$, yielding $F = 7.55\\text{ kN}$."
     },
     {
       "id": "psad-the-bracket-is-subjected-to-the-two-forces-sho-sroc14g",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "The bracket is subjected to the two forces shown: $F_1 = 250\\text{ N}$ directed $35^\\circ$ below the $xy$-plane with its horizontal projection at $25^\\circ$ from the positive $y$-axis toward the positive $x$-axis, and $F_2 = 400\\text{ N}$ with coordinate direction angles $\\alpha_2 = 120^\\circ$, $\\beta_2 = 45^\\circ$, and $\\gamma_2 = 60^\\circ$. Determine the magnitude and coordinate direction angles of the resultant force $F_R$.",
+      "question": "The bracket is subjected to the two forces shown: $F_1 = 250\\text{ N}$ directed $35^\\circ$ below the xy-plane with its horizontal projection at $25^\\circ$ from the positive y-axis toward the positive x-axis, and $F_2 = 400\\text{ N}$ with coordinate direction angles $\\alpha_2 = 120^\\circ$, $\\beta_2 = 45^\\circ$, and $\\gamma_2 = 60^\\circ$. Determine the magnitude and coordinate direction angles of the resultant force $F_R$.",
       "choices": [
         "$485\\text{ N}$ at $\\alpha = 103.5^\\circ,\\; \\beta = 15.1^\\circ,\\; \\gamma = 83.3^\\circ$",
         "$485\\text{ N}$ at $\\alpha = 76.5^\\circ,\\; \\beta = 15.1^\\circ,\\; \\gamma = 83.3^\\circ$",
@@ -6968,7 +6968,7 @@
         "$595\\text{ N}$ at $\\alpha = 101.0^\\circ,\\; \\beta = 37.6^\\circ,\\; \\gamma = 54.6^\\circ$"
       ],
       "answer": "A",
-      "explanation": "1. Resolve $F_1$ and $F_2$ into scalar $x, y, z$ components:\n   $F_{1x} = 250\\cos 35^\\circ\\sin 25^\\circ = 86.55\\text{ N}$\n   $F_{1y} = 250\\cos 35^\\circ\\cos 25^\\circ = 185.60\\text{ N}$\n   $F_{1z} = -250\\sin 35^\\circ = -143.39\\text{ N}$\n   $F_{2x} = 400\\cos 120^\\circ = -200\\text{ N}, \\quad F_{2y} = 400\\cos 45^\\circ = 282.84\\text{ N}, \\quad F_{2z} = 400\\cos 60^\\circ = 200\\text{ N}$\n\n2. Sum components along each axis:\n   $R_x = 86.55 - 200 = -113.45\\text{ N}$\n   $R_y = 185.60 + 282.84 = 468.44\\text{ N}$\n   $R_z = -143.39 + 200 = 56.61\\text{ N}$\n\n3. Compute resultant magnitude and coordinate direction angles:\n   $F_R = \\sqrt{(-113.45)^2 + (468.44)^2 + (56.61)^2} = 485.3\\text{ N} \\approx 485\\text{ N}$\n   $\\alpha = \\cos^{-1}\\left(\\frac{-113.45}{485.3}\\right) = 103.5^\\circ, \\quad \\beta = \\cos^{-1}\\left(\\frac{468.44}{485.3}\\right) = 15.1^\\circ, \\quad \\gamma = \\cos^{-1}\\left(\\frac{56.61}{485.3}\\right) = 83.3^\\circ$",
+      "explanation": "1. Resolve $F_1$ and $F_2$ into scalar x, y, z components:\n   $F_{1x} = 250\\cos 35^\\circ\\sin 25^\\circ = 86.55\\text{ N}$\n   $F_{1y} = 250\\cos 35^\\circ\\cos 25^\\circ = 185.60\\text{ N}$\n   $F_{1z} = -250\\sin 35^\\circ = -143.39\\text{ N}$\n   $F_{2x} = 400\\cos 120^\\circ = -200\\text{ N}, \\quad F_{2y} = 400\\cos 45^\\circ = 282.84\\text{ N}, \\quad F_{2z} = 400\\cos 60^\\circ = 200\\text{ N}$\n\n2. Sum components along each axis:\n   $R_x = 86.55 - 200 = -113.45\\text{ N}$\n   $R_y = 185.60 + 282.84 = 468.44\\text{ N}$\n   $R_z = -143.39 + 200 = 56.61\\text{ N}$\n\n3. Compute resultant magnitude and coordinate direction angles:\n   $F_R = \\sqrt{(-113.45)^2 + (468.44)^2 + (56.61)^2} = 485.3\\text{ N} \\approx 485\\text{ N}$\n   $\\alpha = \\cos^{-1}\\left(\\frac{-113.45}{485.3}\\right) = 103.5^\\circ, \\quad \\beta = \\cos^{-1}\\left(\\frac{468.44}{485.3}\\right) = 15.1^\\circ, \\quad \\gamma = \\cos^{-1}\\left(\\frac{56.61}{485.3}\\right) = 83.3^\\circ$",
       "image": [
         "files/figures/2-80-80"
       ],
@@ -6992,7 +6992,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "The load at $A$ creates a tension of $60\\text{ lb}$ in wire $AB$, which runs from $A(0,\\; 0,\\; -10\\text{ ft})$ to point $B$ on the $5\\text{-ft}$ radius circular ring in the $xy$-plane located $30^\\circ$ from the positive $y$-axis toward the positive $x$-axis. Determine the rectangular components $(F_x, F_y, F_z)$ of the force exerted by the wire on point $A$.",
+      "question": "The load at A creates a tension of $60\\text{ lb}$ in wire AB, which runs from $A(0,\\; 0,\\; -10\\text{ ft})$ to point B on the $5\\text{-ft}$ radius circular ring in the xy-plane located $30^\\circ$ from the positive y-axis toward the positive x-axis. Determine the rectangular components $(F_x, F_y, F_z)$ of the force exerted by the wire on point A.",
       "choices": [
         "$F_x = +13.42\\text{ lb},\\; F_y = +23.2\\text{ lb},\\; F_z = +53.7\\text{ lb}$",
         "$F_x = +23.2\\text{ lb},\\; F_y = +13.42\\text{ lb},\\; F_z = +53.7\\text{ lb}$",
@@ -7000,7 +7000,7 @@
         "$F_x = +15.00\\text{ lb},\\; F_y = +26.0\\text{ lb},\\; F_z = +52.0\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Determine coordinates of $A$ and $B$:\n   $A = (0,\\; 0,\\; -10)\\text{ ft}$\n   $B = (5\\sin 30^\\circ,\\; 5\\cos 30^\\circ,\\; 0) = (2.5,\\; 4.330,\\; 0)\\text{ ft}$\n\n2. Compute coordinate differences from $A$ to $B$ and total wire length $L_{AB}$:\n   $\\Delta x = 2.5 - 0 = 2.5\\text{ ft}, \\quad \\Delta y = 4.330 - 0 = 4.330\\text{ ft}, \\quad \\Delta z = 0 - (-10) = 10\\text{ ft}$\n   $L_{AB} = \\sqrt{(2.5)^2 + (4.330)^2 + (10)^2} = \\sqrt{125} = 11.180\\text{ ft}$\n\n3. Compute force components using proportional ratios:\n   $F_x = 60\\left(\\frac{2.5}{11.180}\\right) = +13.42\\text{ lb}$\n   $F_y = 60\\left(\\frac{4.330}{11.180}\\right) = +23.24\\text{ lb} \\approx +23.2\\text{ lb}$\n   $F_z = 60\\left(\\frac{10}{11.180}\\right) = +53.67\\text{ lb} \\approx +53.7\\text{ lb}$",
+      "explanation": "1. Determine coordinates of A and B:\n   $A = (0,\\; 0,\\; -10)\\text{ ft}$\n   $B = (5\\sin 30^\\circ,\\; 5\\cos 30^\\circ,\\; 0) = (2.5,\\; 4.330,\\; 0)\\text{ ft}$\n\n2. Compute coordinate differences from A to B and total wire length $L_{AB}$:\n   $\\Delta x = 2.5 - 0 = 2.5\\text{ ft}, \\quad \\Delta y = 4.330 - 0 = 4.330\\text{ ft}, \\quad \\Delta z = 0 - (-10) = 10\\text{ ft}$\n   $L_{AB} = \\sqrt{(2.5)^2 + (4.330)^2 + (10)^2} = \\sqrt{125} = 11.180\\text{ ft}$\n\n3. Compute force components using proportional ratios:\n   $F_x = 60\\left(\\frac{2.5}{11.180}\\right) = +13.42\\text{ lb}$\n   $F_y = 60\\left(\\frac{4.330}{11.180}\\right) = +23.24\\text{ lb} \\approx +23.2\\text{ lb}$\n   $F_z = 60\\left(\\frac{10}{11.180}\\right) = +53.67\\text{ lb} \\approx +53.7\\text{ lb}$",
       "image": [
         "files/figures/2-99-99"
       ],
@@ -7015,8 +7015,8 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Trig-Function Swap Trap: Swaps $\\sin 30^\\circ$ and $\\cos 30^\\circ$ for the $x$ and $y$ coordinates of $B$, swapping $F_x$ and $F_y$.",
-      "trap_c": "Reversed Direction Trap: Takes differences from $B$ to $A$ instead of from $A$ to $B$, reversing all signs.",
+      "trap_b": "Trig-Function Swap Trap: Swaps $\\sin 30^\\circ$ and $\\cos 30^\\circ$ for the x and y coordinates of B, swapping $F_x$ and $F_y$.",
+      "trap_c": "Reversed Direction Trap: Takes differences from B to A instead of from A to B, reversing all signs.",
       "trap_d": "Length Approximation Trap: Uses $L_{AB} = 10\\text{ ft}$ or $15\\text{ ft}$ instead of $\\sqrt{5^2 + 10^2} = 11.18\\text{ ft}$."
     },
     {
@@ -7024,7 +7024,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "A frame $ABC$ is supported in part by cable $DBE$ that passes through a frictionless ring at $B(480\\text{ mm},\\; 0,\\; 600\\text{ mm})$ and is anchored at $D(0,\\; 510\\text{ mm},\\; 280\\text{ mm})$ and $E(210\\text{ mm},\\; 400\\text{ mm},\\; 0)$. Knowing that the tension in the cable is $385\\text{ N}$, determine the rectangular components $(F_x, F_y, F_z)$ of the force exerted by the cable on the support at $D$.",
+      "question": "A frame ABC is supported in part by cable DBE that passes through a frictionless ring at $B(480\\text{ mm},\\; 0,\\; 600\\text{ mm})$ and is anchored at $D(0,\\; 510\\text{ mm},\\; 280\\text{ mm})$ and $E(210\\text{ mm},\\; 400\\text{ mm},\\; 0)$. Knowing that the tension in the cable is $385\\text{ N}$, determine the rectangular components $(F_x, F_y, F_z)$ of the force exerted by the cable on the support at D.",
       "choices": [
         "$F_x = +240\\text{ N},\\; F_y = -255\\text{ N},\\; F_z = +160\\text{ N}$",
         "$F_x = -240\\text{ N},\\; F_y = +255\\text{ N},\\; F_z = -160\\text{ N}$",
@@ -7032,7 +7032,7 @@
         "$F_x = +149.2\\text{ N},\\; F_y = -221\\text{ N},\\; F_z = +332\\text{ N}$"
       ],
       "answer": "A",
-      "explanation": "1. Compute coordinate differences from support $D(0, 510, 280)$ toward ring $B(480, 0, 600)$:\n   $\\Delta x = 480 - 0 = +480\\text{ mm}$\n   $\\Delta y = 0 - 510 = -510\\text{ mm}$\n   $\\Delta z = 600 - 280 = +320\\text{ mm}$\n\n2. Compute total length of cable segment $DB$:\n   $L_{DB} = \\sqrt{(480)^2 + (-510)^2 + (320)^2} = \\sqrt{592,900} = 770\\text{ mm}$\n\n3. Multiply each coordinate ratio by $T = 385\\text{ N}$ (note $385/770 = 0.5\\text{ N/mm}$):\n   $F_x = 0.5(+480) = +240\\text{ N}$\n   $F_y = 0.5(-510) = -255\\text{ N}$\n   $F_z = 0.5(+320) = +160\\text{ N}$",
+      "explanation": "1. Compute coordinate differences from support D(0, 510, 280) toward ring B(480, 0, 600):\n   $\\Delta x = 480 - 0 = +480\\text{ mm}$\n   $\\Delta y = 0 - 510 = -510\\text{ mm}$\n   $\\Delta z = 600 - 280 = +320\\text{ mm}$\n\n2. Compute total length of cable segment DB:\n   $L_{DB} = \\sqrt{(480)^2 + (-510)^2 + (320)^2} = \\sqrt{592,900} = 770\\text{ mm}$\n\n3. Multiply each coordinate ratio by $T = 385\\text{ N}$ (note $385/770 = 0.5\\text{ N/mm}$):\n   $F_x = 0.5(+480) = +240\\text{ N}$\n   $F_y = 0.5(-510) = -255\\text{ N}$\n   $F_z = 0.5(+320) = +160\\text{ N}$",
       "image": [
         "files/figures/2-87-87"
       ],
@@ -7047,16 +7047,16 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Reversed Direction Trap: Computes the force exerted on ring $B$ (from $B$ to $D$) instead of on support $D$ (from $D$ to $B$), reversing all signs.",
+      "trap_b": "Reversed Direction Trap: Computes the force exerted on ring B (from B to D) instead of on support D (from D to B), reversing all signs.",
       "trap_c": "Omitted Offset Trap: Uses $z_B = 600\\text{ mm}$ directly instead of subtracting $z_D = 280\\text{ mm}$ ($0.5 \\times 600 = 300\\text{ N}$).",
-      "trap_d": "Wrong Cable Segment Trap: Resolves the force along segment $BE$ instead of segment $DB$."
+      "trap_d": "Wrong Cable Segment Trap: Resolves the force along segment BE instead of segment DB."
     },
     {
       "id": "psad-if-the-tension-in-wire-ab-is-525-text-lb-deter-2gu9rlb",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the tension in wire $AB$ is $525\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the bolt at $B$.",
+      "question": "If the tension in wire AB is $525\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the bolt at B.",
       "choices": [
         "$F_x = +100\\text{ lb},\\; F_y = +500\\text{ lb},\\; F_z = -125\\text{ lb}$",
         "$F_x = -100\\text{ lb},\\; F_y = -500\\text{ lb},\\; F_z = +125\\text{ lb}$",
@@ -7064,12 +7064,12 @@
         "$F_x = +100\\text{ lb},\\; F_y = +500\\text{ lb},\\; F_z = +125\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Compute coordinate differences from bolt $B(-20, 0, 25)$ toward tower top $A(0, 100, 0)$:\n   $\\Delta x = 0 - (-20) = +20\\text{ ft}, \\quad \\Delta y = 100 - 0 = +100\\text{ ft}, \\quad \\Delta z = 0 - 25 = -25\\text{ ft}$\n\n2. Compute length of wire $AB$:\n   $L_{BA} = \\sqrt{(20)^2 + (100)^2 + (-25)^2} = \\sqrt{11,025} = 105\\text{ ft}$\n\n3. Multiply each ratio by $T_{AB} = 525\\text{ lb}$ (note $525/105 = 5\\text{ lb/ft}$):\n   $F_x = 5(+20) = +100\\text{ lb}, \\quad F_y = 5(+100) = +500\\text{ lb}, \\quad F_z = 5(-25) = -125\\text{ lb}$",
+      "explanation": "1. Compute coordinate differences from bolt B(-20, 0, 25) toward tower top A(0, 100, 0):\n   $\\Delta x = 0 - (-20) = +20\\text{ ft}, \\quad \\Delta y = 100 - 0 = +100\\text{ ft}, \\quad \\Delta z = 0 - 25 = -25\\text{ ft}$\n\n2. Compute length of wire AB:\n   $L_{BA} = \\sqrt{(20)^2 + (100)^2 + (-25)^2} = \\sqrt{11,025} = 105\\text{ ft}$\n\n3. Multiply each ratio by $T_{AB} = 525\\text{ lb}$ (note $525/105 = 5\\text{ lb/ft}$):\n   $F_x = 5(+20) = +100\\text{ lb}, \\quad F_y = 5(+100) = +500\\text{ lb}, \\quad F_z = 5(-25) = -125\\text{ lb}$",
       "image": [
         "files/figures/2.85-86"
       ],
       "situation": "SIT-PSAD-010",
-      "situation_text": "A transmission tower $OA$ of height $100\\text{ ft}$ is held by three guy wires anchored by bolts at $B(-20\\text{ ft},\\; 0,\\; 25\\text{ ft})$, $C(60\\text{ ft},\\; 0,\\; 18\\text{ ft})$, and $D(-20\\text{ ft},\\; 0,\\; -74\\text{ ft})$, attached to the top of the tower at $A(0,\\; 100\\text{ ft},\\; 0)$.",
+      "situation_text": "A transmission tower OA of height $100\\text{ ft}$ is held by three guy wires anchored by bolts at $B(-20\\text{ ft},\\; 0,\\; 25\\text{ ft})$, $C(60\\text{ ft},\\; 0,\\; 18\\text{ ft})$, and $D(-20\\text{ ft},\\; 0,\\; -74\\text{ ft})$, attached to the top of the tower at $A(0,\\; 100\\text{ ft},\\; 0)$.",
       "use": [
         "set",
         "quiz"
@@ -7079,8 +7079,8 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Reversed Direction Trap: Computes the force on tower $A$ (from $A$ to $B$) instead of on bolt $B$ (from $B$ to $A$), reversing all signs.",
-      "trap_c": "Coordinate Swap Trap: Swaps the $x$ ($20\\text{ ft}$) and $z$ ($25\\text{ ft}$) distances.",
+      "trap_b": "Reversed Direction Trap: Computes the force on tower A (from A to B) instead of on bolt B (from B to A), reversing all signs.",
+      "trap_c": "Coordinate Swap Trap: Swaps the x ($20\\text{ ft}$) and z ($25\\text{ ft}$) distances.",
       "trap_d": "Sign-Error on Z Trap: Uses $+125\\text{ lb}$ instead of $-125\\text{ lb}$ for $F_z$."
     },
     {
@@ -7088,7 +7088,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the tension in wire $AD$ is $315\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the bolt at $D$.",
+      "question": "If the tension in wire AD is $315\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the bolt at D.",
       "choices": [
         "$F_x = +50\\text{ lb},\\; F_y = +250\\text{ lb},\\; F_z = +185\\text{ lb}$",
         "$F_x = -50\\text{ lb},\\; F_y = -250\\text{ lb},\\; F_z = -185\\text{ lb}$",
@@ -7096,7 +7096,7 @@
         "$F_x = +185\\text{ lb},\\; F_y = +250\\text{ lb},\\; F_z = +50\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Compute coordinate differences from bolt $D(-20, 0, -74)$ toward tower top $A(0, 100, 0)$:\n   $\\Delta x = 0 - (-20) = +20\\text{ ft}, \\quad \\Delta y = 100 - 0 = +100\\text{ ft}, \\quad \\Delta z = 0 - (-74) = +74\\text{ ft}$\n\n2. Compute length of wire $AD$:\n   $L_{DA} = \\sqrt{(20)^2 + (100)^2 + (74)^2} = \\sqrt{15,876} = 126\\text{ ft}$\n\n3. Multiply each ratio by $T_{AD} = 315\\text{ lb}$ (note $315/126 = 2.5\\text{ lb/ft}$):\n   $F_x = 2.5(+20) = +50\\text{ lb}, \\quad F_y = 2.5(+100) = +250\\text{ lb}, \\quad F_z = 2.5(+74) = +185\\text{ lb}$",
+      "explanation": "1. Compute coordinate differences from bolt D(-20, 0, -74) toward tower top A(0, 100, 0):\n   $\\Delta x = 0 - (-20) = +20\\text{ ft}, \\quad \\Delta y = 100 - 0 = +100\\text{ ft}, \\quad \\Delta z = 0 - (-74) = +74\\text{ ft}$\n\n2. Compute length of wire AD:\n   $L_{DA} = \\sqrt{(20)^2 + (100)^2 + (74)^2} = \\sqrt{15,876} = 126\\text{ ft}$\n\n3. Multiply each ratio by $T_{AD} = 315\\text{ lb}$ (note $315/126 = 2.5\\text{ lb/ft}$):\n   $F_x = 2.5(+20) = +50\\text{ lb}, \\quad F_y = 2.5(+100) = +250\\text{ lb}, \\quad F_z = 2.5(+74) = +185\\text{ lb}$",
       "image": [],
       "situation": "SIT-PSAD-010",
       "situation_text": "",
@@ -7109,16 +7109,16 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Reversed Direction Trap: Computes the force on tower $A$ (from $A$ to $D$) instead of on bolt $D$ (from $D$ to $A$), reversing all signs.",
+      "trap_b": "Reversed Direction Trap: Computes the force on tower A (from A to D) instead of on bolt D (from D to A), reversing all signs.",
       "trap_c": "Sign-Error on Z Trap: Assigns a negative sign to $F_z$ because $z_D = -74\\text{ ft}$ (forgetting that pulling toward $z=0$ acts in the $+z$ direction).",
-      "trap_d": "Coordinate Swap Trap: Swaps the $x$ ($20\\text{ ft}$) and $z$ ($74\\text{ ft}$) distances."
+      "trap_d": "Coordinate Swap Trap: Swaps the x ($20\\text{ ft}$) and z ($74\\text{ ft}$) distances."
     },
     {
       "id": "psad-if-the-tension-in-wire-ac-is-590-text-lb-deter-lpd0icu",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the tension in wire $AC$ is $590\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the tower at $A$.",
+      "question": "If the tension in wire AC is $590\\text{ lb}$, determine the components $(F_x, F_y, F_z)$ of the force exerted by the wire on the tower at A.",
       "choices": [
         "$F_x = +300\\text{ lb},\\; F_y = -500\\text{ lb},\\; F_z = +90\\text{ lb}$",
         "$F_x = -300\\text{ lb},\\; F_y = +500\\text{ lb},\\; F_z = -90\\text{ lb}$",
@@ -7126,7 +7126,7 @@
         "$F_x = +300\\text{ lb},\\; F_y = -500\\text{ lb},\\; F_z = -90\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Compute coordinate differences from tower top $A(0, 100, 0)$ toward bolt $C(60, 0, 18)$:\n   $\\Delta x = 60 - 0 = +60\\text{ ft}, \\quad \\Delta y = 0 - 100 = -100\\text{ ft}, \\quad \\Delta z = 18 - 0 = +18\\text{ ft}$\n\n2. Compute length of wire $AC$:\n   $L_{AC} = \\sqrt{(60)^2 + (-100)^2 + (18)^2} = \\sqrt{13,924} = 118\\text{ ft}$\n\n3. Multiply each ratio by $T_{AC} = 590\\text{ lb}$ (note $590/118 = 5\\text{ lb/ft}$):\n   $F_x = 5(+60) = +300\\text{ lb}, \\quad F_y = 5(-100) = -500\\text{ lb}, \\quad F_z = 5(+18) = +90\\text{ lb}$",
+      "explanation": "1. Compute coordinate differences from tower top A(0, 100, 0) toward bolt C(60, 0, 18):\n   $\\Delta x = 60 - 0 = +60\\text{ ft}, \\quad \\Delta y = 0 - 100 = -100\\text{ ft}, \\quad \\Delta z = 18 - 0 = +18\\text{ ft}$\n\n2. Compute length of wire AC:\n   $L_{AC} = \\sqrt{(60)^2 + (-100)^2 + (18)^2} = \\sqrt{13,924} = 118\\text{ ft}$\n\n3. Multiply each ratio by $T_{AC} = 590\\text{ lb}$ (note $590/118 = 5\\text{ lb/ft}$):\n   $F_x = 5(+60) = +300\\text{ lb}, \\quad F_y = 5(-100) = -500\\text{ lb}, \\quad F_z = 5(+18) = +90\\text{ lb}$",
       "image": [],
       "situation": "SIT-PSAD-010",
       "situation_text": "",
@@ -7139,8 +7139,8 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Reversed Direction Trap: Computes the force on bolt $C$ (from $C$ to $A$) instead of on tower $A$ (from $A$ to $C$), reversing all signs.",
-      "trap_c": "Coordinate Swap Trap: Swaps the $x$ ($60\\text{ ft}$) and $z$ ($18\\text{ ft}$) coordinates.",
+      "trap_b": "Reversed Direction Trap: Computes the force on bolt C (from C to A) instead of on tower A (from A to C), reversing all signs.",
+      "trap_c": "Coordinate Swap Trap: Swaps the x ($60\\text{ ft}$) and z ($18\\text{ ft}$) coordinates.",
       "trap_d": "Sign-Error on Z Trap: Uses $-90\\text{ lb}$ instead of $+90\\text{ lb}$ for $F_z$."
     },
     {
@@ -7156,7 +7156,7 @@
         "$333\\text{ lb}$ at $\\alpha = 67.1^\\circ,\\; \\beta = 37.8^\\circ,\\; \\gamma = 118.3^\\circ$"
       ],
       "answer": "A",
-      "explanation": "1. Determine the coordinate differences and length of cable $CA$ from $C(0, 0, 0)$ to $A(50, 10, -30)$:\n   $\\Delta x_A = 50\\text{ ft}, \\quad \\Delta y_A = 10\\text{ ft}, \\quad \\Delta z_A = -30\\text{ ft}$\n   $L_{CA} = \\sqrt{(50)^2 + (10)^2 + (-30)^2} = \\sqrt{3500} = 59.16\\text{ ft}$\n\n2. Resolve $F_A = 200\\text{ lb}$ into scalar $x, y, z$ components:\n   $F_{Ax} = 200\\left(\\frac{50}{59.16}\\right) = +169.03\\text{ lb}$\n   $F_{Ay} = 200\\left(\\frac{10}{59.16}\\right) = +33.81\\text{ lb}$\n   $F_{Az} = 200\\left(\\frac{-30}{59.16}\\right) = -101.42\\text{ lb}$\n\n3. Determine the coordinate differences and length of cable $CB$ from $C(0, 0, 0)$ to $B(50, 50, -30)$:\n   $\\Delta x_B = 50\\text{ ft}, \\quad \\Delta y_B = 10 + 40 = 50\\text{ ft}, \\quad \\Delta z_B = -30\\text{ ft}$\n   $L_{CB} = \\sqrt{(50)^2 + (50)^2 + (-30)^2} = \\sqrt{5900} = 76.81\\text{ ft}$\n\n4. Resolve $F_B = 150\\text{ lb}$ into scalar $x, y, z$ components:\n   $F_{Bx} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{By} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{Bz} = 150\\left(\\frac{-30}{76.81}\\right) = -58.58\\text{ lb}$\n\n5. Sum components along each axis and compute resultant magnitude and coordinate direction angles:\n   $R_x = 169.03 + 97.64 = +266.67\\text{ lb}$\n   $R_y = 33.81 + 97.64 = +131.45\\text{ lb}$\n   $R_z = -101.42 - 58.58 = -160.00\\text{ lb}$\n   $F_R = \\sqrt{(266.67)^2 + (131.45)^2 + (-160.00)^2} = 337.6\\text{ lb} \\approx 338\\text{ lb}$\n   $\\alpha = \\cos^{-1}\\left(\\frac{266.67}{337.6}\\right) = 37.8^\\circ, \\quad \\beta = \\cos^{-1}\\left(\\frac{131.45}{337.6}\\right) = 67.1^\\circ, \\quad \\gamma = \\cos^{-1}\\left(\\frac{-160.00}{337.6}\\right) = 118.3^\\circ$",
+      "explanation": "1. Determine the coordinate differences and length of cable CA from C(0, 0, 0) to A(50, 10, -30):\n   $\\Delta x_A = 50\\text{ ft}, \\quad \\Delta y_A = 10\\text{ ft}, \\quad \\Delta z_A = -30\\text{ ft}$\n   $L_{CA} = \\sqrt{(50)^2 + (10)^2 + (-30)^2} = \\sqrt{3500} = 59.16\\text{ ft}$\n\n2. Resolve $F_A = 200\\text{ lb}$ into scalar x, y, z components:\n   $F_{Ax} = 200\\left(\\frac{50}{59.16}\\right) = +169.03\\text{ lb}$\n   $F_{Ay} = 200\\left(\\frac{10}{59.16}\\right) = +33.81\\text{ lb}$\n   $F_{Az} = 200\\left(\\frac{-30}{59.16}\\right) = -101.42\\text{ lb}$\n\n3. Determine the coordinate differences and length of cable CB from C(0, 0, 0) to B(50, 50, -30):\n   $\\Delta x_B = 50\\text{ ft}, \\quad \\Delta y_B = 10 + 40 = 50\\text{ ft}, \\quad \\Delta z_B = -30\\text{ ft}$\n   $L_{CB} = \\sqrt{(50)^2 + (50)^2 + (-30)^2} = \\sqrt{5900} = 76.81\\text{ ft}$\n\n4. Resolve $F_B = 150\\text{ lb}$ into scalar x, y, z components:\n   $F_{Bx} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{By} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{Bz} = 150\\left(\\frac{-30}{76.81}\\right) = -58.58\\text{ lb}$\n\n5. Sum components along each axis and compute resultant magnitude and coordinate direction angles:\n   $R_x = 169.03 + 97.64 = +266.67\\text{ lb}$\n   $R_y = 33.81 + 97.64 = +131.45\\text{ lb}$\n   $R_z = -101.42 - 58.58 = -160.00\\text{ lb}$\n   $F_R = \\sqrt{(266.67)^2 + (131.45)^2 + (-160.00)^2} = 337.6\\text{ lb} \\approx 338\\text{ lb}$\n   $\\alpha = \\cos^{-1}\\left(\\frac{266.67}{337.6}\\right) = 37.8^\\circ, \\quad \\beta = \\cos^{-1}\\left(\\frac{131.45}{337.6}\\right) = 67.1^\\circ, \\quad \\gamma = \\cos^{-1}\\left(\\frac{-160.00}{337.6}\\right) = 118.3^\\circ$",
       "image": [
         "files/figures/prob-mooring-cables-2-101"
       ],
@@ -7173,7 +7173,7 @@
       "trap_a": "",
       "trap_b": "Omitted Offset Trap: Uses $y_B = 40\\text{ ft}$ directly instead of adding the $10\\text{ ft}$ offset ($y_B = 10 + 40 = 50\\text{ ft}$), yielding $333\\text{ lb}$ at $\\alpha = 34.4^\\circ,\\; \\beta = 69.8^\\circ,\\; \\gamma = 120.2^\\circ$.",
       "trap_c": "Sign-Error on Z Trap: Uses $z = +30\\text{ ft}$ instead of $-30\\text{ ft}$, reporting the acute supplement $\\gamma = 61.7^\\circ$ instead of $118.3^\\circ$.",
-      "trap_d": "Axis Swap Trap: Swaps the $x$ and $y$ dimensions ($x_A = 10\\text{ ft}, y_A = 50\\text{ ft}$), swapping $\\alpha$ and $\\beta$."
+      "trap_d": "Axis Swap Trap: Swaps the x and y dimensions ($x_A = 10\\text{ ft}, y_A = 50\\text{ ft}$), swapping $\\alpha$ and $\\beta$."
     },
     {
       "id": "psad-calculate-the-moment-of-the-250-text-n-force-o-sn7nkfw",
@@ -7212,7 +7212,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "A moment of $50\\text{ lb}\\cdot\\text{ft}$ about $O$ is required to loosen the nut. Determine the smallest magnitude of the force $F$ applied at a distance of $15\\text{ in.}$ from $O$ and the corresponding angle $\\theta$ measured from the wrench handle that will turn the nut.",
+      "question": "A moment of $50\\text{ lb}\\cdot\\text{ft}$ about O is required to loosen the nut. Determine the smallest magnitude of the force F applied at a distance of $15\\text{ in.}$ from O and the corresponding angle $\\theta$ measured from the wrench handle that will turn the nut.",
       "choices": [
         "$40.0\\text{ lb}$ at $\\theta = 90^\\circ$",
         "$3.33\\text{ lb}$ at $\\theta = 90^\\circ$",
@@ -7220,7 +7220,7 @@
         "$56.6\\text{ lb}$ at $\\theta = 45^\\circ$"
       ],
       "answer": "A",
-      "explanation": "1. Identify the condition for minimum force:\n   Since $M_O = F d \\sin\\theta$, the force $F$ required to produce $M_O = 50\\text{ lb}\\cdot\\text{ft}$ is minimized when $\\sin\\theta = 1$, which occurs at $\\theta = 90^\\circ$.\n\n2. Convert lever arm to feet and solve for $F_{\\min}$:\n   $d = 15\\text{ in.} \\times \\frac{1\\text{ ft}}{12\\text{ in.}} = 1.25\\text{ ft}$\n   $F_{\\min} = \\frac{M_O}{d} = \\frac{50\\text{ lb}\\cdot\\text{ft}}{1.25\\text{ ft}} = 40.0\\text{ lb}$",
+      "explanation": "1. Identify the condition for minimum force:\n   Since $M_O = F d \\sin\\theta$, the force F required to produce $M_O = 50\\text{ lb}\\cdot\\text{ft}$ is minimized when $\\sin\\theta = 1$, which occurs at $\\theta = 90^\\circ$.\n\n2. Convert lever arm to feet and solve for $F_{\\min}$:\n   $d = 15\\text{ in.} \\times \\frac{1\\text{ ft}}{12\\text{ in.}} = 1.25\\text{ ft}$\n   $F_{\\min} = \\frac{M_O}{d} = \\frac{50\\text{ lb}\\cdot\\text{ft}}{1.25\\text{ ft}} = 40.0\\text{ lb}$",
       "image": [
         "files/figures/prob-wrench-nut-2-29"
       ],
@@ -7244,7 +7244,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the magnitude and sense of the moment of the cable tension $T$ about point $B$.",
+      "question": "Determine the magnitude and sense of the moment of the cable tension T about point B.",
       "choices": [
         "$400\\text{ kN}\\cdot\\text{m}$ counterclockwise",
         "$400\\text{ kN}\\cdot\\text{m}$ clockwise",
@@ -7252,12 +7252,12 @@
         "$720\\text{ kN}\\cdot\\text{m}$ counterclockwise"
       ],
       "answer": "A",
-      "explanation": "1. Determine the inclination angle of the guy cable:\n   From the ground anchor $(-20\\text{ m}, 0)$ to the boom tip $(+16\\text{ m}, 36\\text{ m})$, the horizontal run is $\\Delta x = 16 - (-20) = 36\\text{ m}$ and the vertical rise is $\\Delta y = 36\\text{ m}$, so the cable is inclined at $\\theta = 45^\\circ$.\n\n2. Apply the principle of transmissibility at the ground anchor $(-20\\text{ m}, 0)$:\n   $T_x = 28.3\\cos 45^\\circ = 20.01\\text{ kN}$ (line of action passes through $B$, producing zero moment)\n   $T_y = 28.3\\sin 45^\\circ = 20.01\\text{ kN}$ (acts downward $20\\text{ m}$ to the left of $B$)\n\n3. Compute moment of $T$ about $B$:\n   $M_{B,T} = T_y(20\\text{ m}) = (20.01)(20) = 400.2\\text{ kN}\\cdot\\text{m} \\approx 400\\text{ kN}\\cdot\\text{m}\\text{ CCW}$",
+      "explanation": "1. Determine the inclination angle of the guy cable:\n   From the ground anchor $(-20\\text{ m}, 0)$ to the boom tip $(+16\\text{ m}, 36\\text{ m})$, the horizontal run is $\\Delta x = 16 - (-20) = 36\\text{ m}$ and the vertical rise is $\\Delta y = 36\\text{ m}$, so the cable is inclined at $\\theta = 45^\\circ$.\n\n2. Apply the principle of transmissibility at the ground anchor $(-20\\text{ m}, 0)$:\n   $T_x = 28.3\\cos 45^\\circ = 20.01\\text{ kN}$ (line of action passes through B, producing zero moment)\n   $T_y = 28.3\\sin 45^\\circ = 20.01\\text{ kN}$ (acts downward $20\\text{ m}$ to the left of B)\n\n3. Compute moment of T about B:\n   $M_{B,T} = T_y(20\\text{ m}) = (20.01)(20) = 400.2\\text{ kN}\\cdot\\text{m} \\approx 400\\text{ kN}\\cdot\\text{m}\\text{ CCW}$",
       "image": [
         "files/figures/sit-psad-011"
       ],
       "situation": "SIT-PSAD-011",
-      "situation_text": "A crane boom hinged at $B$ has a height of $36\\text{ m}$ with its top tip located $16\\text{ m}$ horizontally to the right of $B$. A guy cable attached to the top tip is anchored on the ground $20\\text{ m}$ to the left of $B$ and carries a tension $T = 28.3\\text{ kN}$, while a vertical load $W = 25\\text{ kN}$ hangs directly below the top tip.",
+      "situation_text": "A crane boom hinged at B has a height of $36\\text{ m}$ with its top tip located $16\\text{ m}$ horizontally to the right of B. A guy cable attached to the top tip is anchored on the ground $20\\text{ m}$ to the left of B and carries a tension $T = 28.3\\text{ kN}$, while a vertical load $W = 25\\text{ kN}$ hangs directly below the top tip.",
       "use": [
         "set",
         "quiz"
@@ -7276,7 +7276,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the magnitude and sense of the moment of the vertical load $W$ about point $B$.",
+      "question": "Determine the magnitude and sense of the moment of the vertical load W about point B.",
       "choices": [
         "$400\\text{ kN}\\cdot\\text{m}$ clockwise",
         "$400\\text{ kN}\\cdot\\text{m}$ counterclockwise",
@@ -7284,7 +7284,7 @@
         "$500\\text{ kN}\\cdot\\text{m}$ clockwise"
       ],
       "answer": "A",
-      "explanation": "1. Identify the perpendicular lever arm from hinge $B$ to the line of action of $W$:\n   $d_x = 16\\text{ m}$ (to the right of $B$)\n\n2. Compute the moment of $W = 25\\text{ kN}$ (downward) about $B$:\n   $M_{B,W} = W \\cdot d_x = (25\\text{ kN})(16\\text{ m}) = 400\\text{ kN}\\cdot\\text{m}\\text{ CW}$",
+      "explanation": "1. Identify the perpendicular lever arm from hinge B to the line of action of W:\n   $d_x = 16\\text{ m}$ (to the right of B)\n\n2. Compute the moment of $W = 25\\text{ kN}$ (downward) about B:\n   $M_{B,W} = W \\cdot d_x = (25\\text{ kN})(16\\text{ m}) = 400\\text{ kN}\\cdot\\text{m}\\text{ CW}$",
       "image": [],
       "situation": "SIT-PSAD-011",
       "situation_text": "",
@@ -7298,23 +7298,23 @@
       "year": "",
       "trap_a": "",
       "trap_b": "Rotational Sense Trap: Assigns a counterclockwise sense instead of clockwise.",
-      "trap_c": "Wrong Lever Arm Trap: Multiplies $W$ by the $36\\text{-m}$ vertical height instead of the $16\\text{-m}$ horizontal distance ($25 \\times 36 = 900\\text{ kN}\\cdot\\text{m}$).",
-      "trap_d": "Wrong Lever Arm Trap: Multiplies $W$ by the $20\\text{-m}$ left anchor distance instead of $16\\text{ m}$ ($25 \\times 20 = 500\\text{ kN}\\cdot\\text{m}$)."
+      "trap_c": "Wrong Lever Arm Trap: Multiplies W by the $36\\text{-m}$ vertical height instead of the $16\\text{-m}$ horizontal distance ($25 \\times 36 = 900\\text{ kN}\\cdot\\text{m}$).",
+      "trap_d": "Wrong Lever Arm Trap: Multiplies W by the $20\\text{-m}$ left anchor distance instead of $16\\text{ m}$ ($25 \\times 20 = 500\\text{ kN}\\cdot\\text{m}$)."
     },
     {
       "id": "psad-determine-the-combined-moment-of-forces-t-and-ca1l7m1",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the combined moment of forces $T$ and $W$ about point $B$.",
+      "question": "Determine the combined moment of forces T and W about point B.",
       "choices": [
-        "$0.22\\text{ kN}\\cdot\\text{m}$ counterclockwise (essentially $0$)",
+        "$0.22\\text{ kN}\\cdot\\text{m}$ counterclockwise (essentially 0)",
         "$800\\text{ kN}\\cdot\\text{m}$ clockwise",
         "$800\\text{ kN}\\cdot\\text{m}$ counterclockwise",
         "$320\\text{ kN}\\cdot\\text{m}$ counterclockwise"
       ],
       "answer": "A",
-      "explanation": "1. Sum the moments of $T$ and $W$ about $B$ (taking counterclockwise as positive):\n   $M_{B,\\text{total}} = M_{B,T} + M_{B,W}$\n   $M_{B,\\text{total}} = +400.22\\text{ kN}\\cdot\\text{m} - 400.00\\text{ kN}\\cdot\\text{m} = +0.22\\text{ kN}\\cdot\\text{m}\\text{ CCW} \\approx 0$",
+      "explanation": "1. Sum the moments of T and W about B (taking counterclockwise as positive):\n   $M_{B,\\text{total}} = M_{B,T} + M_{B,W}$\n   $M_{B,\\text{total}} = +400.22\\text{ kN}\\cdot\\text{m} - 400.00\\text{ kN}\\cdot\\text{m} = +0.22\\text{ kN}\\cdot\\text{m}\\text{ CCW} \\approx 0$",
       "image": [],
       "situation": "SIT-PSAD-011",
       "situation_text": "",
@@ -7329,14 +7329,14 @@
       "trap_a": "",
       "trap_b": "Sign-Error Addition Trap: Adds the two moment magnitudes ($400 + 400 = 800\\text{ kN}\\cdot\\text{m}$ CW) instead of subtracting opposing senses.",
       "trap_c": "Sign-Error Addition Trap: Adds the two moment magnitudes ($400 + 400 = 800\\text{ kN}\\cdot\\text{m}$ CCW) instead of subtracting opposing senses.",
-      "trap_d": "Omitted Load Trap: Subtracts $T_y(16) = 320\\text{ kN}\\cdot\\text{m}$ from $T_x(36) = 720\\text{ kN}\\cdot\\text{m}$ while neglecting the moment of $W$."
+      "trap_d": "Omitted Load Trap: Subtracts $T_y(16) = 320\\text{ kN}\\cdot\\text{m}$ from $T_x(36) = 720\\text{ kN}\\cdot\\text{m}$ while neglecting the moment of W."
     },
     {
       "id": "psad-the-resultant-of-the-three-forces-acting-on-th-uuganve",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "The resultant of the three forces acting on the bell crank is a single force $R$ that passes through point $B$. Given the $36\\text{-lb}$ upward force at $O$ ($1.5\\text{ ft}$ to the left of $B$), the $30.5\\text{-lb}$ leftward force at $3\\text{ ft}$ above the $x$-axis, and force $F$ acting down and to the left at a $5$-$12$-$13$ slope at $4\\text{ ft}$ to the right of $O$, determine the magnitudes of $F$ and $R$.",
+      "question": "The resultant of the three forces acting on the bell crank is a single force R that passes through point B. Given the $36\\text{-lb}$ upward force at O ($1.5\\text{ ft}$ to the left of B), the $30.5\\text{-lb}$ leftward force at $3\\text{ ft}$ above the x-axis, and force F acting down and to the left at a 5-12-13 slope at $4\\text{ ft}$ to the right of O, determine the magnitudes of F and R.",
       "choices": [
         "$F = 39.0\\text{ lb},\\; R = 69.7\\text{ lb}$",
         "$F = 16.25\\text{ lb},\\; R = 54.0\\text{ lb}$",
@@ -7344,7 +7344,7 @@
         "$F = 39.0\\text{ lb},\\; R = 82.5\\text{ lb}$"
       ],
       "answer": "A",
-      "explanation": "1. Set the sum of moments about $B$ equal to zero since $R$ passes through $B$ (CCW positive):\n   $-36(1.5) + 30.5(3) - \\left(\\frac{5}{13}F\\right)(4 - 1.5) = 0$\n   $-54 + 91.5 - \\frac{12.5}{13}F = 0 \\implies F = \\frac{37.5 \\times 13}{12.5} = 39.0\\text{ lb}$\n\n2. Sum rectangular components of all three forces:\n   $R_x = -30.5 - \\frac{12}{13}(39.0) = -30.5 - 36.0 = -66.5\\text{ lb}$\n   $R_y = +36 - \\frac{5}{13}(39.0) = 36 - 15.0 = +21.0\\text{ lb}$\n\n3. Compute the magnitude of resultant $R$:\n   $R = \\sqrt{(-66.5)^2 + (21.0)^2} = 69.7\\text{ lb}$",
+      "explanation": "1. Set the sum of moments about B equal to zero since R passes through B (CCW positive):\n   $-36(1.5) + 30.5(3) - \\left(\\frac{5}{13}F\\right)(4 - 1.5) = 0$\n   $-54 + 91.5 - \\frac{12.5}{13}F = 0 \\implies F = \\frac{37.5 \\times 13}{12.5} = 39.0\\text{ lb}$\n\n2. Sum rectangular components of all three forces:\n   $R_x = -30.5 - \\frac{12}{13}(39.0) = -30.5 - 36.0 = -66.5\\text{ lb}$\n   $R_y = +36 - \\frac{5}{13}(39.0) = 36 - 15.0 = +21.0\\text{ lb}$\n\n3. Compute the magnitude of resultant R:\n   $R = \\sqrt{(-66.5)^2 + (21.0)^2} = 69.7\\text{ lb}$",
       "image": [
         "files/figures/prob-bell-crank-3-25"
       ],
@@ -7359,7 +7359,7 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Slope-Leg Swap Trap: Uses $\\frac{12}{13}F$ instead of $\\frac{5}{13}F$ for the vertical component of $F$ in the moment equation ($\\frac{30}{13}F = 37.5 \\implies F = 16.25\\text{ lb}$).",
+      "trap_b": "Slope-Leg Swap Trap: Uses $\\frac{12}{13}F$ instead of $\\frac{5}{13}F$ for the vertical component of F in the moment equation ($\\frac{30}{13}F = 37.5 \\implies F = 16.25\\text{ lb}$).",
       "trap_c": "Moment Sign-Error Trap: Adds the clockwise moment of the $36\\text{-lb}$ force instead of subtracting ($54 + 91.5 = 145.5 \\implies F = 151.3\\text{ lb}$).",
       "trap_d": "Component Sign-Error Trap: Finds $F = 39.0\\text{ lb}$ correctly, but adds $F_y = 15.0\\text{ lb}$ to $36\\text{ lb}$ instead of subtracting ($R_y = 51.0\\text{ lb} \\implies R = 83.8\\text{ lb} \\approx 82.5\\text{ lb}$)."
     },
@@ -7381,7 +7381,7 @@
         "files/figures/sit-psad-012"
       ],
       "situation": "SIT-PSAD-012",
-      "situation_text": "The overhead electric hoist $C$ rides along a track on the horizontal beam $AB$ of total span $17\\text{ m}$ ($2\\text{ m} + 8\\text{ m} + 4\\text{ m} + 3\\text{ m}$). In addition to the $500\\text{-kN}$ vertical downward force carried by the hoist at distance $x$ from $A$, the beam also supports downward vertical loads of $300\\text{ kN}$ at $2\\text{ m}$, $120\\text{ kN}$ at $10\\text{ m}$, and $200\\text{ kN}$ at $14\\text{ m}$ from $A$.",
+      "situation_text": "The overhead electric hoist C rides along a track on the horizontal beam AB of total span $17\\text{ m}$ ($2\\text{ m} + 8\\text{ m} + 4\\text{ m} + 3\\text{ m}$). In addition to the $500\\text{-kN}$ vertical downward force carried by the hoist at distance x from A, the beam also supports downward vertical loads of $300\\text{ kN}$ at $2\\text{ m}$, $120\\text{ kN}$ at $10\\text{ m}$, and $200\\text{ kN}$ at $14\\text{ m}$ from A.",
       "use": [
         "set",
         "quiz"
@@ -7400,7 +7400,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "If the hoist is positioned at $x = 5\\text{ m}$ from $A$, determine the location $\\bar{x}$ of the resultant force measured from support $A$.",
+      "question": "If the hoist is positioned at $x = 5\\text{ m}$ from A, determine the location $\\bar{x}$ of the resultant force measured from support A.",
       "choices": [
         "$6.34\\text{ m}$",
         "$5.25\\text{ m}$",
@@ -7408,7 +7408,7 @@
         "$5.98\\text{ m}$"
       ],
       "answer": "A",
-      "explanation": "1. Sum clockwise moments about support $A$ with $x = 5\\text{ m}$:\n   $M_A = 300(2) + 500(5) + 120(10) + 200(14)$\n   $M_A = 600 + 2500 + 1200 + 2800 = 7100\\text{ kN}\\cdot\\text{m}$\n\n2. Divide by the total resultant $R = 1120\\text{ kN}$:\n   $\\bar{x} = \\frac{M_A}{R} = \\frac{7100}{1120} = 6.339\\text{ m} \\approx 6.34\\text{ m}$",
+      "explanation": "1. Sum clockwise moments about support A with $x = 5\\text{ m}$:\n   $M_A = 300(2) + 500(5) + 120(10) + 200(14)$\n   $M_A = 600 + 2500 + 1200 + 2800 = 7100\\text{ kN}\\cdot\\text{m}$\n\n2. Divide by the total resultant $R = 1120\\text{ kN}$:\n   $\\bar{x} = \\frac{M_A}{R} = \\frac{7100}{1120} = 6.339\\text{ m} \\approx 6.34\\text{ m}$",
       "image": [],
       "situation": "SIT-PSAD-012",
       "situation_text": "",
@@ -7421,7 +7421,7 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Incremental Spacing Trap: Uses incremental spacing distances ($8\\text{ m}$ and $4\\text{ m}$) instead of cumulative distances from $A$ ($10\\text{ m}$ and $14\\text{ m}$), yielding $5.25\\text{ m}$.",
+      "trap_b": "Incremental Spacing Trap: Uses incremental spacing distances ($8\\text{ m}$ and $4\\text{ m}$) instead of cumulative distances from A ($10\\text{ m}$ and $14\\text{ m}$), yielding $5.25\\text{ m}$.",
       "trap_c": "Midspan Assumption Trap: Assumes the resultant acts at the center of the $17\\text{-m}$ span ($8.50\\text{ m}$).",
       "trap_d": "Arithmetic Error Trap: Computes $M_A = 6700\\text{ kN}\\cdot\\text{m}$, giving $6700 / 1120 = 5.98\\text{ m}$."
     },
@@ -7430,7 +7430,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the distance $x$ from $A$ at which the hoist must be positioned so that the resultant of the four forces acts at the center of the span $AB$ ($\\bar{x} = 8.5\\text{ m}$).",
+      "question": "Determine the distance x from A at which the hoist must be positioned so that the resultant of the four forces acts at the center of the span AB ($\\bar{x} = 8.5\\text{ m}$).",
       "choices": [
         "$9.84\\text{ m}$",
         "$8.50\\text{ m}$",
@@ -7438,7 +7438,7 @@
         "$7.16\\text{ m}$"
       ],
       "answer": "A",
-      "explanation": "1. Set the resultant moment about $A$ equal to $R\\bar{x}$ with $\\bar{x} = 17/2 = 8.5\\text{ m}$:\n   $1120(8.5) = 300(2) + 120(10) + 200(14) + 500x$\n   $9520 = 600 + 1200 + 2800 + 500x$\n\n2. Solve for hoist position $x$:\n   $9520 = 4600 + 500x \\implies x = \\frac{4920}{500} = 9.84\\text{ m}$",
+      "explanation": "1. Set the resultant moment about A equal to $R\\bar{x}$ with $\\bar{x} = 17/2 = 8.5\\text{ m}$:\n   $1120(8.5) = 300(2) + 120(10) + 200(14) + 500x$\n   $9520 = 600 + 1200 + 2800 + 500x$\n\n2. Solve for hoist position x:\n   $9520 = 4600 + 500x \\implies x = \\frac{4920}{500} = 9.84\\text{ m}$",
       "image": [],
       "situation": "SIT-PSAD-012",
       "situation_text": "",
@@ -7453,14 +7453,14 @@
       "trap_a": "",
       "trap_b": "Direct Center Placement Trap: Assumes the hoist itself must be placed at midspan ($x = 8.50\\text{ m}$).",
       "trap_c": "Wrong Total Span Trap: Uses a total span of $18\\text{ m}$ ($\\bar{x} = 9.0\\text{ m}$), giving $x = (1120 \\times 9.0 - 4600)/500 = 10.96\\text{ m}$.",
-      "trap_d": "Arithmetic Subtraction Trap: Subtracts $4600$ from $8180$ instead of $9520$, giving $3580 / 500 = 7.16\\text{ m}$."
+      "trap_d": "Arithmetic Subtraction Trap: Subtracts 4600 from 8180 instead of 9520, giving $3580 / 500 = 7.16\\text{ m}$."
     },
     {
       "id": "psad-determine-the-magnitude-and-direction-of-the-r-ollk6j5",
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Determine the magnitude and direction of the resultant force $R$ acting on the truss.",
+      "question": "Determine the magnitude and direction of the resultant force R acting on the truss.",
       "choices": [
         "$49.6\\text{ kN}$ at $72.4^\\circ$ down and to the left",
         "$49.6\\text{ kN}$ at $17.6^\\circ$ down and to the left",
@@ -7468,7 +7468,7 @@
         "$49.6\\text{ kN}$ at $72.4^\\circ$ down and to the right"
       ],
       "answer": "A",
-      "explanation": "1. Resolve the forces into horizontal ($x$) and vertical ($y$) components:\n   $R_x = -25 + 20\\sin 30^\\circ = -25 + 10 = -15.0\\text{ kN}$\n   $R_y = -20\\cos 30^\\circ - 30 = -17.32 - 30 = -47.32\\text{ kN}$\n\n2. Compute resultant magnitude and angle from the horizontal:\n   $R = \\sqrt{(-15.0)^2 + (-47.32)^2} = 49.64\\text{ kN} \\approx 49.6\\text{ kN}$\n   $\\theta = \\tan^{-1}\\left(\\frac{47.32}{15.0}\\right) = 72.4^\\circ\\text{ down and to the left}$",
+      "explanation": "1. Resolve the forces into horizontal (x) and vertical (y) components:\n   $R_x = -25 + 20\\sin 30^\\circ = -25 + 10 = -15.0\\text{ kN}$\n   $R_y = -20\\cos 30^\\circ - 30 = -17.32 - 30 = -47.32\\text{ kN}$\n\n2. Compute resultant magnitude and angle from the horizontal:\n   $R = \\sqrt{(-15.0)^2 + (-47.32)^2} = 49.64\\text{ kN} \\approx 49.6\\text{ kN}$\n   $\\theta = \\tan^{-1}\\left(\\frac{47.32}{15.0}\\right) = 72.4^\\circ\\text{ down and to the left}$",
       "image": [
         "files/figures/sit-psad-013"
       ],
@@ -7492,7 +7492,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Specify the $x$-intercept (the point on the $x$-axis) through which the line of action of $R$ passes.",
+      "question": "Specify the x-intercept (the point on the x-axis) through which the line of action of R passes.",
       "choices": [
         "$x = 7.42\\text{ m}$",
         "$x = -7.42\\text{ m}$",
@@ -7500,7 +7500,7 @@
         "$x = 4.94\\text{ m}$"
       ],
       "answer": "A",
-      "explanation": "1. Sum moments about pin $O(0, 0)$ (taking counterclockwise as positive):\n   $M_O = +25(5) - (20\\sin 30^\\circ)(5) - (20\\cos 30^\\circ)(9) - 30(9)$\n   $M_O = 125 - 50 - 155.88 - 270 = -350.88\\text{ kN}\\cdot\\text{m}\\text{ (CW)}$\n\n2. Apply Varignon's Theorem at the $x$-axis ($y = 0$, where $M_O = x \\cdot R_y$):\n   $x = \\frac{M_O}{R_y} = \\frac{-350.88}{-47.32} = +7.415\\text{ m} \\approx 7.42\\text{ m}$",
+      "explanation": "1. Sum moments about pin O(0, 0) (taking counterclockwise as positive):\n   $M_O = +25(5) - (20\\sin 30^\\circ)(5) - (20\\cos 30^\\circ)(9) - 30(9)$\n   $M_O = 125 - 50 - 155.88 - 270 = -350.88\\text{ kN}\\cdot\\text{m}\\text{ (CW)}$\n\n2. Apply Varignon's Theorem at the x-axis ($y = 0$, where $M_O = x \\cdot R_y$):\n   $x = \\frac{M_O}{R_y} = \\frac{-350.88}{-47.32} = +7.415\\text{ m} \\approx 7.42\\text{ m}$",
       "image": [],
       "situation": "SIT-PSAD-013",
       "situation_text": "",
@@ -7513,7 +7513,7 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Sign-Error Trap: Divides $-350.88$ by $+47.32$, reporting $x = -7.42\\text{ m}$ to the left of $O$.",
+      "trap_b": "Sign-Error Trap: Divides -350.88 by $+47.32$, reporting $x = -7.42\\text{ m}$ to the left of O.",
       "trap_c": "Total Resultant Division Trap: Divides $|M_O|$ by the total resultant $R = 49.64\\text{ kN}$ instead of $R_y = 47.32\\text{ kN}$ ($350.88 / 49.64 = 7.07\\text{ m}$).",
       "trap_d": "Incremental Span Trap: Uses $6\\text{ m}$ instead of $9\\text{ m}$ for the moment arms of the $20\\text{-kN}$ and $30\\text{-kN}$ forces ($233.9 / 47.32 = 4.94\\text{ m}$)."
     },
@@ -7522,7 +7522,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "situational",
-      "question": "Specify the $y$-intercept (the point on the $y$-axis) through which the line of action of $R$ passes.",
+      "question": "Specify the y-intercept (the point on the y-axis) through which the line of action of R passes.",
       "choices": [
         "$y = -23.4\\text{ m}$",
         "$y = +23.4\\text{ m}$",
@@ -7530,7 +7530,7 @@
         "$y = -11.7\\text{ m}$"
       ],
       "answer": "A",
-      "explanation": "1. Apply Varignon's Theorem at the $y$-axis ($x = 0$, where $M_O = -y \\cdot R_x$ for CCW positive):\n   $-y(-15.0) = -350.88$\n\n2. Solve for $y$:\n   $y = \\frac{-350.88}{15.0} = -23.39\\text{ m} \\approx -23.4\\text{ m}$",
+      "explanation": "1. Apply Varignon's Theorem at the y-axis ($x = 0$, where $M_O = -y \\cdot R_x$ for CCW positive):\n   $-y(-15.0) = -350.88$\n\n2. Solve for y:\n   $y = \\frac{-350.88}{15.0} = -23.39\\text{ m} \\approx -23.4\\text{ m}$",
       "image": [],
       "situation": "SIT-PSAD-013",
       "situation_text": "",
@@ -7543,9 +7543,9 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Sign-Error Trap: Drops the negative sign, reporting $y = +23.4\\text{ m}$ above $O$ instead of below $O$.",
-      "trap_c": "Axis Swap Trap: Reports the $x$-intercept value ($-7.42\\text{ m}$) instead of dividing by $R_x$.",
-      "trap_d": "Wrong Horizontal Component Trap: Divides $-350.88$ by $30\\text{ kN}$ instead of $15.0\\text{ kN}$ ($-11.7\\text{ m}$)."
+      "trap_b": "Sign-Error Trap: Drops the negative sign, reporting $y = +23.4\\text{ m}$ above O instead of below O.",
+      "trap_c": "Axis Swap Trap: Reports the x-intercept value ($-7.42\\text{ m}$) instead of dividing by $R_x$.",
+      "trap_d": "Wrong Horizontal Component Trap: Divides -350.88 by $30\\text{ kN}$ instead of $15.0\\text{ kN}$ ($-11.7\\text{ m}$)."
     },
     {
       "id": "psad-a-commercial-airliner-with-four-jet-engines-ea-66jzddx",
@@ -7584,7 +7584,7 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "The bent lever shown is acted upon by a vertical downward force of $400\\text{ N}$ at $150\\text{ mm}$ along the $30^\\circ$ arm from $O$, a $320\\text{-N}$ force inclined at $60^\\circ$ below the horizontal at $300\\text{ mm}$ along the $30^\\circ$ arm from $O$, and a counterclockwise couple $M$. If the resultant of the two forces and couple $M$ passes through point $O$, determine the magnitude of couple $M$.",
+      "question": "The bent lever shown is acted upon by a vertical downward force of $400\\text{ N}$ at $150\\text{ mm}$ along the $30^\\circ$ arm from O, a $320\\text{-N}$ force inclined at $60^\\circ$ below the horizontal at $300\\text{ mm}$ along the $30^\\circ$ arm from O, and a counterclockwise couple M. If the resultant of the two forces and couple M passes through point O, determine the magnitude of couple M.",
       "choices": [
         "$148.0\\text{ N}\\cdot\\text{m}$",
         "$126.0\\text{ N}\\cdot\\text{m}$",
@@ -7592,7 +7592,7 @@
         "$44.0\\text{ N}\\cdot\\text{m}$"
       ],
       "answer": "A",
-      "explanation": "1. Determine the moment arms of the two forces about $O$:\n   - The $400\\text{-N}$ vertical force acts at a horizontal distance $d_1 = 0.15\\cos 30^\\circ = 0.1299\\text{ m}$ to the right of $O$.\n   - Because the arm is at $+30^\\circ$ above the horizontal and the $320\\text{-N}$ force is at $-60^\\circ$ below the horizontal, the angle between them is $30^\\circ + 60^\\circ = 90^\\circ$, so $d_2 = 0.30\\text{ m}$.\n\n2. Set the sum of moments about $O$ equal to zero (CCW positive):\n   $M - 400(0.15\\cos 30^\\circ) - 320(0.30) = 0$\n   $M = 51.96 + 96.00 = 147.96\\text{ N}\\cdot\\text{m} \\approx 148.0\\text{ N}\\cdot\\text{m}$",
+      "explanation": "1. Determine the moment arms of the two forces about O:\n   - The $400\\text{-N}$ vertical force acts at a horizontal distance $d_1 = 0.15\\cos 30^\\circ = 0.1299\\text{ m}$ to the right of O.\n   - Because the arm is at $+30^\\circ$ above the horizontal and the $320\\text{-N}$ force is at $-60^\\circ$ below the horizontal, the angle between them is $30^\\circ + 60^\\circ = 90^\\circ$, so $d_2 = 0.30\\text{ m}$.\n\n2. Set the sum of moments about O equal to zero (CCW positive):\n   $M - 400(0.15\\cos 30^\\circ) - 320(0.30) = 0$\n   $M = 51.96 + 96.00 = 147.96\\text{ N}\\cdot\\text{m} \\approx 148.0\\text{ N}\\cdot\\text{m}$",
       "image": [
         "files/figures/prob-bent-lever-2-88"
       ],
@@ -7616,15 +7616,15 @@
       "subject": "PSAD",
       "topic": "Engineering mechanics",
       "category": "problem",
-      "question": "Replace the two horizontal forces acting on the bent pipe ($120\\text{ N}$ to the right at $y = 240\\text{ mm}$ and $200\\text{ N}$ to the left at $y = 160\\text{ mm}$) by a single equivalent force $R$. Specify the magnitude and direction of $R$ and the vertical distance $y$ above point $A$ to its line of action.",
+      "question": "Replace the two horizontal forces acting on the bent pipe ($120\\text{ N}$ to the right at $y = 240\\text{ mm}$ and $200\\text{ N}$ to the left at $y = 160\\text{ mm}$) by a single equivalent force R. Specify the magnitude and direction of R and the vertical distance y above point A to its line of action.",
       "choices": [
-        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ above $A$",
-        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ below $A$",
-        "$320\\text{ N}$ to the left at $y = 190\\text{ mm}$ above $A$",
-        "$80\\text{ N}$ to the right at $y = 40\\text{ mm}$ above $A$"
+        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ above A",
+        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ below A",
+        "$320\\text{ N}$ to the left at $y = 190\\text{ mm}$ above A",
+        "$80\\text{ N}$ to the right at $y = 40\\text{ mm}$ above A"
       ],
       "answer": "A",
-      "explanation": "1. Sum horizontal forces (taking rightward as positive):\n   $R = +120 - 200 = -80\\text{ N}$ (i.e., $80\\text{ N}$ to the left)\n\n2. Sum moments about point $A$ (taking counterclockwise as positive):\n   $M_A = -120(240) + 200(160) = -28,800 + 32,000 = +3200\\text{ N}\\cdot\\text{mm}\\text{ (CCW)}$\n\n3. Locate the line of action of $R = 80\\text{ N}$ to the left:\n   To produce a $3200\\text{ N}\\cdot\\text{mm}$ counterclockwise moment about $A$, the leftward force must act above $A$ at a distance:\n   $y = \\frac{3200\\text{ N}\\cdot\\text{mm}}{80\\text{ N}} = 40\\text{ mm}\\text{ above } A$",
+      "explanation": "1. Sum horizontal forces (taking rightward as positive):\n   $R = +120 - 200 = -80\\text{ N}$ (i.e., $80\\text{ N}$ to the left)\n\n2. Sum moments about point A (taking counterclockwise as positive):\n   $M_A = -120(240) + 200(160) = -28,800 + 32,000 = +3200\\text{ N}\\cdot\\text{mm}\\text{ (CCW)}$\n\n3. Locate the line of action of $R = 80\\text{ N}$ to the left:\n   To produce a $3200\\text{ N}\\cdot\\text{mm}$ counterclockwise moment about A, the leftward force must act above A at a distance:\n   $y = \\frac{3200\\text{ N}\\cdot\\text{mm}}{80\\text{ N}} = 40\\text{ mm}\\text{ above } A$",
       "image": [
         "files/figures/prob-bent-pipe-2-85"
       ],
@@ -7639,9 +7639,9 @@
       "source": "",
       "year": "",
       "trap_a": "",
-      "trap_b": "Line-of-Action Side Trap: Places the $80\\text{-N}$ leftward force $40\\text{ mm}$ below $A$, which would produce a clockwise moment instead of counterclockwise.",
+      "trap_b": "Line-of-Action Side Trap: Places the $80\\text{-N}$ leftward force $40\\text{ mm}$ below A, which would produce a clockwise moment instead of counterclockwise.",
       "trap_c": "Force Addition Trap: Adds the two opposing horizontal forces ($120 + 200 = 320\\text{ N}$) instead of subtracting them.",
-      "trap_d": "Force Direction Trap: States that $R$ acts to the right instead of to the left."
+      "trap_d": "Force Direction Trap: States that R acts to the right instead of to the left."
     }
   ]
 }
