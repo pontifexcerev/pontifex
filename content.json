@@ -7224,6 +7224,506 @@
       "trap_b": "Reversed Direction Trap: Computes the force on bolt $C$ (from $C$ to $A$) instead of on tower $A$ (from $A$ to $C$), reversing all signs.",
       "trap_c": "Coordinate Swap Trap: Swaps the $x$ ($60\\text{ ft}$) and $z$ ($18\\text{ ft}$) coordinates.",
       "trap_d": "Sign-Error on Z Trap: Uses $-90\\text{ lb}$ instead of $+90\\text{ lb}$ for $F_z$."
+    },
+    {
+      "id": "psad-the-two-mooring-cables-exert-forces-f-a-200-te-mt86bfu",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "The two mooring cables exert forces $F_A = 200\\text{ lb}$ and $F_B = 150\\text{ lb}$ on the stern of a ship at $C(0,\\; 0,\\; 0)$ directed toward bollards $A(50\\text{ ft},\\; 10\\text{ ft},\\; -30\\text{ ft})$ and $B(50\\text{ ft},\\; 50\\text{ ft},\\; -30\\text{ ft})$, respectively. Determine the magnitude and coordinate direction angles $(\\alpha, \\beta, \\gamma)$ of the resultant force.",
+      "choices": [
+        "$338\\text{ lb}$ at $\\alpha = 37.8^\\circ,\\; \\beta = 67.1^\\circ,\\; \\gamma = 118.3^\\circ$",
+        "$333\\text{ lb}$ at $\\alpha = 34.4^\\circ,\\; \\beta = 69.8^\\circ,\\; \\gamma = 120.2^\\circ$",
+        "$338\\text{ lb}$ at $\\alpha = 37.8^\\circ,\\; \\beta = 67.1^\\circ,\\; \\gamma = 61.7^\\circ$",
+        "$333\\text{ lb}$ at $\\alpha = 67.1^\\circ,\\; \\beta = 37.8^\\circ,\\; \\gamma = 118.3^\\circ$"
+      ],
+      "answer": "A",
+      "explanation": "1. Determine the coordinate differences and length of cable $CA$ from $C(0, 0, 0)$ to $A(50, 10, -30)$:\n   $\\Delta x_A = 50\\text{ ft}, \\quad \\Delta y_A = 10\\text{ ft}, \\quad \\Delta z_A = -30\\text{ ft}$\n   $L_{CA} = \\sqrt{(50)^2 + (10)^2 + (-30)^2} = \\sqrt{3500} = 59.16\\text{ ft}$\n\n2. Resolve $F_A = 200\\text{ lb}$ into scalar $x, y, z$ components:\n   $F_{Ax} = 200\\left(\\frac{50}{59.16}\\right) = +169.03\\text{ lb}$\n   $F_{Ay} = 200\\left(\\frac{10}{59.16}\\right) = +33.81\\text{ lb}$\n   $F_{Az} = 200\\left(\\frac{-30}{59.16}\\right) = -101.42\\text{ lb}$\n\n3. Determine the coordinate differences and length of cable $CB$ from $C(0, 0, 0)$ to $B(50, 50, -30)$:\n   $\\Delta x_B = 50\\text{ ft}, \\quad \\Delta y_B = 10 + 40 = 50\\text{ ft}, \\quad \\Delta z_B = -30\\text{ ft}$\n   $L_{CB} = \\sqrt{(50)^2 + (50)^2 + (-30)^2} = \\sqrt{5900} = 76.81\\text{ ft}$\n\n4. Resolve $F_B = 150\\text{ lb}$ into scalar $x, y, z$ components:\n   $F_{Bx} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{By} = 150\\left(\\frac{50}{76.81}\\right) = +97.64\\text{ lb}$\n   $F_{Bz} = 150\\left(\\frac{-30}{76.81}\\right) = -58.58\\text{ lb}$\n\n5. Sum components along each axis and compute resultant magnitude and coordinate direction angles:\n   $R_x = 169.03 + 97.64 = +266.67\\text{ lb}$\n   $R_y = 33.81 + 97.64 = +131.45\\text{ lb}$\n   $R_z = -101.42 - 58.58 = -160.00\\text{ lb}$\n   $F_R = \\sqrt{(266.67)^2 + (131.45)^2 + (-160.00)^2} = 337.6\\text{ lb} \\approx 338\\text{ lb}$\n   $\\alpha = \\cos^{-1}\\left(\\frac{266.67}{337.6}\\right) = 37.8^\\circ, \\quad \\beta = \\cos^{-1}\\left(\\frac{131.45}{337.6}\\right) = 67.1^\\circ, \\quad \\gamma = \\cos^{-1}\\left(\\frac{-160.00}{337.6}\\right) = 118.3^\\circ$",
+      "image": [
+        "files/figures/prob-mooring-cables-2-101"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Omitted Offset Trap: Uses $y_B = 40\\text{ ft}$ directly instead of adding the $10\\text{ ft}$ offset ($y_B = 10 + 40 = 50\\text{ ft}$), yielding $333\\text{ lb}$ at $\\alpha = 34.4^\\circ,\\; \\beta = 69.8^\\circ,\\; \\gamma = 120.2^\\circ$.",
+      "trap_c": "Sign-Error on Z Trap: Uses $z = +30\\text{ ft}$ instead of $-30\\text{ ft}$, reporting the acute supplement $\\gamma = 61.7^\\circ$ instead of $118.3^\\circ$.",
+      "trap_d": "Axis Swap Trap: Swaps the $x$ and $y$ dimensions ($x_A = 10\\text{ ft}, y_A = 50\\text{ ft}$), swapping $\\alpha$ and $\\beta$."
+    },
+    {
+      "id": "psad-calculate-the-moment-of-the-250-text-n-force-o-sn7nkfw",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "Calculate the moment of the $250\\text{-N}$ force on the handle of the monkey wrench about the center of the bolt.",
+      "choices": [
+        "$46.4\\text{ N}\\cdot\\text{m}$ counterclockwise",
+        "$50.2\\text{ N}\\cdot\\text{m}$ counterclockwise",
+        "$48.3\\text{ N}\\cdot\\text{m}$ counterclockwise",
+        "$12.94\\text{ N}\\cdot\\text{m}$ clockwise"
+      ],
+      "answer": "A",
+      "explanation": "1. Resolve the $250\\text{-N}$ force into horizontal and vertical components at the handle:\n   $F_x = 250\\sin 15^\\circ = 64.70\\text{ N}$ (to the left)\n   $F_y = 250\\cos 15^\\circ = 241.48\\text{ N}$ (downward)\n\n2. Sum moments about the bolt center (taking counterclockwise as positive, with $d_x = 0.20\\text{ m}$ and $d_y = 0.03\\text{ m}$):\n   $M_O = +F_y(0.20) - F_x(0.03)$\n   $M_O = +(241.48)(0.20) - (64.70)(0.03) = 48.30 - 1.94 = +46.36\\text{ N}\\cdot\\text{m} \\approx 46.4\\text{ N}\\cdot\\text{m}\\text{ CCW}$",
+      "image": [
+        "files/figures/prob-monkey-wrench-2-35"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error on Horizontal Moment Trap: Adds both component moments instead of subtracting the clockwise moment of $F_x$ ($48.30 + 1.94 = 50.24\\text{ N}\\cdot\\text{m}$).",
+      "trap_c": "Omitted Vertical Offset Trap: Ignores the $30\\text{-mm}$ vertical offset between the handle centerline and bolt center, computing only $250\\cos 15^\\circ(0.20) = 48.3\\text{ N}\\cdot\\text{m}$.",
+      "trap_d": "Trig-Function Swap Trap: Swaps $\\sin 15^\\circ$ and $\\cos 15^\\circ$ on the $200\\text{-mm}$ lever arm ($250\\sin 15^\\circ(0.20) = 12.94\\text{ N}\\cdot\\text{m}$)."
+    },
+    {
+      "id": "psad-a-moment-of-50-text-lb-cdot-text-ft-about-o-is-c7ypa4a",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "A moment of $50\\text{ lb}\\cdot\\text{ft}$ about $O$ is required to loosen the nut. Determine the smallest magnitude of the force $F$ applied at a distance of $15\\text{ in.}$ from $O$ and the corresponding angle $\\theta$ measured from the wrench handle that will turn the nut.",
+      "choices": [
+        "$40.0\\text{ lb}$ at $\\theta = 90^\\circ$",
+        "$3.33\\text{ lb}$ at $\\theta = 90^\\circ$",
+        "$46.2\\text{ lb}$ at $\\theta = 60^\\circ$",
+        "$56.6\\text{ lb}$ at $\\theta = 45^\\circ$"
+      ],
+      "answer": "A",
+      "explanation": "1. Identify the condition for minimum force:\n   Since $M_O = F d \\sin\\theta$, the force $F$ required to produce $M_O = 50\\text{ lb}\\cdot\\text{ft}$ is minimized when $\\sin\\theta = 1$, which occurs at $\\theta = 90^\\circ$.\n\n2. Convert lever arm to feet and solve for $F_{\\min}$:\n   $d = 15\\text{ in.} \\times \\frac{1\\text{ ft}}{12\\text{ in.}} = 1.25\\text{ ft}$\n   $F_{\\min} = \\frac{M_O}{d} = \\frac{50\\text{ lb}\\cdot\\text{ft}}{1.25\\text{ ft}} = 40.0\\text{ lb}$",
+      "image": [
+        "files/figures/prob-wrench-nut-2-29"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Unit Conversion Trap: Divides $50\\text{ lb}\\cdot\\text{ft}$ directly by $15\\text{ in.}$ without converting inches to feet ($50 / 15 = 3.33\\text{ lb}$).",
+      "trap_c": "Non-Optimal Angle Trap: Assumes $\\theta = 60^\\circ$ instead of $90^\\circ$ ($F = 40.0 / \\sin 60^\\circ = 46.2\\text{ lb}$).",
+      "trap_d": "Non-Optimal Angle Trap: Assumes $\\theta = 45^\\circ$ instead of $90^\\circ$ ($F = 40.0 / \\sin 45^\\circ = 56.6\\text{ lb}$)."
+    },
+    {
+      "id": "psad-determine-the-magnitude-and-sense-of-the-momen-rt54bqm",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the magnitude and sense of the moment of the cable tension $T$ about point $B$.",
+      "choices": [
+        "$400\\text{ kN}\\cdot\\text{m}$ counterclockwise",
+        "$400\\text{ kN}\\cdot\\text{m}$ clockwise",
+        "$494\\text{ kN}\\cdot\\text{m}$ counterclockwise",
+        "$720\\text{ kN}\\cdot\\text{m}$ counterclockwise"
+      ],
+      "answer": "A",
+      "explanation": "1. Determine the inclination angle of the guy cable:\n   From the ground anchor $(-20\\text{ m}, 0)$ to the boom tip $(+16\\text{ m}, 36\\text{ m})$, the horizontal run is $\\Delta x = 16 - (-20) = 36\\text{ m}$ and the vertical rise is $\\Delta y = 36\\text{ m}$, so the cable is inclined at $\\theta = 45^\\circ$.\n\n2. Apply the principle of transmissibility at the ground anchor $(-20\\text{ m}, 0)$:\n   $T_x = 28.3\\cos 45^\\circ = 20.01\\text{ kN}$ (line of action passes through $B$, producing zero moment)\n   $T_y = 28.3\\sin 45^\\circ = 20.01\\text{ kN}$ (acts downward $20\\text{ m}$ to the left of $B$)\n\n3. Compute moment of $T$ about $B$:\n   $M_{B,T} = T_y(20\\text{ m}) = (20.01)(20) = 400.2\\text{ kN}\\cdot\\text{m} \\approx 400\\text{ kN}\\cdot\\text{m}\\text{ CCW}$",
+      "image": [
+        "files/figures/sit-psad-011"
+      ],
+      "situation": "SIT-PSAD-011",
+      "situation_text": "A crane boom hinged at $B$ has a height of $36\\text{ m}$ with its top tip located $16\\text{ m}$ horizontally to the right of $B$. A guy cable attached to the top tip is anchored on the ground $20\\text{ m}$ to the left of $B$ and carries a tension $T = 28.3\\text{ kN}$, while a vertical load $W = 25\\text{ kN}$ hangs directly below the top tip.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Rotational Sense Trap: Assigns a clockwise sense instead of counterclockwise.",
+      "trap_c": "Cable Geometry Trap: Uses $\\Delta x = 20\\text{ m}$ instead of $36\\text{ m}$ for the cable slope ($\\sin\\theta = 36/\\sqrt{20^2+36^2} = 0.874 \\implies 28.3(0.874)(20) = 494\\text{ kN}\\cdot\\text{m}$).",
+      "trap_d": "Incomplete Tip Resolution Trap: Computes $T_x(36) = 720\\text{ kN}\\cdot\\text{m}$ at the boom tip without subtracting $T_y(16) = 320\\text{ kN}\\cdot\\text{m}$."
+    },
+    {
+      "id": "psad-determine-the-magnitude-and-sense-of-the-momen-5t1v6pe",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the magnitude and sense of the moment of the vertical load $W$ about point $B$.",
+      "choices": [
+        "$400\\text{ kN}\\cdot\\text{m}$ clockwise",
+        "$400\\text{ kN}\\cdot\\text{m}$ counterclockwise",
+        "$900\\text{ kN}\\cdot\\text{m}$ clockwise",
+        "$500\\text{ kN}\\cdot\\text{m}$ clockwise"
+      ],
+      "answer": "A",
+      "explanation": "1. Identify the perpendicular lever arm from hinge $B$ to the line of action of $W$:\n   $d_x = 16\\text{ m}$ (to the right of $B$)\n\n2. Compute the moment of $W = 25\\text{ kN}$ (downward) about $B$:\n   $M_{B,W} = W \\cdot d_x = (25\\text{ kN})(16\\text{ m}) = 400\\text{ kN}\\cdot\\text{m}\\text{ CW}$",
+      "image": [],
+      "situation": "SIT-PSAD-011",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Rotational Sense Trap: Assigns a counterclockwise sense instead of clockwise.",
+      "trap_c": "Wrong Lever Arm Trap: Multiplies $W$ by the $36\\text{-m}$ vertical height instead of the $16\\text{-m}$ horizontal distance ($25 \\times 36 = 900\\text{ kN}\\cdot\\text{m}$).",
+      "trap_d": "Wrong Lever Arm Trap: Multiplies $W$ by the $20\\text{-m}$ left anchor distance instead of $16\\text{ m}$ ($25 \\times 20 = 500\\text{ kN}\\cdot\\text{m}$)."
+    },
+    {
+      "id": "psad-determine-the-combined-moment-of-forces-t-and-ca1l7m1",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the combined moment of forces $T$ and $W$ about point $B$.",
+      "choices": [
+        "$0.22\\text{ kN}\\cdot\\text{m}$ counterclockwise (essentially $0$)",
+        "$800\\text{ kN}\\cdot\\text{m}$ clockwise",
+        "$800\\text{ kN}\\cdot\\text{m}$ counterclockwise",
+        "$320\\text{ kN}\\cdot\\text{m}$ counterclockwise"
+      ],
+      "answer": "A",
+      "explanation": "1. Sum the moments of $T$ and $W$ about $B$ (taking counterclockwise as positive):\n   $M_{B,\\text{total}} = M_{B,T} + M_{B,W}$\n   $M_{B,\\text{total}} = +400.22\\text{ kN}\\cdot\\text{m} - 400.00\\text{ kN}\\cdot\\text{m} = +0.22\\text{ kN}\\cdot\\text{m}\\text{ CCW} \\approx 0$",
+      "image": [],
+      "situation": "SIT-PSAD-011",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Addition Trap: Adds the two moment magnitudes ($400 + 400 = 800\\text{ kN}\\cdot\\text{m}$ CW) instead of subtracting opposing senses.",
+      "trap_c": "Sign-Error Addition Trap: Adds the two moment magnitudes ($400 + 400 = 800\\text{ kN}\\cdot\\text{m}$ CCW) instead of subtracting opposing senses.",
+      "trap_d": "Omitted Load Trap: Subtracts $T_y(16) = 320\\text{ kN}\\cdot\\text{m}$ from $T_x(36) = 720\\text{ kN}\\cdot\\text{m}$ while neglecting the moment of $W$."
+    },
+    {
+      "id": "psad-the-resultant-of-the-three-forces-acting-on-th-uuganve",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "The resultant of the three forces acting on the bell crank is a single force $R$ that passes through point $B$. Given the $36\\text{-lb}$ upward force at $O$ ($1.5\\text{ ft}$ to the left of $B$), the $30.5\\text{-lb}$ leftward force at $3\\text{ ft}$ above the $x$-axis, and force $F$ acting down and to the left at a $5$-$12$-$13$ slope at $4\\text{ ft}$ to the right of $O$, determine the magnitudes of $F$ and $R$.",
+      "choices": [
+        "$F = 39.0\\text{ lb},\\; R = 69.7\\text{ lb}$",
+        "$F = 16.25\\text{ lb},\\; R = 54.0\\text{ lb}$",
+        "$F = 151.3\\text{ lb},\\; R = 171.7\\text{ lb}$",
+        "$F = 39.0\\text{ lb},\\; R = 82.5\\text{ lb}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Set the sum of moments about $B$ equal to zero since $R$ passes through $B$ (CCW positive):\n   $-36(1.5) + 30.5(3) - \\left(\\frac{5}{13}F\\right)(4 - 1.5) = 0$\n   $-54 + 91.5 - \\frac{12.5}{13}F = 0 \\implies F = \\frac{37.5 \\times 13}{12.5} = 39.0\\text{ lb}$\n\n2. Sum rectangular components of all three forces:\n   $R_x = -30.5 - \\frac{12}{13}(39.0) = -30.5 - 36.0 = -66.5\\text{ lb}$\n   $R_y = +36 - \\frac{5}{13}(39.0) = 36 - 15.0 = +21.0\\text{ lb}$\n\n3. Compute the magnitude of resultant $R$:\n   $R = \\sqrt{(-66.5)^2 + (21.0)^2} = 69.7\\text{ lb}$",
+      "image": [
+        "files/figures/prob-bell-crank-3-25"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Slope-Leg Swap Trap: Uses $\\frac{12}{13}F$ instead of $\\frac{5}{13}F$ for the vertical component of $F$ in the moment equation ($\\frac{30}{13}F = 37.5 \\implies F = 16.25\\text{ lb}$).",
+      "trap_c": "Moment Sign-Error Trap: Adds the clockwise moment of the $36\\text{-lb}$ force instead of subtracting ($54 + 91.5 = 145.5 \\implies F = 151.3\\text{ lb}$).",
+      "trap_d": "Component Sign-Error Trap: Finds $F = 39.0\\text{ lb}$ correctly, but adds $F_y = 15.0\\text{ lb}$ to $36\\text{ lb}$ instead of subtracting ($R_y = 51.0\\text{ lb} \\implies R = 83.8\\text{ lb} \\approx 82.5\\text{ lb}$)."
+    },
+    {
+      "id": "psad-determine-the-magnitude-and-direction-of-the-r-5ev4ni2",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the magnitude and direction of the resultant of the four vertical forces carried by the beam.",
+      "choices": [
+        "$1120\\text{ kN}$ downward",
+        "$620\\text{ kN}$ downward",
+        "$1120\\text{ kN}$ upward",
+        "$1000\\text{ kN}$ downward"
+      ],
+      "answer": "A",
+      "explanation": "1. Sum all four vertical downward forces acting on the beam:\n   $R = 300 + 500 + 120 + 200 = 1120\\text{ kN}\\text{ downward}$",
+      "image": [
+        "files/figures/sit-psad-012"
+      ],
+      "situation": "SIT-PSAD-012",
+      "situation_text": "The overhead electric hoist $C$ rides along a track on the horizontal beam $AB$ of total span $17\\text{ m}$ ($2\\text{ m} + 8\\text{ m} + 4\\text{ m} + 3\\text{ m}$). In addition to the $500\\text{-kN}$ vertical downward force carried by the hoist at distance $x$ from $A$, the beam also supports downward vertical loads of $300\\text{ kN}$ at $2\\text{ m}$, $120\\text{ kN}$ at $10\\text{ m}$, and $200\\text{ kN}$ at $14\\text{ m}$ from $A$.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Omitted Hoist Load Trap: Sums only the three fixed beam loads and omits the $500\\text{-kN}$ hoist load ($300 + 120 + 200 = 620\\text{ kN}$).",
+      "trap_c": "Direction Sign Trap: Reports the resultant as acting upward instead of downward.",
+      "trap_d": "Omitted Load Trap: Omits the $120\\text{-kN}$ load ($300 + 500 + 200 = 1000\\text{ kN}$)."
+    },
+    {
+      "id": "psad-if-the-hoist-is-positioned-at-x-5-text-m-from-vyifc68",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "If the hoist is positioned at $x = 5\\text{ m}$ from $A$, determine the location $\\bar{x}$ of the resultant force measured from support $A$.",
+      "choices": [
+        "$6.34\\text{ m}$",
+        "$5.25\\text{ m}$",
+        "$8.50\\text{ m}$",
+        "$5.98\\text{ m}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Sum clockwise moments about support $A$ with $x = 5\\text{ m}$:\n   $M_A = 300(2) + 500(5) + 120(10) + 200(14)$\n   $M_A = 600 + 2500 + 1200 + 2800 = 7100\\text{ kN}\\cdot\\text{m}$\n\n2. Divide by the total resultant $R = 1120\\text{ kN}$:\n   $\\bar{x} = \\frac{M_A}{R} = \\frac{7100}{1120} = 6.339\\text{ m} \\approx 6.34\\text{ m}$",
+      "image": [],
+      "situation": "SIT-PSAD-012",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Incremental Spacing Trap: Uses incremental spacing distances ($8\\text{ m}$ and $4\\text{ m}$) instead of cumulative distances from $A$ ($10\\text{ m}$ and $14\\text{ m}$), yielding $5.25\\text{ m}$.",
+      "trap_c": "Midspan Assumption Trap: Assumes the resultant acts at the center of the $17\\text{-m}$ span ($8.50\\text{ m}$).",
+      "trap_d": "Arithmetic Error Trap: Computes $M_A = 6700\\text{ kN}\\cdot\\text{m}$, giving $6700 / 1120 = 5.98\\text{ m}$."
+    },
+    {
+      "id": "psad-determine-the-distance-x-from-a-at-which-the-h-p6bjctl",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the distance $x$ from $A$ at which the hoist must be positioned so that the resultant of the four forces acts at the center of the span $AB$ ($\\bar{x} = 8.5\\text{ m}$).",
+      "choices": [
+        "$9.84\\text{ m}$",
+        "$8.50\\text{ m}$",
+        "$10.96\\text{ m}$",
+        "$7.16\\text{ m}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Set the resultant moment about $A$ equal to $R\\bar{x}$ with $\\bar{x} = 17/2 = 8.5\\text{ m}$:\n   $1120(8.5) = 300(2) + 120(10) + 200(14) + 500x$\n   $9520 = 600 + 1200 + 2800 + 500x$\n\n2. Solve for hoist position $x$:\n   $9520 = 4600 + 500x \\implies x = \\frac{4920}{500} = 9.84\\text{ m}$",
+      "image": [],
+      "situation": "SIT-PSAD-012",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Direct Center Placement Trap: Assumes the hoist itself must be placed at midspan ($x = 8.50\\text{ m}$).",
+      "trap_c": "Wrong Total Span Trap: Uses a total span of $18\\text{ m}$ ($\\bar{x} = 9.0\\text{ m}$), giving $x = (1120 \\times 9.0 - 4600)/500 = 10.96\\text{ m}$.",
+      "trap_d": "Arithmetic Subtraction Trap: Subtracts $4600$ from $8180$ instead of $9520$, giving $3580 / 500 = 7.16\\text{ m}$."
+    },
+    {
+      "id": "psad-determine-the-magnitude-and-direction-of-the-r-ollk6j5",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Determine the magnitude and direction of the resultant force $R$ acting on the truss.",
+      "choices": [
+        "$49.6\\text{ kN}$ at $72.4^\\circ$ down and to the left",
+        "$49.6\\text{ kN}$ at $17.6^\\circ$ down and to the left",
+        "$58.4\\text{ kN}$ at $54.1^\\circ$ down and to the right",
+        "$49.6\\text{ kN}$ at $72.4^\\circ$ down and to the right"
+      ],
+      "answer": "A",
+      "explanation": "1. Resolve the forces into horizontal ($x$) and vertical ($y$) components:\n   $R_x = -25 + 20\\sin 30^\\circ = -25 + 10 = -15.0\\text{ kN}$\n   $R_y = -20\\cos 30^\\circ - 30 = -17.32 - 30 = -47.32\\text{ kN}$\n\n2. Compute resultant magnitude and angle from the horizontal:\n   $R = \\sqrt{(-15.0)^2 + (-47.32)^2} = 49.64\\text{ kN} \\approx 49.6\\text{ kN}$\n   $\\theta = \\tan^{-1}\\left(\\frac{47.32}{15.0}\\right) = 72.4^\\circ\\text{ down and to the left}$",
+      "image": [
+        "files/figures/sit-psad-013"
+      ],
+      "situation": "SIT-PSAD-013",
+      "situation_text": "A simple truss is subjected to three external forces: a $25\\text{-kN}$ horizontal force acting to the left at $(3\\text{ m},\\; 5\\text{ m})$, a $20\\text{-kN}$ force acting down and to the right at $30^\\circ$ from the vertical at $(9\\text{ m},\\; 5\\text{ m})$, and a $30\\text{-kN}$ vertical downward force at $(9\\text{ m},\\; 0)$, where $O(0,\\; 0)$ is at the left pin support.",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Complementary Angle Trap: Inverts the tangent ratio ($\\tan^{-1}(15.0/47.32) = 17.6^\\circ$), measuring the angle from the vertical instead of the horizontal.",
+      "trap_c": "Sign-Error on Rx Trap: Uses $+25\\text{ kN}$ instead of $-25\\text{ kN}$, giving $R_x = +35\\text{ kN}$ and $R = 58.4\\text{ kN}$.",
+      "trap_d": "Horizontal Direction Trap: Reports the resultant as acting down and to the right instead of down and to the left."
+    },
+    {
+      "id": "psad-specify-the-x-intercept-the-point-on-the-x-axi-qomwg40",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Specify the $x$-intercept (the point on the $x$-axis) through which the line of action of $R$ passes.",
+      "choices": [
+        "$x = 7.42\\text{ m}$",
+        "$x = -7.42\\text{ m}$",
+        "$x = 7.07\\text{ m}$",
+        "$x = 4.94\\text{ m}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Sum moments about pin $O(0, 0)$ (taking counterclockwise as positive):\n   $M_O = +25(5) - (20\\sin 30^\\circ)(5) - (20\\cos 30^\\circ)(9) - 30(9)$\n   $M_O = 125 - 50 - 155.88 - 270 = -350.88\\text{ kN}\\cdot\\text{m}\\text{ (CW)}$\n\n2. Apply Varignon's Theorem at the $x$-axis ($y = 0$, where $M_O = x \\cdot R_y$):\n   $x = \\frac{M_O}{R_y} = \\frac{-350.88}{-47.32} = +7.415\\text{ m} \\approx 7.42\\text{ m}$",
+      "image": [],
+      "situation": "SIT-PSAD-013",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Trap: Divides $-350.88$ by $+47.32$, reporting $x = -7.42\\text{ m}$ to the left of $O$.",
+      "trap_c": "Total Resultant Division Trap: Divides $|M_O|$ by the total resultant $R = 49.64\\text{ kN}$ instead of $R_y = 47.32\\text{ kN}$ ($350.88 / 49.64 = 7.07\\text{ m}$).",
+      "trap_d": "Incremental Span Trap: Uses $6\\text{ m}$ instead of $9\\text{ m}$ for the moment arms of the $20\\text{-kN}$ and $30\\text{-kN}$ forces ($233.9 / 47.32 = 4.94\\text{ m}$)."
+    },
+    {
+      "id": "psad-specify-the-y-intercept-the-point-on-the-y-axi-59ygn1z",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "situational",
+      "question": "Specify the $y$-intercept (the point on the $y$-axis) through which the line of action of $R$ passes.",
+      "choices": [
+        "$y = -23.4\\text{ m}$",
+        "$y = +23.4\\text{ m}$",
+        "$y = -7.42\\text{ m}$",
+        "$y = -11.7\\text{ m}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Apply Varignon's Theorem at the $y$-axis ($x = 0$, where $M_O = -y \\cdot R_x$ for CCW positive):\n   $-y(-15.0) = -350.88$\n\n2. Solve for $y$:\n   $y = \\frac{-350.88}{15.0} = -23.39\\text{ m} \\approx -23.4\\text{ m}$",
+      "image": [],
+      "situation": "SIT-PSAD-013",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Sign-Error Trap: Drops the negative sign, reporting $y = +23.4\\text{ m}$ above $O$ instead of below $O$.",
+      "trap_c": "Axis Swap Trap: Reports the $x$-intercept value ($-7.42\\text{ m}$) instead of dividing by $R_x$.",
+      "trap_d": "Wrong Horizontal Component Trap: Divides $-350.88$ by $30\\text{ kN}$ instead of $15.0\\text{ kN}$ ($-11.7\\text{ m}$)."
+    },
+    {
+      "id": "psad-a-commercial-airliner-with-four-jet-engines-ea-66jzddx",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "A commercial airliner with four jet engines, each producing $90\\text{ kN}$ of forward thrust, is in a steady, level cruise when engine number 3 suddenly fails. Engines 1 and 2 are located $21\\text{ m}$ and $12\\text{ m}$ to the right (starboard) of the fuselage centerline, respectively, while engine 4 is located $21\\text{ m}$ to the left (port) of the centerline. Determine the magnitude and location of the resultant of the three remaining engine thrust forces.",
+      "choices": [
+        "$270\\text{ kN}$ forward, located $4.0\\text{ m}$ to the right (starboard) of the centerline",
+        "$270\\text{ kN}$ forward, located $4.0\\text{ m}$ to the left (port) of the centerline",
+        "$270\\text{ kN}$ forward, located $18.0\\text{ m}$ to the right (starboard) of the centerline",
+        "$360\\text{ kN}$ forward, located $4.0\\text{ m}$ to the right (starboard) of the centerline"
+      ],
+      "answer": "A",
+      "explanation": "1. Compute the resultant thrust of the three remaining active engines (1, 2, and 4):\n   $R = 3(90\\text{ kN}) = 270\\text{ kN}\\text{ forward}$\n\n2. Sum moments about the fuselage centerline (taking CCW / nose-left as positive):\n   $M_{\\text{centerline}} = +90(21) - 90(12) - 90(21) = -1080\\text{ kN}\\cdot\\text{m}\\text{ (CW / nose-right)}$\n\n3. Determine the lateral offset $\\bar{y}$ from the centerline:\n   $\\bar{y} = \\frac{1080\\text{ kN}\\cdot\\text{m}}{270\\text{ kN}} = 4.0\\text{ m}\\text{ to the right (starboard) of the centerline}$",
+      "image": [
+        "files/figures/prob-airliner-2-90"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Direction-of-Offset Trap: Places the resultant $4.0\\text{ m}$ to the left (port) of the centerline instead of the right (starboard) side where two active engines pull.",
+      "trap_c": "Moment Sign-Error Trap: Adds the moment of port engine 4 instead of subtracting ($90(21 + 12 + 21) / 270 = 18.0\\text{ m}$).",
+      "trap_d": "Failed Engine Inclusion Trap: Uses all four engines ($360\\text{ kN}$) for the resultant thrust instead of the three active engines ($270\\text{ kN}$)."
+    },
+    {
+      "id": "psad-the-bent-lever-shown-is-acted-upon-by-a-vertic-iiwqcm4",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "The bent lever shown is acted upon by a vertical downward force of $400\\text{ N}$ at $150\\text{ mm}$ along the $30^\\circ$ arm from $O$, a $320\\text{-N}$ force inclined at $60^\\circ$ below the horizontal at $300\\text{ mm}$ along the $30^\\circ$ arm from $O$, and a counterclockwise couple $M$. If the resultant of the two forces and couple $M$ passes through point $O$, determine the magnitude of couple $M$.",
+      "choices": [
+        "$148.0\\text{ N}\\cdot\\text{m}$",
+        "$126.0\\text{ N}\\cdot\\text{m}$",
+        "$135.1\\text{ N}\\cdot\\text{m}$",
+        "$44.0\\text{ N}\\cdot\\text{m}$"
+      ],
+      "answer": "A",
+      "explanation": "1. Determine the moment arms of the two forces about $O$:\n   - The $400\\text{-N}$ vertical force acts at a horizontal distance $d_1 = 0.15\\cos 30^\\circ = 0.1299\\text{ m}$ to the right of $O$.\n   - Because the arm is at $+30^\\circ$ above the horizontal and the $320\\text{-N}$ force is at $-60^\\circ$ below the horizontal, the angle between them is $30^\\circ + 60^\\circ = 90^\\circ$, so $d_2 = 0.30\\text{ m}$.\n\n2. Set the sum of moments about $O$ equal to zero (CCW positive):\n   $M - 400(0.15\\cos 30^\\circ) - 320(0.30) = 0$\n   $M = 51.96 + 96.00 = 147.96\\text{ N}\\cdot\\text{m} \\approx 148.0\\text{ N}\\cdot\\text{m}$",
+      "image": [
+        "files/figures/prob-bent-lever-2-88"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Trig-Function Swap Trap: Uses $\\sin 30^\\circ$ instead of $\\cos 30^\\circ$ for the horizontal moment arm of the $400\\text{-N}$ force ($400(0.15\\sin 30^\\circ) + 320(0.30) = 126.0\\text{ N}\\cdot\\text{m}$).",
+      "trap_c": "Unnecessary Projection Trap: Multiplies the $320\\text{-N}$ force by $\\sin 60^\\circ$ ($51.96 + 320(0.30)\\sin 60^\\circ = 135.1\\text{ N}\\cdot\\text{m}$), overlooking that the force is already perpendicular to the $30^\\circ$ arm.",
+      "trap_d": "Moment Sign-Error Trap: Subtracts the two clockwise force moments instead of adding them ($96.00 - 51.96 = 44.0\\text{ N}\\cdot\\text{m}$)."
+    },
+    {
+      "id": "psad-replace-the-two-horizontal-forces-acting-on-th-fmc828t",
+      "subject": "PSAD",
+      "topic": "Engineering mechanics",
+      "category": "problem",
+      "question": "Replace the two horizontal forces acting on the bent pipe ($120\\text{ N}$ to the right at $y = 240\\text{ mm}$ and $200\\text{ N}$ to the left at $y = 160\\text{ mm}$) by a single equivalent force $R$. Specify the magnitude and direction of $R$ and the vertical distance $y$ above point $A$ to its line of action.",
+      "choices": [
+        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ above $A$",
+        "$80\\text{ N}$ to the left at $y = 40\\text{ mm}$ below $A$",
+        "$320\\text{ N}$ to the left at $y = 190\\text{ mm}$ above $A$",
+        "$80\\text{ N}$ to the right at $y = 40\\text{ mm}$ above $A$"
+      ],
+      "answer": "A",
+      "explanation": "1. Sum horizontal forces (taking rightward as positive):\n   $R = +120 - 200 = -80\\text{ N}$ (i.e., $80\\text{ N}$ to the left)\n\n2. Sum moments about point $A$ (taking counterclockwise as positive):\n   $M_A = -120(240) + 200(160) = -28,800 + 32,000 = +3200\\text{ N}\\cdot\\text{mm}\\text{ (CCW)}$\n\n3. Locate the line of action of $R = 80\\text{ N}$ to the left:\n   To produce a $3200\\text{ N}\\cdot\\text{mm}$ counterclockwise moment about $A$, the leftward force must act above $A$ at a distance:\n   $y = \\frac{3200\\text{ N}\\cdot\\text{mm}}{80\\text{ N}} = 40\\text{ mm}\\text{ above } A$",
+      "image": [
+        "files/figures/prob-bent-pipe-2-85"
+      ],
+      "situation": "",
+      "situation_text": "",
+      "use": [
+        "set",
+        "quiz"
+      ],
+      "explanation_tl": "",
+      "difficulty": "",
+      "source": "",
+      "year": "",
+      "trap_a": "",
+      "trap_b": "Line-of-Action Side Trap: Places the $80\\text{-N}$ leftward force $40\\text{ mm}$ below $A$, which would produce a clockwise moment instead of counterclockwise.",
+      "trap_c": "Force Addition Trap: Adds the two opposing horizontal forces ($120 + 200 = 320\\text{ N}$) instead of subtracting them.",
+      "trap_d": "Force Direction Trap: States that $R$ acts to the right instead of to the left."
     }
   ]
 }
