@@ -99,6 +99,17 @@ A reset now also removes the XP that attempt earned (exact for attempts taken fr
 ### Trap choices and the Trap notebook
 In the editor, each question has an optional "Trap choices" section: explain why a wrong choice is tempting. When a student picks that choice, they see your explanation right away in problem sets (or in the review after timed assessments), and the question is saved to Practice > Trap notebook, where they can retry it. CSV columns: `trap_a` to `trap_d`.
 
+### PDF materials (Tools > PDF materials)
+Students can make PDFs that follow your four templates (Letter size, navy header, orange accents), with a faint Pontifex logo and their email behind every page, and their email in the footer.
+* **Problem sets:** tick problems by topic or print all; the answer key is on the last page (optional solutions after it). Problems keep upload order; choices are shuffled each time, and the key matches that printout. Difficulty shows as [E] [M] [H] from the `difficulty` column.
+* **Formulas and Terminology:** chosen from the flashcards. In the editor's flashcard form, the optional "PDF details" fill the template: section, variables ("where"), lesson reference, symbol, see also. Formulas end with a Quick reference (constants, unit conversions, reminder) that you edit in the same tab.
+* **Quizzes and drills:** only after the student finishes them (a PDF copy of what they took, with their score, the key and solutions).
+* There are also buttons on the Problem sets tab, inside the flashcards, and on the quiz/drill review page.
+The PDF opens the browser's print dialog; the student chooses Save as PDF. Page numbers and the header on later pages show in Chrome and Edge only; everything else works in all browsers. If the watermark or colors are missing, turn on "Background graphics" in the print dialog.
+
+### Problem set progress
+Problem sets are never reset by leaving: progress is saved (and synced across devices). Opening the same set again asks whether to continue or start over. Integrity warnings also survive leaving and returning to a timed assessment.
+
 ### Cross-device sync (v3)
 Progress, XP, profile, review-flow ticks and unfinished diagnostics are merged between devices automatically, with no button to press. Devices sync on login, every 30 seconds, when you return to the tab, and when the connection comes back. A cloud icon in the top bar shows the status. Run `supabase-v3.sql` once in Supabase.
 
