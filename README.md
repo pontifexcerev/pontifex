@@ -7,6 +7,7 @@
 | `config.js` | Your Supabase keys, registration form, billing text. Fill it in, then commit |
 | `content.json` | Lessons, resources and flashcards (edited with the content editor) |
 | `content-editor.html` | Add content and upload PDFs from your browser |
+| `supabase-v6.sql` | Run once in Supabase to switch on the Study room counters |
 | `Badges/` | Your 30 badge PNGs, unchanged |
 | `files/` | Your PDFs go here (the editor uploads to this folder) |
 | `logo-*.png`, `app-icon-*.png`, `apple-touch-icon.png` | Logos and icons |
@@ -101,7 +102,7 @@ In the editor, each question has an optional "Trap choices" section: explain why
 
 ### PDF materials (Tools > PDF materials)
 Students can make PDFs that follow your four templates (Letter size, navy header, orange accents), with a faint Pontifex logo and their email behind every page, and their email in the footer.
-* **Problem sets:** tick problems by topic or print all; the answer key is on the last page (optional solutions after it). Problems keep upload order; choices are shuffled each time, and the key matches that printout. Difficulty shows as [E] [M] [H] from the `difficulty` column.
+* **Problem sets:** tick problems by topic or print all; the answer key is on the last page. Problems keep upload order; choices are shuffled each time, and the key matches that printout. Difficulty shows as [E] [M] [H] from the `difficulty` column.
 * **Formulas and Terminology:** chosen from the flashcards. In the editor's flashcard form, the optional "PDF details" fill the template: section, variables ("where"), lesson reference, symbol, see also. Formulas end with a Quick reference (constants, unit conversions, reminder) that you edit in the same tab.
 * **Quizzes and drills:** only after the student finishes them (a PDF copy of what they took, with their score, the key and solutions).
 * There are also buttons on the Problem sets tab, inside the flashcards, and on the quiz/drill review page.
@@ -128,3 +129,29 @@ Students see Announcements (Important, General, New features, Lessons added, Sch
 
 ### Clean slate (question bank)
 The built-in sample questions were removed. The site now shows only the questions you upload (Content editor > CSV import or Situation builder, then Publish). Until you upload some, every test says "No questions have been added here yet." The cross-subject Mixed sets tab was removed. The old bank is saved in `old-question-bank-backup.csv` and can be re-imported with the same CSV importer if you ever want it back.
+
+
+## What changed in v12
+
+### Site tour
+New reviewees see a welcome card the first time they sign in, with **Explore the site** and **Skip for now**. The tour highlights the menu, the three subjects, the Library, practice and exams, PDF materials and the Study room, one step at a time. Arrow keys move between steps and Esc skips. Anyone can replay it from the **?** button in the top bar, the **Take the tour** button on Home, or the search box (Ctrl+K, then "tour"). Students who already have progress do not get the automatic welcome. The tour is remembered per device.
+
+### Cleaner menu and page memory
+The menu now has seven groups: Start here, Learn, Practice and exams, Tools, Progress and rewards, Community, Account. Only the group you are in stays open; tap a group name to open or close it. Refreshing the page keeps the current section, tab and scroll position, and the address bar shows it (for example `#lib/Formula%20bank`), so a link opens the same page.
+
+### PDF generator
+* **Watermark:** the same design (logo, email, brand line), but small and repeated in a staggered pattern across every page. To make it stronger or fainter, change the three opacity numbers `OL`, `OE`, `OB` in `pdfWm` in `index.html`.
+* **Solutions option removed** from Problem sets. The PDF still ends with the answer key. Quiz and drill PDFs still print the solutions of the quiz the student took, because that is not a setting.
+* Formulas and Terminology PDFs now group by **subject, then topic**.
+
+### Formulas and terminology by subject and topic
+Library > **Formula bank** and the new Library > **Terminology** show 13 subjects (for example Hydraulics, Geotechnical Engineering, Concrete Design, Surveying), each with its own topics. Students pick a subject, then a topic, or search. The same filters are in the PDF pickers, and the flashcard decks have a Topic filter.
+* Each flashcard you add in the content editor now has a **Topic** drop-down. That topic decides where the item is filed. Items with no matching topic appear under "Unsorted (PSAD/MSTHC/HGE)", so you can spot and fix them.
+* The built-in sample formulas and terms are already filed.
+* The subject groups are listed in `TAXD` in `index.html`. Edit that list to rename or regroup subjects.
+
+### Study room (Community > Study room)
+* A sidebar card shows how many reviewees are studying now, a few avatars and the shared timer. Clicking it opens the room.
+* The room shows the live count, a line per subject ("142 reviewees currently solving Hydraulics"), an avatar wall and one shared **50/10 timer**: every hour on the hour, 50 minutes of focus, then a 10-minute break, the same clock for everyone. There is no chat.
+* Joining is the student's choice. "Detect it for me" uses the subject or quiz they are in; they can also pick a subject. They can hide their nickname (avatar only). Presence expires about two minutes after they close the page.
+* **Setup:** run `supabase-v6.sql` once in the Supabase SQL editor. Until then the shared timer works and the counters say they are not switched on yet. Only approved students can see the room.
